@@ -1,0 +1,82 @@
+{
+  "upstream_commit": "df82c9fdff91b9b130f2d6b89110d3870ba6260e",
+  "splits": {
+    "train": {
+      "dialogues": 5012,
+      "utterances": 84692,
+      "user_turns": 42346,
+      "sha256": "b81f6a0845011bb4593d21dd58e2d76af4dd5d52e300ecc68cb8dee17ccc3cf8",
+      "domains": {
+        "greet": 4565,
+        "景点": 26171,
+        "餐馆": 26388,
+        "酒店": 24828,
+        "thank": 6052,
+        "出租": 2867,
+        "地铁": 2739,
+        "bye": 304
+      }
+    },
+    "val": {
+      "dialogues": 500,
+      "utterances": 8458,
+      "user_turns": 4229,
+      "sha256": "b2b717990f6f0a1c98daaf5dc465e61d42f7de69c0d31e88e674275b1f34c94c",
+      "domains": {
+        "greet": 462,
+        "餐馆": 2603,
+        "景点": 2595,
+        "thank": 615,
+        "酒店": 2478,
+        "出租": 318,
+        "bye": 30,
+        "地铁": 259
+      }
+    },
+    "test": {
+      "dialogues": 500,
+      "utterances": 8476,
+      "user_turns": 4238,
+      "sha256": "e57703894995211bba8638f130dc7df81e8992b71f3c05c10022ad23d6ca5310",
+      "domains": {
+        "greet": 450,
+        "thank": 597,
+        "餐馆": 2714,
+        "景点": 2539,
+        "酒店": 2439,
+        "出租": 297,
+        "bye": 32,
+        "地铁": 328
+      }
+    }
+  },
+  "travel_mirror_overlap": {
+    "train": {
+      "rows": 44409,
+      "exact_matches_any_crosswoz_split": 41744,
+      "unique_text_matches": {
+        "train": 31856,
+        "val": 398,
+        "test": 417
+      }
+    },
+    "dev": {
+      "rows": 4935,
+      "exact_matches_any_crosswoz_split": 4627,
+      "unique_text_matches": {
+        "train": 3855,
+        "val": 179,
+        "test": 176
+      }
+    },
+    "test": {
+      "rows": 4909,
+      "exact_matches_any_crosswoz_split": 4614,
+      "unique_text_matches": {
+        "train": 423,
+        "val": 171,
+        "test": 3767
+      }
+    }
+  }
+}

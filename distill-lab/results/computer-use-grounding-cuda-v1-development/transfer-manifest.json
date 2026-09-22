@@ -1,0 +1,48 @@
+{
+  "files": {
+    "evaluate_baseline_metrics.json": {
+      "sha256": "bc740e88e6187e44a762053c767b1c4d7e178db78ec6028b526479b7b9bb08fd",
+      "bytes": 46453
+    },
+    "evaluate_baseline_predictions.jsonl": {
+      "sha256": "45fa98219978206c49548323110d97f164e9f73c1b1216a7d1d871cb2e231829",
+      "bytes": 549353
+    },
+    "evaluate_computer_grounding.py": {
+      "sha256": "87a00d70065b16e809305b14ed70dde881ad3dbde636d563a67a7cbf51a12958",
+      "bytes": 6205
+    },
+    "evaluate_tuned_metrics.json": {
+      "sha256": "387a98125a9207d548af57727f0fe88b0f0758ba8049fead0b2118b70ff093ea",
+      "bytes": 46461
+    },
+    "evaluate_tuned_predictions.jsonl": {
+      "sha256": "977b7379a7395d55d37c99782778efde60ee71be4b7c26808d2dd76720cfaa3c",
+      "bytes": 549908
+    },
+    "events.jsonl": {
+      "sha256": "73a418be83fa0f494008bbe32a889f8688f9e5d44f0d2561a35404d7a2d4a51f",
+      "bytes": 35490
+    },
+    "protocol.json": {
+      "sha256": "13fcbbde58ea54df3cb6e6bb3a6fb06ae2cd3ee9e657210e8569404fcdc54f0d",
+      "bytes": 1051
+    },
+    "provenance/evaluation.log": {
+      "sha256": "73a418be83fa0f494008bbe32a889f8688f9e5d44f0d2561a35404d7a2d4a51f",
+      "bytes": 35490
+    },
+    "provenance/process.json": {
+      "sha256": "505d4125b08b3c7e049ef84fc32b30c3dc0e0b07bfda6116c3608bc88603594a",
+      "bytes": 566
+    },
+    "results.json": {
+      "sha256": "6442fc076c0844f16e5dc15d10bc3b99193634d77cbb397b62b6158e0e6bdeae",
+      "bytes": 100286
+    },
+    "status.json": {
+      "sha256": "26bbc6508a8bd2efbc634e63320beb9c21d76b0f00d445d24398d88028348264",
+      "bytes": 187
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "model": "jev",
+  "input_sha256": "4e7d551ca37af939140478c085aed1cf6711d9975cb37c729acaa87699c3c764",
+  "requests": [
+    {
+      "id": "mind2web:9e035a36-1c77-4014-98ec-4d48ee41d904:92de7066-88c4-424e-97df-4a48ba0b59b5",
+      "sha256": "62f3ae69dadc94ac434e17ceeabe6ad2ebdb6b54dc21e3b25658dc3e6837e978"
+    },
+    {
+      "id": "mind2web:1a35becb-e07b-4235-8cd3-fc2a29f8dd6f:1cda2d0c-fc85-46e2-9352-deea3a3d9d8f",
+      "sha256": "319bd28d5d627caee5488c5c323c66fb908319c667a7a951cc897264e10d44aa"
+    },
+    {
+      "id": "mind2web:1a16a98f-4e8f-4ff9-9fa2-b97d2d403cc3:8b608f62-98ad-4a30-98fb-39c4d74a95d6",
+      "sha256": "e6d2e45ff428d558846320b557ff011670c4e0052a2f3fa98980990dadf322c1"
+    },
+    {
+      "id": "mind2web:754c8c29-92b6-4af1-9594-f9d3da37b951:d5abb011-938b-47a2-965b-33584ed07f91",
+      "sha256": "ca8a71144f45d2b93e245525488902096d4e9ca1baf3745ff66bb6285910e743"
+    }
+  ],
+  "optimizer_updates": 0,
+  "ui_actions": 0,
+  "retries": 0,
+  "purpose": "training_teacher_collection",
+  "code_sha256": {
+    "evaluate_computer_replay.py": "95caf1700c5cd091e220b9fba59bfbd150e26ea40ee9ff563c5c2a19ca4ff093",
+    "computer_replay.py": "2eff948697b90276c47fb3583e22c7f5eb203354a51a9cadd101a4c22092dd4d"
+  },
+  "backend": {
+    "variant": "jev",
+    "model": "jev-1.13.0",
+    "execution": "one HTTP request for all questions"
+  }
+}

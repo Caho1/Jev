@@ -1,0 +1,53 @@
+{
+  "scope": "77 label-name-only candidates and one synthetic message; tokenizer/preprocessing only, no model inference or training",
+  "labels_url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/categories.json",
+  "labels_sha256": "53261da888122daf2d120d925458631d9619e15d82e56052e7a42e535ce32b63",
+  "label_count": 77,
+  "tokenizer_revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+  "instruction_tokens": 16,
+  "full_option_tokens_including_markers": 553,
+  "results": [
+    {
+      "head_max_len": 192,
+      "total_input_tokens": 329,
+      "candidate_count": 77,
+      "truncated_options": 64,
+      "unique_candidate_encodings": 67,
+      "collisions": [
+        [
+          "card_payment_wrong_exchange_rate",
+          "card_payment_fee_charged",
+          "card_payment_not_recognised"
+        ],
+        [
+          "lost_or_stolen_card",
+          "lost_or_stolen_phone"
+        ],
+        [
+          "top_up_by_bank_transfer_charge",
+          "top_up_limits",
+          "top_up_reverted",
+          "top_up_by_cash_or_cheque",
+          "top_up_failed",
+          "top_up_by_card_charge"
+        ],
+        [
+          "balance_not_updated_after_cheque_or_cash_deposit",
+          "balance_not_updated_after_bank_transfer"
+        ],
+        [
+          "cash_withdrawal_not_recognised",
+          "cash_withdrawal_charge"
+        ]
+      ]
+    },
+    {
+      "head_max_len": 585,
+      "total_input_tokens": 582,
+      "candidate_count": 77,
+      "truncated_options": 0,
+      "unique_candidate_encodings": 77,
+      "collisions": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_computer_grounding.py", line 343, in main
+    run(args, event)
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_computer_grounding.py", line 250, in run
+    logits, _ = model(**batch)
+                ^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/reference/laya_common.py", line 113, in forward
+    h = layer(h, src_key_padding_mask=pad)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/transformer.py", line 947, in forward
+    x = x + self._sa_block(
+            ^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/transformer.py", line 968, in _sa_block
+    x = self.self_attn(
+        ^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 1495, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/nn/functional.py", line 7104, in multi_head_attention_forward
+    attn_output = scaled_dot_product_attention(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: MPS backend out of memory (MPS allocated: 19.38 GiB, other allocations: 8.78 GiB, max allowed: 28.00 GiB). Tried to allocate 59.00 MiB on shared pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).

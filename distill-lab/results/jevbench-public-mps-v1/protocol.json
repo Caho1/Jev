@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-22T00:29:46+0800",
+  "scope": "231 public decisions; development diagnostic, not full official ranking",
+  "source": {
+    "retrieved_at": "2026-09-22T00:19:25.899497+08:00",
+    "repository_revision": "6f4a36c9b73c8b152baca383bce5cf2f59ae9f38",
+    "role": "reference_and_public_evaluation_only_not_training",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/README.md",
+        "size_bytes": 29047,
+        "sha256": "0c0a130c32bff4de8030d4684ce4396bb6b94862449c1ab7634e82b1255f9156"
+      },
+      {
+        "path": "RESULTS-v1.2.md",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/RESULTS-v1.2.md",
+        "size_bytes": 70860,
+        "sha256": "02b979ee1f3ac86d23198228fb1840dcb8ac261bb3a124e71bbaf317b0b1e032"
+      },
+      {
+        "path": "jevbench/composite_v12.py",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/jevbench/composite_v12.py",
+        "size_bytes": 4949,
+        "sha256": "2c06af8f4c1ea1ab91756de42677daddd8a4d47f11e62c9b3fab06e520ff93cc"
+      },
+      {
+        "path": "datasets/HARD-TIER.md",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/datasets/HARD-TIER.md",
+        "size_bytes": 11235,
+        "sha256": "0c5a042b6b283f777366769c380f6aa8e16a5d2f24eae7e56bc5bc2a20cb4a4d"
+      },
+      {
+        "path": "datasets/TOPICS.md",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/datasets/TOPICS.md",
+        "size_bytes": 4101,
+        "sha256": "ef97c1438121d4b8283fbb3de04f54760fb2917130fad2e086536d290374b444"
+      },
+      {
+        "path": "docs/v1.2-additions-smalljev.md",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/docs/v1.2-additions-smalljev.md",
+        "size_bytes": 2499,
+        "sha256": "94e535f82382ffe7f842cd51a9b26d84d2451335c7304b69b782e2e96298e316"
+      },
+      {
+        "path": "docs/v1.2-additions.md",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/docs/v1.2-additions.md",
+        "size_bytes": 9726,
+        "sha256": "1fb9ff978c4cf4ebfb22d6bdaff06b3347e22f55961674fda8133ff03a31551a"
+      },
+      {
+        "path": "THIRD-PARTY.md",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/THIRD-PARTY.md",
+        "size_bytes": 2654,
+        "sha256": "396422e29055bba4073f4a9e5a7163cc724f13e970a34ef58e8ea1fb439b9b38"
+      },
+      {
+        "path": "results/v1.2/jevbench-v1.2-results.json",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/results/v1.2/jevbench-v1.2-results.json",
+        "size_bytes": 241330,
+        "sha256": "b26927a9c60893a62439ea37dc1fd64e1fa3466b0361a2791655cbaeeeb3a125"
+      },
+      {
+        "path": "jevbench/adapters/laya_local.py",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/jevbench/adapters/laya_local.py",
+        "size_bytes": 4287,
+        "sha256": "7bb75b8e81fd423b0914a0c3cdf74108231ad5ce24f26f38714599f5cdcd7dec"
+      },
+      {
+        "path": "datasets/public/easy.jsonl",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/datasets/public/easy.jsonl",
+        "size_bytes": 37220,
+        "sha256": "231df3c2c8e88a1a8c137ebe85de96ba70fabd330849098ac7b3c52c70b7172b"
+      },
+      {
+        "path": "datasets/public/original.jsonl",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/datasets/public/original.jsonl",
+        "size_bytes": 57237,
+        "sha256": "5c2414edb3006b8bfcb70fda433f0f9ca015759433849f8d3104328a1f7c4180"
+      },
+      {
+        "path": "datasets/public/hard.jsonl",
+        "url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/6f4a36c9b73c8b152baca383bce5cf2f59ae9f38/datasets/public/hard.jsonl",
+        "size_bytes": 651848,
+        "sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb"
+      }
+    ]
+  },
+  "configs": [
+    [
+      "baseline_512",
+      "baseline",
+      512,
+      true
+    ],
+    [
+      "baseline_8k",
+      "baseline",
+      8192,
+      false
+    ],
+    [
+      "banking_8k",
+      "tuned",
+      8192,
+      false
+    ]
+  ],
+  "temperature": 1.0,
+  "precision": "fp32",
+  "device": "mps",
+  "batch_size": 1,
+  "hardware": {
+    "physical_memory_bytes": 51539607552,
+    "os": "macOS-27.0-arm64-arm-64bit",
+    "chip": "Apple M5 Pro"
+  },
+  "gold_in_model_inputs": false,
+  "warmup": "three separate authored smoke questions, one per primitive; no public item selected as warmup",
+  "comparability": "512 reference uses locally pinned upstream encoder; source/package revision and hardware differ from official row, not an exact reproduction. 8k preserves instructions and all option descriptions.",
+  "model_sha256": {
+    "base/model.safetensors": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+    "best/trainable.safetensors": "93d07c19cd56e8eb1308a87e14ac606ff8b36cea663df3e034b74630a55fb707"
+  },
+  "code_sha256": {
+    "evaluate_jevbench_local.py": "987ac00671afe9a059b393673e1078a9390015c2fca3460f9c6cda0eda9abba5",
+    "typed_laya.py": "f06dbdda6c4b0713fd9fb5fffde6250e093e0fc36a921703c47b26b9de7580f1",
+    "local_laya.py": "fb2ea76cce9a241219ae9bd0147aa7e86b35bf6ffe08baaa2ce795a00844d2ac",
+    "laya_common.py": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2"
+  }
+}

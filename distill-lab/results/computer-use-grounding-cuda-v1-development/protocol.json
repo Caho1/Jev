@@ -1,0 +1,22 @@
+{
+  "training_run": "/root/autodl-tmp/laya-computer-use-20260922/results/computer-use-grounding-cuda-v1",
+  "pages": 78,
+  "candidates": 24787,
+  "development_file_sha256": "b4ec4869e3238bb28008ee91e14706148401ce2573b5020d4afac7f025e17987",
+  "all_development_pages": true,
+  "calibration_used": false,
+  "holdout_used": false,
+  "optimizer_updates": 0,
+  "fixed_checkpoint_epoch": 1,
+  "device": "cuda",
+  "precision": "bf16",
+  "eval_batch": 16,
+  "code_sha256": {
+    "train_computer_grounding.py": "08764cf29d2e1142687770c828d6d92ae50792d58e242f5ebc42224faf867021",
+    "typed_laya.py": "f06dbdda6c4b0713fd9fb5fffde6250e093e0fc36a921703c47b26b9de7580f1",
+    "benchmark_training.py": "e2382721bd8508e9928975d4b54bd342ef97dce7b5f9f6f58a94939d46144cac",
+    "train_banking77.py": "03257c7f300a5b8b41a10b30a3f83a1428b684144a3377f75b21342c213bf318",
+    "laya_common.py": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2",
+    "evaluate_computer_grounding.py": "87a00d70065b16e809305b14ed70dde881ad3dbde636d563a67a7cbf51a12958"
+  }
+}

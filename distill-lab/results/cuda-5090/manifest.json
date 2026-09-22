@@ -1,0 +1,55 @@
+[
+  {
+    "name": "smoke-lora-b1-l512-bf16",
+    "status": "existing",
+    "result": "smoke-lora-b1-l512-bf16.json"
+  },
+  {
+    "name": "lora-b1-l2048-fp32-gc",
+    "status": "existing",
+    "result": "lora-b1-l2048-fp32-gc.json"
+  },
+  {
+    "name": "lora-b1-l4096-fp32-gc",
+    "status": "existing",
+    "result": "lora-b1-l4096-fp32-gc.json"
+  },
+  {
+    "name": "lora-b1-l2048-bf16",
+    "status": "existing",
+    "result": "lora-b1-l2048-bf16.json"
+  },
+  {
+    "name": "lora-b1-l4096-bf16",
+    "status": "existing",
+    "result": "lora-b1-l4096-bf16.json"
+  },
+  {
+    "name": "lora-b1-l8192-bf16",
+    "status": "existing",
+    "result": "lora-b1-l8192-bf16.json"
+  },
+  {
+    "name": "lora-b1-l8192-bf16-gc-head",
+    "status": "ok",
+    "result": "lora-b1-l8192-bf16-gc-head.json",
+    "log": "lora-b1-l8192-bf16-gc-head.log"
+  },
+  {
+    "name": "lora-b2-l8192-bf16-gc-head",
+    "status": "ok",
+    "result": "lora-b2-l8192-bf16-gc-head.json",
+    "log": "lora-b2-l8192-bf16-gc-head.log"
+  },
+  {
+    "name": "lora-b4-l8192-bf16-gc-head",
+    "status": "ok",
+    "result": "lora-b4-l8192-bf16-gc-head.json",
+    "log": "lora-b4-l8192-bf16-gc-head.log"
+  },
+  {
+    "name": "full-b1-l8192-bf16-gc-head",
+    "status": "existing",
+    "result": "full-b1-l8192-bf16-gc-head.json"
+  }
+]

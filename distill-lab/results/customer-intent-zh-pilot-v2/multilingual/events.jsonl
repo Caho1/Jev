@@ -1,0 +1,3 @@
+{"phase": "loading", "time": "2026-09-22T11:21:21+0800", "pid": 93193, "records": 103}
+{"phase": "baseline", "time": "2026-09-22T11:21:47+0800", "pid": 93193, "completed": 103, "total": 103, "elapsed_seconds": 11.61207283299882, "memory": {"process_rss_bytes": 1250295808, "mps_allocated_bytes": 1296055040, "mps_driver_bytes": 2475360256}}
+{"phase": "complete", "time": "2026-09-22T11:21:47+0800", "pid": 93193, "accuracy": 0.1262135922330097, "macro_f1": 0.11292723149866007}

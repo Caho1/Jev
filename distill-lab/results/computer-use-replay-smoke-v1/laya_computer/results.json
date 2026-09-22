@@ -1,0 +1,26 @@
+{
+  "records": 8,
+  "attempted": 8,
+  "valid": 8,
+  "labeled_records": 8,
+  "questions": {
+    "operation": {
+      "records": 8,
+      "correct": 5,
+      "valid": 8,
+      "accuracy": 0.625
+    },
+    "item": {
+      "records": 8,
+      "correct": 4,
+      "valid": 8,
+      "accuracy": 0.5
+    }
+  },
+  "joint_accuracy": 0.125,
+  "grounded_joint_accuracy": 0.0,
+  "candidate_recall": 0.5,
+  "median_request_ms": 1538.611083989963,
+  "metric_scope": "offline next-step decisions; not closed-loop task success",
+  "complete": true
+}

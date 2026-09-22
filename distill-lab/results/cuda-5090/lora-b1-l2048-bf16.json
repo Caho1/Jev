@@ -1,0 +1,218 @@
+{
+  "created_at": "2026-09-21T14:11:25.021810+00:00",
+  "hardware": {
+    "physical_memory_bytes": 810154893312,
+    "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.35",
+    "chip": "NVIDIA GeForce RTX 5090",
+    "cuda_runtime": "12.8",
+    "compute_capability": [
+      12,
+      0
+    ],
+    "gpu_memory_bytes": 33668988928
+  },
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.6",
+    "peft": "0.21.0",
+    "safetensors": "0.8.0"
+  },
+  "model": {
+    "id": "convaiinnovations/laya",
+    "revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "source_revision": "42626c348753fbb17572a813127df2278a1ec527",
+    "source_sha256": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2",
+    "benchmark_sha256": "e2382721bd8508e9928975d4b54bd342ef97dce7b5f9f6f58a94939d46144cac",
+    "parameters": 425680643,
+    "trainable_parameters": 30635009,
+    "strict_checkpoint_load": true
+  },
+  "configuration": {
+    "mode": "lora",
+    "device": "cuda",
+    "cpu_fallback": false,
+    "cuda_tf32": false,
+    "dtype": "bfloat16_autocast",
+    "parameter_dtype": "float32",
+    "memory_limit_gib": 28.0,
+    "batch_size": 1,
+    "sequence_length": 2048,
+    "options": 4,
+    "warmup_steps": 3,
+    "measured_steps": 10,
+    "lora_rank": 16,
+    "lora_targets": [
+      "Wqkv",
+      "Wo"
+    ],
+    "gradient_checkpointing": false,
+    "head_gradient_checkpointing": false,
+    "optimizer": "AdamW",
+    "foreach": false,
+    "encoder_learning_rate": 0.0001,
+    "head_learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "loss": "cross_entropy",
+    "synthetic_data": true
+  },
+  "setup_seconds": 9.084554124623537,
+  "summary": {
+    "mean_step_seconds": 0.14183458536863328,
+    "median_step_seconds": 0.11267220042645931,
+    "min_step_seconds": 0.10026147589087486,
+    "max_step_seconds": 0.19690439850091934,
+    "std_step_seconds": 0.04458273350952794,
+    "examples_per_second": 7.050466551588693,
+    "tokens_per_second": 14439.355497653643,
+    "mean_forward_seconds": 0.08297005482017994,
+    "mean_backward_seconds": 0.04779779724776745,
+    "mean_optimizer_seconds": 0.011066733300685883
+  },
+  "max_observed_memory": {
+    "process_rss_bytes": 2037444608,
+    "cuda_allocated_bytes": 2089077760,
+    "cuda_reserved_bytes": 6220152832
+  },
+  "cuda_peak_memory": {
+    "allocated_bytes": 5851627520,
+    "reserved_bytes": 6220152832
+  },
+  "gradient_and_update_checks": {
+    "encoder.base_model.model.layers.0.attn.Wqkv.lora_B.default.weight": {
+      "gradient_norm": 0.30433955788612366,
+      "gradient_finite": true,
+      "max_weight_change": 9.999996836995706e-05
+    },
+    "scorer.3.weight": {
+      "gradient_norm": 2.7584550380706787,
+      "gradient_finite": true,
+      "max_weight_change": 0.00010002218186855316
+    }
+  },
+  "steps": [
+    {
+      "step": 0,
+      "warmup": true,
+      "loss": 0.06858810037374496,
+      "forward_seconds": 0.5731034725904465,
+      "backward_seconds": 0.10575807094573975,
+      "optimizer_seconds": 0.09389926493167877,
+      "total_seconds": 0.772760808467865
+    },
+    {
+      "step": 1,
+      "warmup": true,
+      "loss": 0.04530723765492439,
+      "forward_seconds": 0.046837612986564636,
+      "backward_seconds": 0.04732096567749977,
+      "optimizer_seconds": 0.0108700692653656,
+      "total_seconds": 0.10502864792943001
+    },
+    {
+      "step": 2,
+      "warmup": true,
+      "loss": 0.020671524107456207,
+      "forward_seconds": 0.0415339320898056,
+      "backward_seconds": 0.04701351374387741,
+      "optimizer_seconds": 0.01057983934879303,
+      "total_seconds": 0.09912728518247604
+    },
+    {
+      "step": 3,
+      "warmup": false,
+      "loss": 0.009732652455568314,
+      "forward_seconds": 0.05833135545253754,
+      "backward_seconds": 0.04698482155799866,
+      "optimizer_seconds": 0.010572131723165512,
+      "total_seconds": 0.1158883087337017
+    },
+    {
+      "step": 4,
+      "warmup": false,
+      "loss": 0.004777682479470968,
+      "forward_seconds": 0.04298258572816849,
+      "backward_seconds": 0.04677305743098259,
+      "optimizer_seconds": 0.010505832731723785,
+      "total_seconds": 0.10026147589087486
+    },
+    {
+      "step": 5,
+      "warmup": false,
+      "loss": 0.0015507827047258615,
+      "forward_seconds": 0.05201860889792442,
+      "backward_seconds": 0.046936944127082825,
+      "optimizer_seconds": 0.010500539094209671,
+      "total_seconds": 0.10945609211921692
+    },
+    {
+      "step": 6,
+      "warmup": false,
+      "loss": 0.0006411403883248568,
+      "forward_seconds": 0.05136648565530777,
+      "backward_seconds": 0.04700435698032379,
+      "optimizer_seconds": 0.010603200644254684,
+      "total_seconds": 0.10897404327988625
+    },
+    {
+      "step": 7,
+      "warmup": false,
+      "loss": 0.00038020533975213766,
+      "forward_seconds": 0.13536900281906128,
+      "backward_seconds": 0.047537799924612045,
+      "optimizer_seconds": 0.010667398571968079,
+      "total_seconds": 0.1935742013156414
+    },
+    {
+      "step": 8,
+      "warmup": false,
+      "loss": 0.00011562632425921038,
+      "forward_seconds": 0.04791378602385521,
+      "backward_seconds": 0.04702617600560188,
+      "optimizer_seconds": 0.01051286980509758,
+      "total_seconds": 0.10545283183455467
+    },
+    {
+      "step": 9,
+      "warmup": false,
+      "loss": 1.8596476365928538e-05,
+      "forward_seconds": 0.1378389224410057,
+      "backward_seconds": 0.047443293035030365,
+      "optimizer_seconds": 0.010642558336257935,
+      "total_seconds": 0.195924773812294
+    },
+    {
+      "step": 10,
+      "warmup": false,
+      "loss": 2.9802276912960224e-06,
+      "forward_seconds": 0.04570024088025093,
+      "backward_seconds": 0.04858248308300972,
+      "optimizer_seconds": 0.010648608207702637,
+      "total_seconds": 0.10493133217096329
+    },
+    {
+      "step": 11,
+      "warmup": false,
+      "loss": 3.576278118089249e-07,
+      "forward_seconds": 0.13697781413793564,
+      "backward_seconds": 0.049273181706666946,
+      "optimizer_seconds": 0.010653402656316757,
+      "total_seconds": 0.19690439850091934
+    },
+    {
+      "step": 12,
+      "warmup": false,
+      "loss": 4.172316494077677e-06,
+      "forward_seconds": 0.12120174616575241,
+      "backward_seconds": 0.05041585862636566,
+      "optimizer_seconds": 0.015360791236162186,
+      "total_seconds": 0.18697839602828026
+    }
+  ],
+  "limitations": [
+    "只用四分类合成文本测速，不能用于判断业务准确率或收敛。",
+    "计时包含前向、反向、AdamW 更新及设备同步，不含分词、数据传输、验证和保存。",
+    "内存为初始化及每步结束的采样最大值，不代表步内瞬时峰值；GPU 与 RSS 不应相加。",
+    "预热后仅做少量迭代，不能代表长时间训练的温度、功耗和速度稳定性。",
+    "每次运行从原始缓存权重重新加载，测速后的权重不保存。"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "66f192adc6b769c1219ae09c",
+  "id": "oottyy/Synatra",
+  "author": "oottyy",
+  "sha": "3e948bff6aeef08f2f33d5e9ac0d54881ee6fb5f",
+  "lastModified": "2024-09-24T22:22:32.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "size_categories:10K<n<100K",
+    "format:json",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "region:us"
+  ],
+  "downloads": 48,
+  "likes": 4,
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "Synatra_data.json"
+    }
+  ],
+  "createdAt": "2024-09-23T16:09:17.000Z",
+  "usedStorage": 746344937
+}

@@ -1,0 +1,8 @@
+{
+  "finite_nonzero_gradients": true,
+  "lora_and_scorer_changed": true,
+  "probes": [
+    "encoder.base_model.model.layers.0.attn.Wqkv.lora_B.default.weight",
+    "scorer.3.weight"
+  ]
+}

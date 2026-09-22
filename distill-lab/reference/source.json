@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/NandhaKishorM/laya",
+  "commit": "42626c348753fbb17572a813127df2278a1ec527",
+  "path": "notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb",
+  "sha256": "89e821882b1c8dbc2ffdaef837f6ec068642847219a8fbe06dbeb837e166e3da",
+  "local_modification": "Chinese translation of Markdown and Python comments; executable tokens unchanged",
+  "local_sha256": "5135a66419cc47776207cff9dcfa76435e34f84bc6497973c11e0786004c3e9e"
+}

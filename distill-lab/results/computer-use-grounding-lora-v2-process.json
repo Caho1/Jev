@@ -1,0 +1,14 @@
+{
+  "pid": 81923,
+  "command": [
+    "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/bin/python",
+    "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_computer_grounding.py",
+    "--output",
+    "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/computer-use-grounding-lora-v2"
+  ],
+  "log": "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/computer-use-grounding-lora-v2.log",
+  "output": "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/computer-use-grounding-lora-v2",
+  "started_at": "2026-09-22T01:32:00+0800",
+  "replaces_failed_run": "computer-use-grounding-lora-v1",
+  "restart_from": "original Laya base, not a resumed optimizer state"
+}

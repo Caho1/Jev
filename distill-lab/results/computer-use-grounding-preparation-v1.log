@@ -1,0 +1,82 @@
+{
+  "train_pairs": 2068,
+  "splits": {
+    "train": {
+      "frames": 519,
+      "trajectories": 72,
+      "websites": [
+        "agoda",
+        "booking",
+        "budget",
+        "carmax",
+        "delta",
+        "enterprise",
+        "espn",
+        "exploretock",
+        "gamestop",
+        "imdb",
+        "instacart",
+        "jetblue",
+        "kayak",
+        "kohls",
+        "newegg",
+        "redbox",
+        "rottentomatoes",
+        "sixflags",
+        "soundcloud",
+        "sports.yahoo",
+        "ticketcenter",
+        "travelzoo",
+        "tvguide",
+        "ultimate-guitar",
+        "uniqlo",
+        "united",
+        "us.megabus",
+        "viator"
+      ],
+      "gold_in_full_pool": 517,
+      "candidate_count_median": 483
+    },
+    "development": {
+      "frames": 78,
+      "trajectories": 13,
+      "websites": [
+        "amtrak",
+        "eventbrite",
+        "ign",
+        "tesla"
+      ],
+      "gold_in_full_pool": 78,
+      "candidate_count_median": 269
+    },
+    "calibration": {
+      "frames": 105,
+      "trajectories": 13,
+      "websites": [
+        "airbnb",
+        "nyc",
+        "parking",
+        "underarmour"
+      ],
+      "gold_in_full_pool": 105,
+      "candidate_count_median": 541
+    },
+    "pilot_holdout": {
+      "frames": 68,
+      "trajectories": 10,
+      "websites": [
+        "amazon",
+        "new.mta.info",
+        "rei",
+        "seatgeek"
+      ],
+      "gold_in_full_pool": 68,
+      "candidate_count_median": 729
+    }
+  },
+  "train_tokens": {
+    "min": 314,
+    "median": 724,
+    "max": 1417
+  }
+}

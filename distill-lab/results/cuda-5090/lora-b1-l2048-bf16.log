@@ -1,0 +1,28 @@
+加载缓存 Laya：lora, batch=1, length=2048
+加载完成：总参数 425,680,643，可训练参数 30,635,009
+预热 1: 0.773 秒，loss=0.0686
+预热 2: 0.105 秒，loss=0.0453
+预热 3: 0.099 秒，loss=0.0207
+计时 4: 0.116 秒，loss=0.0097
+计时 5: 0.100 秒，loss=0.0048
+计时 6: 0.109 秒，loss=0.0016
+计时 7: 0.109 秒，loss=0.0006
+计时 8: 0.194 秒，loss=0.0004
+计时 9: 0.105 秒，loss=0.0001
+计时 10: 0.196 秒，loss=0.0000
+计时 11: 0.105 秒，loss=0.0000
+计时 12: 0.197 秒，loss=0.0000
+计时 13: 0.187 秒，loss=0.0000
+{
+  "mean_step_seconds": 0.14183458536863328,
+  "median_step_seconds": 0.11267220042645931,
+  "min_step_seconds": 0.10026147589087486,
+  "max_step_seconds": 0.19690439850091934,
+  "std_step_seconds": 0.04458273350952794,
+  "examples_per_second": 7.050466551588693,
+  "tokens_per_second": 14439.355497653643,
+  "mean_forward_seconds": 0.08297005482017994,
+  "mean_backward_seconds": 0.04779779724776745,
+  "mean_optimizer_seconds": 0.011066733300685883
+}
+结果已保存：/root/autodl-tmp/laya-context-bench-20260921/results/cuda-5090/lora-b1-l2048-bf16.json

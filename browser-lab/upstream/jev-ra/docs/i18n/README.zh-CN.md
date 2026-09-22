@@ -1,0 +1,254 @@
+<p align="center">
+  <img src="../../assets/logo.svg" alt="jev-ra" width="360">
+</p>
+
+<p align="center">
+  <a href="https://github.com/brnyxx/jev-ra/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/brnyxx/jev-ra/ci.yml?branch=main&label=ci"></a>
+  <a href="https://pypi.org/project/jev-ra/"><img alt="PyPI" src="https://img.shields.io/pypi/v/jev-ra"></a>
+  <img alt="Python" src="https://img.shields.io/badge/python-3.12%20%7C%203.13%20%7C%203.14-blue">
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-stdio-111">
+  <img alt="Chrome" src="https://img.shields.io/badge/Chrome-CDP-111">
+  <a href="../../LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"></a>
+</p>
+
+[![jev-ra：面向编码智能体的浏览器操作，比 browser-use 快 3-5×](../../assets/hero.png)](../BENCHMARKS.md)
+
+[English](../../README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · **简体中文**
+
+# jev-ra
+
+**面向 CLI 编码智能体的高速浏览器操作层。** Claude Code、Codex 或任何 MCP 客户端把目标交给
+jev-ra。System One 决策模型 TypeSafe Jev 在一次往返中同时选出每一步的操作和目标元素。制定计划、
+提供要输入的文本、读取页面内容、在 jev-ra 上交时接手，这些都由调用方的智能体完成。循环内不会再跑
+第二个 LLM。
+
+![jev-ra 在三秒内打开哥德尔不完备定理条目](../../assets/demo/wikipedia.gif)
+
+| 任务 | browser-use 0.13.10 + gemini-3-flash `flash_mode` | jev-ra | |
+|---|---|---|---|
+| Wikipedia：打开哥德尔不完备定理条目 | 23,058 ms | **2,714 ms** | **8.50×** |
+| Google Flights ZRH→LON 单程，直到结果出现 | 66,414 ms | **8,888 ms** | **7.47×** |
+| Olive Young 分类页：按 신상품순 排序 | 15,071 ms | **3,806 ms** | **3.96×** |
+
+各跑 5 次的中位数。2026-09-18，同一台机器、同一个专用 Chrome，两边都经由 OpenRouter。每一次运行都
+对照它留下的页面做了校验，25 次全部通过，文本模型调用为 0 次。
+[方法、p90、成本与原始数据](../BENCHMARKS.md)。
+
+## 快速开始
+
+**Claude Code**
+
+```sh
+export OPENROUTER_API_KEY=sk-or-...
+uvx jev-ra install claude
+# 然后在 Claude Code 里: "open wikipedia.org and find the Gödel incompleteness article"
+```
+
+**Codex**
+
+```sh
+export OPENROUTER_API_KEY=sk-or-...
+uvx jev-ra install codex
+# 然后在 Codex 里: "use jev-ra to open wikipedia.org and find the Gödel incompleteness article"
+```
+
+**命令行**
+
+```sh
+export OPENROUTER_API_KEY=sk-or-...
+uvx jev-ra doctor
+uvx jev-ra run https://en.wikipedia.org/wiki/Main_Page "Open the Godel incompleteness article." \
+  --value "search_query=Godel incompleteness theorems"
+```
+
+不想配置 Python？0.1.0 发布后，`npx -y jev-ra install claude` 可通过 npm 启动器做同样的事
+(见 [Releases](https://github.com/brnyxx/jev-ra/releases))。
+
+无论哪种方式都没有安装步骤：`uvx` 直接从 PyPI 运行，并把 `uvx jev-ra mcp` 注册为服务器命令。想要
+常驻安装就用 `uv tool install jev-ra`。密钥从你已经 export 的变量中传递，绝不会被打印。
+
+## 工作方式
+
+```
+  你的智能体                       jev-ra                              Chrome
+ ──────────────              ───────────────                      ─────────────
+  目标 + values  ──────────▶  observe ─────────────────────────▶  snapshot.js
+                              │   元素、守卫、页面 marker        ◀──── 一次 eval
+                              ▼
+                              一次请求：操作？目标？
+                              值？prev_ok？goal_achieved？   ──▶  Jev  (~300 ms)
+                              │
+                              ▼
+                              新鲜度守卫 ──▶ act ──────────────▶  可信的 CDP 输入
+                              │                                    (不是 JS 点击)
+                              ▼
+                              校验 url/title/text/字段状态
+                              │
+       Result  ◀──────────────┴── done · blocked · escalate · budget
+```
+
+每一步一次决策。输入到页面的文本只有你提供的值。
+
+## MCP 工具
+
+| 工具 | 参数 | 作用 |
+|---|---|---|
+| `browser_open` | url | 在共享会话中打开 URL 并给出页面摘要。 |
+| `browser_run` | goal, values?, max_steps? | 完成整个目标。需要输入的值都放进 values。 |
+| `browser_search` | query, goal?, max_pages? | 搜索，并行标签页读取最佳结果，按目标排序。 |
+| `browser_act` | instruction, values? | 针对一条指令决策并执行一步。 |
+| `browser_observe` | max_elements? | 列出观测到的控件和可见文本。 |
+| `browser_extract` | mode? | 结构化页面数据：`text`、`elements`、`links`、`tables`、`main`。 |
+| `browser_click` | ref | 按 ref 点击一个观测到的元素。 |
+| `browser_type` | ref, text | 向观测到的输入框输入文本。 |
+| `browser_select` | ref, option | 选择观测到的下拉项。 |
+| `browser_scroll` | direction? | 上下滚动一屏。 |
+| `browser_press` | key | 按下 Enter、Escape 或 Tab。 |
+| `browser_wait` | - | 稍等片刻后重新观测。 |
+| `browser_screenshot` | - | 当前视口的 JPEG。 |
+| `browser_close` | - | 关闭服务器持有的会话。 |
+
+每个响应都带 `elapsed_ms`；调用了 Jev 时还带 `decisions` 和 `cost`。
+
+## 命令行
+
+| 命令 | 作用 |
+|---|---|
+| `run URL "goal" [--value name=text ...] [--max-steps N]` | 从 URL 开始完成目标，直到完成或升级 |
+| `search "query" ["what the page must answer"] [--max-pages 3]` | 搜索网络并读取最佳结果 |
+| `open URL` | 打开 URL 并为后续命令保留会话 |
+| `observe` | 列出打开页面的控件和文本 |
+| `extract [--mode text\|elements\|links\|tables\|main]` | 从打开的页面中提取结构化数据 |
+| `act "instruction" [--value name=text ...]` | 在打开的页面上执行一步决策 |
+| `click REF` | 点击一个观测到的元素 |
+| `type REF TEXT` | 向一个观测到的字段输入文本 |
+| `select REF OPTION` | 选择一个观测到的下拉项 |
+| `scroll down\|up` | 滚动打开的页面 |
+| `press Enter\|Escape\|Tab` | 按下 Enter、Escape 或 Tab |
+| `wait` | 稍等片刻后重新观测 |
+| `screenshot [PATH]` | 将视口保存为 JPEG |
+| `close` | 关闭 `open` 保留的会话 |
+| `mcp` | 运行 MCP stdio 服务器 |
+| `skill` | 打印智能体指南，可保存为技能文件 |
+| `install claude\|codex [--scope user\|project\|local]` | 将 jev-ra 注册为编码智能体的 MCP 服务器 |
+| `doctor` | 检查密钥、端点、Chrome 和一次实时决策 |
+| `bench [--live]` | 为离线测试页计时，加 `--live` 也为实时任务计时 |
+| `corpus run` | 运行真实网站语料 |
+
+`open` … `close` 通过 `$XDG_STATE_HOME/jev-ra/session.json` 里的 target id 在多次调用之间共享同一个
+浏览器。任何命令加上 `--json` 都会输出原始负载。
+
+## Python
+
+```python
+from jev_ra import Agent
+
+with Agent() as agent:
+    result = agent.run(
+        "Place the order with express shipping.",
+        values={"name": "Ada Lovelace", "email": "ada@example.com"},
+        url="https://example.com/checkout",
+    )
+print(result.status, result.elapsed_ms, [step["target_label"] for step in result.steps])
+```
+
+## 值
+
+TYPE_TEXT 需要一个字符串，而 jev-ra 不会凭空造一个。在选定字段的同一次往返里，Jev 会挑出*你给的*
+值中哪一个属于该字段。如果没有合适的值，也没有配置文本助手，运行就会以 `needs_value` 停下，并给出
+字段的 label、role 和当前值。你补上值再调一次即可。默认安装里没有文本模型。
+
+## 交还控制权时
+
+`Result.status` 为 `done`、`blocked`、`escalate` 或 `budget` 之一。运行中途停下时，`reason` 是
+`needs_value`、`stuck_loop`、`unverified_done`、`stale`、`invalid_decision`、`too_many_controls`、
+`blocked` 或 `budget` 之一。`budget` 还会在 `detail` 中给出被耗尽的预算（步数、决策数、时间，或提供方
+未作答的决策）。escalate 还会带上按概率排序的前八个
+操作/目标候选，以及最多 3,000 个字符的页面文本，足够在不重新观测的情况下做判断。
+
+校验是确定性的：每次操作后都会比较 url、title、text 和字段状态，`page_changed` 来自页面的语义
+marker，而不是来自模型。
+
+## 基准测试
+
+五个任务，各跑 5 次，每次运行都对照它留下的页面做了校验：
+
+| 任务 | 中位数 | p90 | 成功 | 决策 | 成本 | 倍率 |
+|---|---|---|---|---|---|---|
+| Wikipedia 条目 | 2,714 ms | 3,179 ms | 5/5 | 3 | $0.00075 | 8.50× |
+| Google Flights 搜索 | 8,888 ms | 10,573 ms | 5/5 | 14 | $0.00317 | 7.47× |
+| Olive Young 排序 | 3,806 ms | 4,858 ms | 5/5 | 4 | $0.00204 | 3.96× |
+| 带引用的搜索 | 2,416 ms | 2,571 ms | 5/5 | 4 | $0.00035 | 无基线 |
+| 本地结账表单 | 2,191 ms | 2,338 ms | 5/5 | 5 | $0.00049 | 无基线 |
+
+倍率是相对同一台机器、同一个 Chrome 上运行的 browser-use 0.13.10 + gemini-3-flash `flash_mode`
+(分别为 23,058 ms、66,414 ms、15,071 ms)。25 次运行的文本模型调用总数为 0。
+同一套测试框架下让 browser-use 每个任务重跑 5 次，结果更慢：9.07×、8.31×、7.26×。
+用我们的中位数对比 browser-use 每个任务的最快一次(15,759 ms、49,914 ms、17,647 ms),得到
+5.8×、5.6×、4.6×;标题中的 3-5× 低于这个数字。
+`jev-ra bench --live --runs 5` 可以复现这张表，并对每个有基线的任务给出 v0.1 的 3× 门槛的
+PASS/FAIL。[方法、browser-use 原始数据与复现步骤](../BENCHMARKS.md)。
+
+左边是 jev-ra，右边是 browser-use `flash_mode`。同一任务、同一个 Chrome、实时：
+
+![browser-use 还在打开航程类型菜单时，jev-ra 已经完成了航班搜索](../../assets/demo/flights-side-by-side.gif)
+
+没有完成任务就结束的运行计为失败，而不是计入时间。
+
+## 不做的事
+
+| 限制 | 会发生什么 |
+|---|---|
+| 画布绘图、游戏等绘制而非标记的内容 | `blocked`：没有任何观测到的控件能推进目标 |
+| 文件上传 | `blocked`：文件输入既不提供，也不输入 |
+| CAPTCHA、机器人墙、隐身 | 返回 `blocked` 并附上页面文本，由你判断 |
+| 认证流程 | 返回 `needs_value` 并指明字段；jev-ra 从不猜测凭据 |
+| 弹出窗口、多标签页工作流 | 运行始终停留在自己的目标上 |
+| 跨源 iframe | 报告为一个不透明元素；开放的 shadow root 与同源 iframe **会**被遍历 |
+| 可见控件超过 250 个 | 报告 `omitted`，卡住的运行升级为 `too_many_controls` 而不是猜测 |
+
+以上每一种都会返回带页面文本和候选排名的上报。
+## 常见问题
+
+**用 OpenRouter 还是 TypeSafe 密钥？** 都可以。jev-ra 依次查找 `JEV_RA_API_KEY`、
+`TYPESAFE_API_KEY`、`OPENROUTER_API_KEY`。以 `sk-or-` 开头的密钥选择 OpenRouter 路径
+(`typesafe/jev-1.13`)，其他则走直连路径(`jev-latest`)。`JEV_RA_ENDPOINT` 和 `JEV_RA_MODEL` 会
+覆盖两者。OpenRouter 更容易获取；据上游测量，直连每次决策快约 140 ms。
+
+**一个任务多少钱？** 从 **$0.00035**(一次搜索，4 次决策)到 **$0.00317**(完整的 Google Flights
+流程，14 次决策)。成本与决策次数成正比，而不是页面大小，因为发送的是元素表和可见文本，不是 HTML。
+
+**需要专用的 Chrome 吗？** 它会自己找到一个，或在专用配置文件
+(`$XDG_STATE_HOME/jev-ra/chrome-profile`)中启动并复用。用 `BU_CDP_URL` 可以指向别的 Chrome。不要
+指向已登录了你不愿交给智能体的账号的浏览器。
+
+**为什么没有文本模型？** 调用方代理已经拥有上下文。加第二个模型每个字段要多花
+675-938 ms，而且会编造值。需要的话可以用 `JEV_RA_TEXT_MODEL` 接上。
+
+## 配置
+
+| 变量 | 作用 |
+|---|---|
+| `JEV_RA_API_KEY`, `TYPESAFE_API_KEY`, `OPENROUTER_API_KEY` | 密钥，按此优先级 |
+| `JEV_RA_ENDPOINT`, `JEV_RA_MODEL` | 覆盖路径 |
+| `JEV_RA_CHROME` | 要启动的浏览器可执行文件路径 |
+| `BU_CDP_URL` | 连接已有的 Chrome，而不是新启动一个 |
+| `JEV_RA_VIEWPORT` | 例如 `1280x900`(默认值) |
+| `JEV_RA_MAX_STEPS`, `JEV_RA_MAX_DECISIONS`, `JEV_RA_TIMEOUT_S` | 预算 (40 / 80 / 120) |
+| `JEV_RA_BLOCK_RESOURCES` | 设为 `0` 可关闭字体与媒体的拦截 |
+| `JEV_RA_SEARCH_URL` | 搜索端点模板，`{query}` 会被替换 |
+| `JEV_RA_TEXT_MODEL`, `JEV_RA_TEXT_BASE_URL`, `JEV_RA_TEXT_API_KEY` | 可选的文本助手，默认关闭 |
+
+`$XDG_CONFIG_HOME/jev-ra/config.json` 可以写同样的键，环境变量优先。
+
+## 致谢
+
+`jev_ra/browser/snapshot.js` 以及 `NEXT_ACTION` / `TARGET` 指令文本改编自
+[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)(MIT)，那里的文本是经过
+测量的。Chrome 通过 [browser-harness](https://github.com/browser-use/browser-harness)(MIT)驱动。
+详见 [THIRD_PARTY_NOTICES.md](../../THIRD_PARTY_NOTICES.md)。
+
+MIT 许可证。[贡献指南](../../CONTRIBUTING.md) · [安全](../../SECURITY.md) ·
+[智能体指南](../../AGENTS.md) · [使用参考](../USAGE.md)
+
+[English](../../README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · **简体中文**

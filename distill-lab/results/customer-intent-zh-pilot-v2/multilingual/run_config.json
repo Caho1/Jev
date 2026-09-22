@@ -1,0 +1,21 @@
+{
+  "repo": "convaiinnovations/laya-multilingual",
+  "revision": "052592a15d198d9ad47da779604259b10b47b7aa",
+  "hardware": {
+    "physical_memory_bytes": 51539607552,
+    "os": "macOS-27.0-arm64-arm-64bit",
+    "chip": "Apple M5 Pro"
+  },
+  "trained_on_current_data": false,
+  "test_used": false,
+  "calibration_used": false,
+  "model_sha256": "9d628fd971b700382ac6f65920a86f149777b2e748e0c955fb3b19695aa8f204",
+  "selection_sha256": "a596752c03eb0a986f53ac6e1f5974bb9558113683c684d00854ab645d822360",
+  "script_sha256": "1f8793d3c378a93f7922b75bd580e90d71d6109cea59faeec894a88c0d3c0b52",
+  "input_tokens": {
+    "min": 922,
+    "max": 1514
+  },
+  "truncated": 0,
+  "caveat": "同样的中文文本、题干与 35 候选；各底座使用自身 tokenizer。官方默认训练长度为 1024，这次完整输入可能更长。"
+}

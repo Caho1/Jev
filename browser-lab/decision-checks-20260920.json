@@ -1,0 +1,98 @@
+{
+  "kind": "live API on synthetic decisions, not browser tasks",
+  "results": [
+    {
+      "name": "exact-package",
+      "mode": "duplicated",
+      "expected": "requests",
+      "actual": "requests",
+      "passed": true,
+      "ms": 985.5524589978158
+    },
+    {
+      "name": "exact-package",
+      "mode": "compact",
+      "expected": "requests",
+      "actual": "requests",
+      "passed": true,
+      "ms": 706.3111250028014
+    },
+    {
+      "name": "stable-version",
+      "mode": "duplicated",
+      "expected": "wanted",
+      "actual": "wanted",
+      "passed": true,
+      "ms": 257.66133299842477
+    },
+    {
+      "name": "stable-version",
+      "mode": "compact",
+      "passed": false,
+      "error": "Uncertain decision",
+      "ms": 252.42316699773073
+    },
+    {
+      "name": "sort-newest",
+      "mode": "duplicated",
+      "expected": "new",
+      "actual": "new",
+      "passed": true,
+      "ms": 249.2997080013156
+    },
+    {
+      "name": "sort-newest",
+      "mode": "compact",
+      "passed": false,
+      "error": "Uncertain decision",
+      "ms": 263.2465000003576
+    },
+    {
+      "name": "prepared-query",
+      "mode": "duplicated",
+      "expected": "submit",
+      "actual": "submit",
+      "passed": true,
+      "ms": 283.50187500193715
+    },
+    {
+      "name": "prepared-query",
+      "mode": "compact",
+      "expected": "submit",
+      "actual": "submit",
+      "passed": true,
+      "ms": 254.68850000202656
+    },
+    {
+      "name": "chinese-tab",
+      "mode": "duplicated",
+      "expected": "reviews",
+      "actual": "reviews",
+      "passed": true,
+      "ms": 281.931832998991
+    },
+    {
+      "name": "chinese-tab",
+      "mode": "compact",
+      "passed": false,
+      "error": "Uncertain decision",
+      "ms": 271.40724999830127
+    },
+    {
+      "name": "untrusted-instruction",
+      "mode": "duplicated",
+      "expected": "wanted",
+      "actual": "wanted",
+      "passed": true,
+      "ms": 292.5472499988973
+    },
+    {
+      "name": "untrusted-instruction",
+      "mode": "compact",
+      "expected": "wanted",
+      "actual": "wanted",
+      "passed": true,
+      "ms": 320.5127500034869
+    }
+  ]
+}

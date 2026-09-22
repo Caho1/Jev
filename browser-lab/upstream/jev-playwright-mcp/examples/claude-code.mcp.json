@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "jev-playwright": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/absolute/path/to/jev-playwright-mcp/cli.js",
+        "--jev-mode=all",
+        "--headless"
+      ],
+      "env": {
+        "TYPESAFE_API_KEY": "tsk_YOUR_KEY_HERE"
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "RequestId": "cacc903b-d7f5-4b3e-8e5f-9daf2bce8ae9",
+  "Code": 200,
+  "Message": "success",
+  "Data": {
+    "Files": [
+      {
+        "Id": null,
+        "Name": ".gitattributes",
+        "Type": "blob",
+        "Path": ".gitattributes",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "Commit .gitattributes README.md file(s) in datasets-Intent_Recognition_and_Image_Classification_in_E-commerce_Scenarios",
+        "CommitterName": "Administrator",
+        "CommittedDate": 1750397177,
+        "Revision": "6820f485583031247f21dd550ba6b5908f3ac3f9",
+        "IsLFS": false,
+        "Size": 3818,
+        "InCheck": false,
+        "Sha256": "53b61e55812199dea8ffe90c52485e2ec5e5bdae1eed92cab20063003da14e29"
+      },
+      {
+        "Id": null,
+        "Name": "all.json",
+        "Type": "blob",
+        "Path": "all.json",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "upload dataset folder to repo",
+        "CommitterName": "smau0441",
+        "CommittedDate": 1750400555,
+        "Revision": "79bd093eb7cc32b5d43c1743dc2240ed1f2c8443",
+        "IsLFS": true,
+        "Size": 22618516,
+        "InCheck": false,
+        "Sha256": "d114ab16a5bee9036573d015319ef5f369917a72a0a5103f8a1d30a7affd55da"
+      },
+      {
+        "Id": null,
+        "Name": "images.zip",
+        "Type": "blob",
+        "Path": "images.zip",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "upload dataset folder to repo",
+        "CommitterName": "smau0441",
+        "CommittedDate": 1750400555,
+        "Revision": "79bd093eb7cc32b5d43c1743dc2240ed1f2c8443",
+        "IsLFS": true,
+        "Size": 7036336513,
+        "InCheck": false,
+        "Sha256": "6372347114ccc7c900f24a537a00b060ce70c6bb38e429be40ef6a208c1ced99"
+      },
+      {
+        "Id": null,
+        "Name": "README.md",
+        "Type": "blob",
+        "Path": "README.md",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "Create a new File",
+        "CommitterName": "smau0441",
+        "CommittedDate": 1750401120,
+        "Revision": "0cce7e55674910dcd7398bfdb994a4ec9aa52016",
+        "IsLFS": false,
+        "Size": 4296,
+        "InCheck": false,
+        "Sha256": "3517d9badc662e2290fff20d0a5ac089455547b37ca22833872fa7800a58e8c5"
+      }
+    ],
+    "LatestCommitter": {
+      "Id": null,
+      "ShortId": "3ccab881",
+      "Title": "Delete+file+readme.md+in+datasets-Intent_Recognition_and_Image_Classification_in_E-commerce_Scenarios+project+",
+      "Message": "Delete+file+readme.md+in+datasets-Intent_Recognition_and_Image_Classification_in_E-commerce_Scenarios+project+",
+      "AuthorName": "smau0441",
+      "AuthoredDate": null,
+      "AuthorEmail": "smau0441@163.com",
+      "CommittedDate": 1750401141,
+      "CommitterName": "smau0441",
+      "CreatedAt": 1750401141
+    },
+    "TotalCount": 4
+  },
+  "PageNumber": 1,
+  "PageSize": 100,
+  "TotalCount": 4
+}

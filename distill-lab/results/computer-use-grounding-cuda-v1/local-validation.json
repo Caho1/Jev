@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "tensor_count": 199,
+  "trainable_parameters": 30635009,
+  "all_final_tensors_finite": true,
+  "same_parameter_names_and_shapes": true,
+  "changed_tensors": 199,
+  "encoder_lora_changed": true,
+  "decision_scorer_changed": true,
+  "local_source_matches_run": true,
+  "weights_checked_on": "cpu",
+  "local_gpu_training_started": false
+}

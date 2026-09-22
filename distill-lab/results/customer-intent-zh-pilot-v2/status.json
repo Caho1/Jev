@@ -1,0 +1,12 @@
+{
+  "phase": "complete",
+  "time": "2026-09-22T11:21:18+0800",
+  "pid": 92504,
+  "train_records": 280,
+  "development_records": 103,
+  "baseline_accuracy": 0.038834951456310676,
+  "tuned_accuracy": 0.20388349514563106,
+  "training_seconds": 981.5869219169836,
+  "checkpoint": "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/customer-intent-zh-pilot-v2/epoch-1",
+  "result": "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/customer-intent-zh-pilot-v2/results.json"
+}

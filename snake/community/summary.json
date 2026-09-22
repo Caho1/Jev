@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "hardware": "Apple M5 Pro",
+    "laya": "convaiinnovations/laya",
+    "revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "runtime": "laya-mlx 0.1.0 / MLX 0.32.2 / FP16 / batch_size 16",
+    "jev": "jev-1.13.0",
+    "seed": 2026,
+    "corpus_sha256": "d38b2b50c7fd2e45da3b994e4edd5d910a129997095faac13f151981ebf29e16",
+    "sources": {
+      "jevbench": {
+        "url": "https://github.com/fstandhartinger/jevbench",
+        "commit": "7ce310c7262ed49cc85853339a8a42459298e3f3",
+        "easy_sha256": "231df3c2c8e88a1a8c137ebe85de96ba70fabd330849098ac7b3c52c70b7172b",
+        "original_sha256": "5c2414edb3006b8bfcb70fda433f0f9ca015759433849f8d3104328a1f7c4180",
+        "hard_sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb"
+      },
+      "reviews": {
+        "url": "https://github.com/mameli/jev-vs-luna",
+        "commit": "b17401dcd982180e70030dcf1575a645e9f3f9a2"
+      },
+      "phishing": {
+        "url": "https://github.com/anisselbd/jev-phishing-bench",
+        "commit": "1d56e8c64d029a9554a0874e2ef2901ed196e230",
+        "dataset": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/core_emails.csv",
+        "sha256": "cebb407ff8630491a97400e37464b8db8dfc4299164fca51fcb4ac7eec8204ef",
+        "sampling": "50 legitimate + 50 phishing, seeded 2026, sorted IDs before random sample; verdict-only question, not full 9-question reproduction"
+      }
+    },
+    "method": "Identical original state/questions per request. Single sequential paired pass, alternating model order. No retries. Three warmups excluded. Remote latency includes network. Invalid/error answers count wrong. Truncation audited; full-context subset reported separately.",
+    "mlx_peak_bytes": 1556442680,
+    "process_peak_rss_bytes": 994934784
+  },
+  "completed": 431,
+  "total": 431,
+  "suites": {
+    "JevBench / easy": {
+      "models": {
+        "laya": {
+          "requests": 48,
+          "success": 48,
+          "questions": 48,
+          "correct": 46,
+          "accuracy": 0.9583333333333334,
+          "exact_match": 0.9583333333333334,
+          "p50_ms": 16.037834007875063,
+          "p95_ms": 29.26579100312665,
+          "full_context_n": 48,
+          "full_context_correct": 46,
+          "schema_valid": 48,
+          "brier": 0.06532584581680079,
+          "fields": {
+            "decision": {
+              "correct": 46,
+              "n": 48
+            }
+          }
+        },
+        "jev": {
+          "requests": 48,
+          "success": 48,
+          "questions": 48,
+          "correct": 48,
+          "accuracy": 1.0,
+          "exact_match": 1.0,
+          "p50_ms": 291.985,
+          "p95_ms": 359.296,
+          "full_context_n": 48,
+          "full_context_correct": 48,
+          "schema_valid": 48,
+          "brier": 0.0002166666666666669,
+          "fields": {
+            "decision": {
+              "correct": 48,
+              "n": 48
+            }
+          }
+        }
+      },
+      "state_truncated_questions": 0,
+      "rubric_truncated_questions": 0
+    },
+    "JevBench / hard": {
+      "models": {
+        "laya": {
+          "requests": 111,
+          "success": 111,
+          "questions": 111,
+          "correct": 37,
+          "accuracy": 0.3333333333333333,
+          "exact_match": 0.3333333333333333,
+          "p50_ms": 34.952500005601905,
+          "p95_ms": 85.9515409974847,
+          "full_context_n": 54,
+          "full_context_correct": 15,
+          "schema_valid": 111,
+          "brier": 0.7707122748801455,
+          "fields": {
+            "decision": {
+              "correct": 37,
+              "n": 111
+            }
+          }
+        },
+        "jev": {
+          "requests": 111,
+          "success": 111,
+          "questions": 111,
+          "correct": 79,
+          "accuracy": 0.7117117117117117,
+          "exact_match": 0.7117117117117117,
+          "p50_ms": 307.63,
+          "p95_ms": 372.717,
+          "full_context_n": 54,
+          "full_context_correct": 39,
+          "schema_valid": 111,
+          "brier": 0.34841981981981984,
+          "fields": {
+            "decision": {
+              "correct": 79,
+              "n": 111
+            }
+          }
+        }
+      },
+      "state_truncated_questions": 57,
+      "rubric_truncated_questions": 1
+    },
+    "JevBench / standard": {
+      "models": {
+        "laya": {
+          "requests": 72,
+          "success": 72,
+          "questions": 72,
+          "correct": 39,
+          "accuracy": 0.5416666666666666,
+          "exact_match": 0.5416666666666666,
+          "p50_ms": 16.372540994780138,
+          "p95_ms": 25.296167004853487,
+          "full_context_n": 72,
+          "full_context_correct": 39,
+          "schema_valid": 72,
+          "brier": 0.5044747721740647,
+          "fields": {
+            "decision": {
+              "correct": 39,
+              "n": 72
+            }
+          }
+        },
+        "jev": {
+          "requests": 72,
+          "success": 72,
+          "questions": 72,
+          "correct": 59,
+          "accuracy": 0.8194444444444444,
+          "exact_match": 0.8194444444444444,
+          "p50_ms": 317.958,
+          "p95_ms": 375.917,
+          "full_context_n": 72,
+          "full_context_correct": 59,
+          "schema_valid": 72,
+          "brier": 0.1945,
+          "fields": {
+            "decision": {
+              "correct": 59,
+              "n": 72
+            }
+          }
+        }
+      },
+      "state_truncated_questions": 0,
+      "rubric_truncated_questions": 0
+    },
+    "Phishing / subset 100": {
+      "models": {
+        "laya": {
+          "requests": 100,
+          "success": 100,
+          "questions": 100,
+          "correct": 50,
+          "accuracy": 0.5,
+          "exact_match": 0.5,
+          "p50_ms": 31.41233400674537,
+          "p95_ms": 62.81116699392442,
+          "full_context_n": 100,
+          "full_context_correct": 50,
+          "schema_valid": 100,
+          "brier": 0.7487229478,
+          "fields": {
+            "verdict": {
+              "correct": 50,
+              "n": 100
+            }
+          }
+        },
+        "jev": {
+          "requests": 100,
+          "success": 100,
+          "questions": 100,
+          "correct": 64,
+          "accuracy": 0.64,
+          "exact_match": 0.64,
+          "p50_ms": 309.639,
+          "p95_ms": 363.504,
+          "full_context_n": 100,
+          "full_context_correct": 64,
+          "schema_valid": 100,
+          "brier": 0.489086,
+          "fields": {
+            "verdict": {
+              "correct": 64,
+              "n": 100
+            }
+          }
+        }
+      },
+      "state_truncated_questions": 0,
+      "rubric_truncated_questions": 0
+    },
+    "Reviews / 5 fields": {
+      "models": {
+        "laya": {
+          "requests": 100,
+          "success": 100,
+          "questions": 500,
+          "correct": 362,
+          "accuracy": 0.724,
+          "exact_match": 0.09,
+          "p50_ms": 70.47449999663513,
+          "p95_ms": 150.89858300052583,
+          "full_context_n": 500,
+          "full_context_correct": 362,
+          "schema_valid": 500,
+          "brier": 0.28212653453608144,
+          "fields": {
+            "topic": {
+              "correct": 76,
+              "n": 100
+            },
+            "sentiment": {
+              "correct": 92,
+              "n": 100
+            },
+            "rating": {
+              "correct": 44,
+              "n": 100
+            },
+            "defect": {
+              "correct": 91,
+              "n": 100
+            },
+            "needs_reply": {
+              "correct": 59,
+              "n": 100
+            }
+          }
+        },
+        "jev": {
+          "requests": 100,
+          "success": 100,
+          "questions": 500,
+          "correct": 481,
+          "accuracy": 0.962,
+          "exact_match": 0.88,
+          "p50_ms": 303.557,
+          "p95_ms": 360.711,
+          "full_context_n": 500,
+          "full_context_correct": 481,
+          "schema_valid": 500,
+          "brier": 0.060238,
+          "fields": {
+            "topic": {
+              "correct": 93,
+              "n": 100
+            },
+            "sentiment": {
+              "correct": 94,
+              "n": 100
+            },
+            "rating": {
+              "correct": 95,
+              "n": 100
+            },
+            "defect": {
+              "correct": 100,
+              "n": 100
+            },
+            "needs_reply": {
+              "correct": 99,
+              "n": 100
+            }
+          }
+        }
+      },
+      "state_truncated_questions": 0,
+      "rubric_truncated_questions": 0
+    }
+  },
+  "updated": "2026-09-20 20:48:11",
+  "errors": []
+}

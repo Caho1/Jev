@@ -1,0 +1,28 @@
+{
+  "splits": {
+    "train": {
+      "records": 519,
+      "target_recalled_by_candidate_cap": {
+        "32": 150,
+        "64": 222,
+        "128": 304,
+        "192": 371,
+        "254": 408
+      },
+      "input_sha256": "6b380a65763507d62b03cabd4b46a4c02b6ee3d1c127229f2bc6db0a7e072e0d"
+    },
+    "development": {
+      "records": 78,
+      "target_recalled_by_candidate_cap": {
+        "32": 26,
+        "64": 40,
+        "128": 58,
+        "192": 68,
+        "254": 73
+      },
+      "input_sha256": "b4ec4869e3238bb28008ee91e14706148401ce2573b5020d4afac7f025e17987"
+    }
+  },
+  "token_budget_checked": false,
+  "scope": "retrieval only, before token/byte budget; not model accuracy; does not alter current training or evaluation inputs"
+}

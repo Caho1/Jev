@@ -1,0 +1,204 @@
+{
+  "date": "2026-09-22",
+  "scope": "dataset discovery, public metadata and small sample inspection only",
+  "sources": [
+    {
+      "repo": "McGill-NLP/WebLINX",
+      "revision": "a30ff2cbecb75f2d04fac75a2b92721c6c9e3f13",
+      "dataset_url": "https://huggingface.co/datasets/McGill-NLP/WebLINX",
+      "declared_license": "cc-by-nc-sa-4.0",
+      "declared_languages": [
+        "en"
+      ],
+      "gated": false
+    },
+    {
+      "repo": "OpenWebRL/OpenWebRL-SFT-Trajectories",
+      "revision": "50e2a9b82d5c15403130d8bb1da659fab2a490bf",
+      "dataset_url": "https://huggingface.co/datasets/OpenWebRL/OpenWebRL-SFT-Trajectories",
+      "declared_license": "apache-2.0",
+      "declared_languages": [
+        "en"
+      ],
+      "gated": false
+    },
+    {
+      "repo": "Qwen/WebWorldData",
+      "revision": "e108c5f8e35445c9ddff71cde2a5b1fc4db4020c",
+      "dataset_url": "https://huggingface.co/datasets/Qwen/WebWorldData",
+      "declared_license": "apache-2.0",
+      "declared_languages": [
+        "en",
+        "zh"
+      ],
+      "gated": false
+    },
+    {
+      "repo": "oottyy/Synatra",
+      "revision": "3e948bff6aeef08f2f33d5e9ac0d54881ee6fb5f",
+      "dataset_url": "https://huggingface.co/datasets/oottyy/Synatra",
+      "declared_license": null,
+      "declared_languages": null,
+      "gated": false
+    },
+    {
+      "repo": "osunlp/Mind2Web",
+      "revision": "17ece8eb89862368edc0cc806acee6fca5163474",
+      "dataset_url": "https://huggingface.co/datasets/osunlp/Mind2Web",
+      "declared_license": "cc-by-4.0",
+      "declared_languages": [
+        "en"
+      ],
+      "gated": false
+    },
+    {
+      "repo": "webagentlab/webchain",
+      "revision": "59ab57fea3d6270c260b6603418afb93dee8c1ce",
+      "dataset_url": "https://huggingface.co/datasets/webagentlab/webchain",
+      "declared_license": "cc-by-4.0",
+      "declared_languages": null,
+      "gated": false
+    },
+    {
+      "repo": "webagentlab/webchain-legacy",
+      "revision": "bd5699076abec17010963ca6a7c66ea7c5fa01ff",
+      "dataset_url": "https://huggingface.co/datasets/webagentlab/webchain-legacy",
+      "declared_license": "cc-by-4.0",
+      "declared_languages": null,
+      "gated": false
+    },
+    {
+      "repo": "xlangai/AgentTrek",
+      "revision": "32aabe6fb48d8e2e7dae1678e6ff05ba23725b2c",
+      "dataset_url": "https://huggingface.co/datasets/xlangai/AgentTrek",
+      "declared_license": null,
+      "declared_languages": [
+        "en"
+      ],
+      "gated": false
+    }
+  ],
+  "files": {
+    "McGill-NLP__WebLINX-info.json": {
+      "bytes": 5133,
+      "sha256": "5f04e90d91d3fe5ac1818d22d69c48940a8369ff21b2d3b50f9f6883041ec617"
+    },
+    "McGill-NLP__WebLINX-train-samples.json": {
+      "bytes": 11625,
+      "sha256": "78b4da0da1a25ffe2c961ba936677ee9975e79bb1929b652b87e09dc178f3302"
+    },
+    "McGill-NLP__WebLINX.md": {
+      "bytes": 7377,
+      "sha256": "9bd7512e257f5914d66b091530d7eb711a6f90bc21dc89cbba53015c7136c527"
+    },
+    "OpenWebRL__OpenWebRL-SFT-Trajectories-info.json": {
+      "bytes": 2049,
+      "sha256": "05b3261a79604b7fbe98b3a68b1eebdf7d4c4f1a1f705fc597efa5bfbcc7488e"
+    },
+    "OpenWebRL__OpenWebRL-SFT-Trajectories.md": {
+      "bytes": 13451,
+      "sha256": "ac57778e172591ccc6e0858c74a264bf8868d5e35d2fcf3e07872b67d667a670"
+    },
+    "Qwen__WebWorldData-README.md": {
+      "bytes": 7470,
+      "sha256": "474935a51eea9dece33f1fdaf6cd48f89fbda6ff08a3ad2f2107d07f71869939"
+    },
+    "Qwen__WebWorldData-info.json": {
+      "bytes": 2191,
+      "sha256": "825b5491ab1a4074ca39ca883d732f95eef7afc6cda2c2691028283d2363d99b"
+    },
+    "Qwen__WebWorldData-train-samples.json": {
+      "bytes": 1247828,
+      "sha256": "1daa73afaa5cd625d640f1220ab5e7ada82958c94d8823a1391bad0ba7f93c5a"
+    },
+    "THUDM__AutoWebGLM-tree.json": {
+      "bytes": 59926,
+      "sha256": "140251ded67cfd579b6de9367db324685063a340653f8768db047245e8236b91"
+    },
+    "THUDM__AutoWebGLM.md": {
+      "bytes": 3227,
+      "sha256": "9d18b958cfefd47100aa32ab14374c22ababb997a637a80da98b1977dec83fe0"
+    },
+    "THUDM__WebRL-tree.json": {
+      "bytes": 119206,
+      "sha256": "7c96ed61f8c38346075fc7bcba8717abb664371bcbfde5001781b2a1cd07b32b"
+    },
+    "THUDM__WebRL.md": {
+      "bytes": 5965,
+      "sha256": "eb217b96c54c3c2ccfd3a27255c6fd740df40c2d6743ae811858339bf7f740b0"
+    },
+    "WebRL-first-sft-record.json": {
+      "bytes": 7367,
+      "sha256": "fa51406c33008421af859983e888c8bf626210c0e4b57fda78c4110307e21aca"
+    },
+    "oottyy__Synatra-info.json": {
+      "bytes": 672,
+      "sha256": "fb27eb637576011d639137f9ef1158e74ee414e1ff1c5a2470c30a591ebe1d0a"
+    },
+    "oottyy__Synatra-train-samples.json": {
+      "bytes": 12598,
+      "sha256": "df349fabe0c6904b54298ece86391f51bbf191aef29668f05f11a8a40873e82d"
+    },
+    "osunlp__Mind2Web-info.json": {
+      "bytes": 2279,
+      "sha256": "c83cee6ed9f567d68305c60ecb4ed825798fb9bb2c174d7c72ca29029fbfb753"
+    },
+    "osunlp__Mind2Web.md": {
+      "bytes": 4308,
+      "sha256": "d2da20abbf17ac82f874d78ced28ceaaf3b15466011d3674deaa2c4597862a4a"
+    },
+    "sample-verification.json": {
+      "bytes": 1555,
+      "sha256": "4d62dd59efdc44bc3559d4fc4cbccc481950d5fc5a69c2f5c6407aa2737105e7"
+    },
+    "webagentlab__webchain-data__seed_sft__metadata__structure_url_sample_check.json": {
+      "bytes": 20077,
+      "sha256": "9b170d2ee654bd03efc914f77f9b134e6ca470ba065aaacb1add3e5cdd47753b"
+    },
+    "webagentlab__webchain-data__seed_sft__parts__part_00__metadata__traces.parquet": {
+      "bytes": 877617,
+      "sha256": "980ce5574a759cf47349a2628bdadbf97a299825b36c964eaac568eb189c6e58"
+    },
+    "webagentlab__webchain-info.json": {
+      "bytes": 82923,
+      "sha256": "186bec5fcbf1e8056571d81f4a066ae577f8665ab4032b9c1d8f2f05c10e38e3"
+    },
+    "webagentlab__webchain-legacy-info.json": {
+      "bytes": 5093,
+      "sha256": "98bd66818128d51c80ed8d0ed195990cf27838ba5b6e6d9424ce347c071639f0"
+    },
+    "webagentlab__webchain-legacy.md": {
+      "bytes": 6773,
+      "sha256": "730371b6a3093cb13b226fb19ff4002450ebafc4c5a3c620effdb70122d3ab60"
+    },
+    "webagentlab__webchain.md": {
+      "bytes": 15784,
+      "sha256": "ac41dbb10c924efbad8cc93340a34a73cb9218f1930ef6d8dced582050cbd68c"
+    },
+    "webchain-first-ax_tree_urls.txt": {
+      "bytes": 1350134,
+      "sha256": "9e70e58e6ffaf3ed6fd6faac2004b19d166f4623511ee3100d52b3fd5af8f4e6"
+    },
+    "webchain-first-html_dom_urls.txt": {
+      "bytes": 1913692,
+      "sha256": "69f243b28685847e3dc9b0f8568aa3c7150b1f09b9889b186d1053976f3b82c0"
+    },
+    "xlangai__AgentTrek-info.json": {
+      "bytes": 1441,
+      "sha256": "514543e1c6208b00a25a17190f09298fd1a45058d8f18293c983e862b36ca5ff"
+    },
+    "xlangai__AgentTrek-train-samples.json": {
+      "bytes": 83040,
+      "sha256": "d1468848257e114dfba998cfba8ec129da281ab14cfbd5966945c1eb2ae78935"
+    },
+    "xlangai__AgentTrek.md": {
+      "bytes": 1132,
+      "sha256": "9052a7f8015ccb94e38cb11ca9dd848237da2a293d4a1e1f77f09ec4a8da9220"
+    }
+  },
+  "existing_train_development_calibration_holdout_modified": false,
+  "optimizer_steps": 0,
+  "teacher_api_calls": 0,
+  "samples_are_research_only_not_training_ready": true,
+  "note": "HF viewer sample requests are not revision-pinned APIs; repository revisions recorded separately. WebChain successful HTTP probes cover one trace only."
+}

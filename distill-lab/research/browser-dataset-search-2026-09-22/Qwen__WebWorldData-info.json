@@ -1,0 +1,79 @@
+{
+  "_id": "698f31c08d725e29501c0e3a",
+  "id": "Qwen/WebWorldData",
+  "author": "Qwen",
+  "sha": "e108c5f8e35445c9ddff71cde2a5b1fc4db4020c",
+  "lastModified": "2026-05-08T12:12:49.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-generation",
+    "language:en",
+    "language:zh",
+    "license:apache-2.0",
+    "size_categories:100K<n<1M",
+    "format:json",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2602.14721",
+    "region:us",
+    "WebWorld",
+    "world-model",
+    "web-agent",
+    "browser-simulation",
+    "a11y",
+    "html",
+    "xml",
+    "markdown",
+    "trajectories",
+    "agent-training",
+    "synthetic-data"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tWebWorldData \ud83c\udf10\n\t\n\n \n \n \n \n \n \n \n \n \n\n\n\t\n\t\t\n\t\n\t\n\t\tOverview\n\t\n\nWebWorldData is a large-scale dataset of 1.06M web interaction trajectories collected from the open web, designed for training browser world models. It is the training data behind the WebWorld model series.\nEach trajectory consists of sequences of (state, action, next_state) transitions, where states are represented as A11y Trees extracted from real websites using Playwright.\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Statistics\u2026 See the full description on the dataset page: https://huggingface.co/datasets/Qwen/WebWorldData.",
+  "downloads": 390,
+  "likes": 79,
+  "cardData": {
+    "license": "apache-2.0",
+    "task_categories": [
+      "text-generation"
+    ],
+    "language": [
+      "en",
+      "zh"
+    ],
+    "tags": [
+      "WebWorld",
+      "world-model",
+      "web-agent",
+      "browser-simulation",
+      "a11y",
+      "html",
+      "xml",
+      "markdown",
+      "trajectories",
+      "agent-training",
+      "synthetic-data"
+    ],
+    "pretty_name": "WebWorldData",
+    "size_categories": [
+      "1M<n<10M"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "WebWorld_Training.jsonl"
+    }
+  ],
+  "createdAt": "2026-02-13T14:14:24.000Z",
+  "usedStorage": 57248902075
+}

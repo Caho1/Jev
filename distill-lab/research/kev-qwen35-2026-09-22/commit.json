@@ -1,0 +1,82 @@
+{
+  "sha": "e943f21e40574d99cefb2d292089333bcda9047c",
+  "node_id": "C_kwDOUfXmptoAKGU5NDNmMjFlNDA1NzRkOTljZWZiMmQyOTIwODkzMzNiY2RhOTA0N2M",
+  "commit": {
+    "author": {
+      "name": "Jared Palmer",
+      "email": "jp@cognition.ai",
+      "date": "2026-09-21T14:23:03Z"
+    },
+    "committer": {
+      "name": "Jared Palmer",
+      "email": "jp@cognition.ai",
+      "date": "2026-09-21T14:23:03Z"
+    },
+    "message": "PLAN: round-3 autoresearch (training-side calibration) with citations and pre-registered rules; round 2 marked done",
+    "tree": {
+      "sha": "60f01f7ab1cae5012798139ae0b9920e8d8d6f11",
+      "url": "https://api.github.com/repos/jaredpalmer/kev/git/trees/60f01f7ab1cae5012798139ae0b9920e8d8d6f11"
+    },
+    "url": "https://api.github.com/repos/jaredpalmer/kev/git/commits/e943f21e40574d99cefb2d292089333bcda9047c",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/jaredpalmer/kev/commits/e943f21e40574d99cefb2d292089333bcda9047c",
+  "html_url": "https://github.com/jaredpalmer/kev/commit/e943f21e40574d99cefb2d292089333bcda9047c",
+  "comments_url": "https://api.github.com/repos/jaredpalmer/kev/commits/e943f21e40574d99cefb2d292089333bcda9047c/comments",
+  "author": {
+    "login": "jaredpalmer",
+    "id": 4060187,
+    "node_id": "MDQ6VXNlcjQwNjAxODc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4060187?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jaredpalmer",
+    "html_url": "https://github.com/jaredpalmer",
+    "followers_url": "https://api.github.com/users/jaredpalmer/followers",
+    "following_url": "https://api.github.com/users/jaredpalmer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jaredpalmer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jaredpalmer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jaredpalmer/subscriptions",
+    "organizations_url": "https://api.github.com/users/jaredpalmer/orgs",
+    "repos_url": "https://api.github.com/users/jaredpalmer/repos",
+    "events_url": "https://api.github.com/users/jaredpalmer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jaredpalmer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "jaredpalmer",
+    "id": 4060187,
+    "node_id": "MDQ6VXNlcjQwNjAxODc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4060187?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jaredpalmer",
+    "html_url": "https://github.com/jaredpalmer",
+    "followers_url": "https://api.github.com/users/jaredpalmer/followers",
+    "following_url": "https://api.github.com/users/jaredpalmer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jaredpalmer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jaredpalmer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jaredpalmer/subscriptions",
+    "organizations_url": "https://api.github.com/users/jaredpalmer/orgs",
+    "repos_url": "https://api.github.com/users/jaredpalmer/repos",
+    "events_url": "https://api.github.com/users/jaredpalmer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jaredpalmer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "3aa96e53f8ed00a87434d69cb62b24bb16246816",
+      "url": "https://api.github.com/repos/jaredpalmer/kev/commits/3aa96e53f8ed00a87434d69cb62b24bb16246816",
+      "html_url": "https://github.com/jaredpalmer/kev/commit/3aa96e53f8ed00a87434d69cb62b24bb16246816"
+    }
+  ]
+}

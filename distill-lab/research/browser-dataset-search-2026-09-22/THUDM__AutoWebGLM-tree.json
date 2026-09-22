@@ -1,0 +1,1568 @@
+{
+  "sha": "eb8524e55cc3fac44625496e895e4044cea81fba",
+  "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/eb8524e55cc3fac44625496e895e4044cea81fba",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ee166dac7d5240868fa2f39e2ae92da7839d03",
+      "size": 11358,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/47ee166dac7d5240868fa2f39e2ae92da7839d03"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b83a7e2b6fd7e25bf7ce7504ade3cb783c6999",
+      "size": 3227,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/69b83a7e2b6fd7e25bf7ce7504ade3cb783c6999"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aba3a086f06f3a56984bd13dc5c2c7905b0fe2d2",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/aba3a086f06f3a56984bd13dc5c2c7905b0fe2d2"
+    },
+    {
+      "path": "assets/framework.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b8ed11eab59a8b7709136494990f2ac6f76e00",
+      "size": 884510,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/72b8ed11eab59a8b7709136494990f2ac6f76e00"
+    },
+    {
+      "path": "autowebbench",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd42fc26ce38f3e701a6135d9fb714bce72ef39e",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/dd42fc26ce38f3e701a6135d9fb714bce72ef39e"
+    },
+    {
+      "path": "autowebbench/en",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88566657c92f7cefb75ec9354e50ecb826c47ce1",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/88566657c92f7cefb75ec9354e50ecb826c47ce1"
+    },
+    {
+      "path": "autowebbench/en/ind",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbd4d0d9aea2371e6fb3e3253b8df22e830c32e8",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/bbd4d0d9aea2371e6fb3e3253b8df22e830c32e8"
+    },
+    {
+      "path": "autowebbench/en/ind/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c78dcba7ee87e14296f150bf903190a0874722",
+      "size": 1622613,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/e8c78dcba7ee87e14296f150bf903190a0874722"
+    },
+    {
+      "path": "autowebbench/en/ood",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2a5afe4517e15b081c80711cc1a0b9ab93a59ff",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/d2a5afe4517e15b081c80711cc1a0b9ab93a59ff"
+    },
+    {
+      "path": "autowebbench/en/ood/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5766029a2dc40c4c2a81926295759daca2f59ca",
+      "size": 1461126,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c5766029a2dc40c4c2a81926295759daca2f59ca"
+    },
+    {
+      "path": "autowebbench/zh",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eff879e407e781935c04731e85592bfdd0e39c1c",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/eff879e407e781935c04731e85592bfdd0e39c1c"
+    },
+    {
+      "path": "autowebbench/zh/ind",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbe5611fee7da91d5c14b2cab86369193f6dc43d",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/bbe5611fee7da91d5c14b2cab86369193f6dc43d"
+    },
+    {
+      "path": "autowebbench/zh/ind/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f43577fa44be3727e68e3c62e8efe0b8e67d746a",
+      "size": 2435024,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/f43577fa44be3727e68e3c62e8efe0b8e67d746a"
+    },
+    {
+      "path": "autowebbench/zh/ood",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a98f1becac5d6de37676f87aea8a22b919f6883",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/2a98f1becac5d6de37676f87aea8a22b919f6883"
+    },
+    {
+      "path": "autowebbench/zh/ood/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f7042d6bdba136aa2a091566c61c2b30819ebe4",
+      "size": 2048106,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/3f7042d6bdba136aa2a091566c61c2b30819ebe4"
+    },
+    {
+      "path": "eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "011c88b3c835b4f92236e0e6b09e7c38b293547f",
+      "size": 3771,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/011c88b3c835b4f92236e0e6b09e7c38b293547f"
+    },
+    {
+      "path": "mind2web",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f08891b6116f9072e08d4a021498b89ff679d19b",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/f08891b6116f9072e08d4a021498b89ff679d19b"
+    },
+    {
+      "path": "mind2web/domain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b701154929088a6142c424dd7f9c83e970ddadc1",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/b701154929088a6142c424dd7f9c83e970ddadc1"
+    },
+    {
+      "path": "mind2web/domain/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64557a084dfccd354ef60e9240972d0a5cfbb29d",
+      "size": 40873373,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/64557a084dfccd354ef60e9240972d0a5cfbb29d"
+    },
+    {
+      "path": "mind2web/task",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6eac655c734fada337b77bba01382f8b8825a07b",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/6eac655c734fada337b77bba01382f8b8825a07b"
+    },
+    {
+      "path": "mind2web/task/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5e0f60abec4773efd16e7a84dfe3271f713161",
+      "size": 15030505,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0e5e0f60abec4773efd16e7a84dfe3271f713161"
+    },
+    {
+      "path": "mind2web/website",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30ec66bef4c249af580b7f4e00d4776ba018ee4d",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/30ec66bef4c249af580b7f4e00d4776ba018ee4d"
+    },
+    {
+      "path": "mind2web/website/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62bb53138354d7cfca9b2d3a52eb2cb2482be120",
+      "size": 9735909,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/62bb53138354d7cfca9b2d3a52eb2cb2482be120"
+    },
+    {
+      "path": "miniwob++",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20b38428f9d6a2226b3a518174eb46f80e3ed454",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/20b38428f9d6a2226b3a518174eb46f80e3ed454"
+    },
+    {
+      "path": "miniwob++/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eab83ded8dcfd2599921357939b37e25892fe03f",
+      "size": 75,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/eab83ded8dcfd2599921357939b37e25892fe03f"
+    },
+    {
+      "path": "miniwob++/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50bbe9403eeff6ddce7d9aca590da31a14591a40",
+      "size": 2171,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/50bbe9403eeff6ddce7d9aca590da31a14591a40"
+    },
+    {
+      "path": "miniwob++/html_tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c1d159090d5a79599540cab0c1f00ced1504ca2",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/3c1d159090d5a79599540cab0c1f00ced1504ca2"
+    },
+    {
+      "path": "miniwob++/html_tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e76c66450d28770e375207d897b39780f6d9685",
+      "size": 197,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/5e76c66450d28770e375207d897b39780f6d9685"
+    },
+    {
+      "path": "miniwob++/html_tools/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fab8835090f3880e7dbdb0cbeff2095bb1d3029",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/1fab8835090f3880e7dbdb0cbeff2095bb1d3029"
+    },
+    {
+      "path": "miniwob++/html_tools/configs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b900a6766eb3b94eb6d303fe05bfceab9ff25bb2",
+      "size": 132,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b900a6766eb3b94eb6d303fe05bfceab9ff25bb2"
+    },
+    {
+      "path": "miniwob++/html_tools/configs/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c31f33f1f5e6dcf5f01f97b5faf51551168b3d27",
+      "size": 799,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c31f33f1f5e6dcf5f01f97b5faf51551168b3d27"
+    },
+    {
+      "path": "miniwob++/html_tools/configs/html_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "904d02128cd93c738ca194dd37991b93630dfefc",
+      "size": 477,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/904d02128cd93c738ca194dd37991b93630dfefc"
+    },
+    {
+      "path": "miniwob++/html_tools/html_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0f1ae0d02875e28c7fd9945f734b772dff09754",
+      "size": 16200,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/d0f1ae0d02875e28c7fd9945f734b772dff09754"
+    },
+    {
+      "path": "miniwob++/html_tools/identifier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "793ebed00bbaef8d133e16294a73b53840b7ce6c",
+      "size": 1919,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/793ebed00bbaef8d133e16294a73b53840b7ce6c"
+    },
+    {
+      "path": "miniwob++/html_tools/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38d6b9499153752f0bc47f27758e57f1434e6c62",
+      "size": 3888,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/38d6b9499153752f0bc47f27758e57f1434e6c62"
+    },
+    {
+      "path": "miniwob++/html_tools/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc4d3d7674b71b41bf0ec02d7a45c5d813b478a",
+      "size": 2803,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/cbc4d3d7674b71b41bf0ec02d7a45c5d813b478a"
+    },
+    {
+      "path": "miniwob++/install_dependency.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4ce7d8e50b88892debaea8df777178edd85fa8",
+      "size": 547,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/7d4ce7d8e50b88892debaea8df777178edd85fa8"
+    },
+    {
+      "path": "miniwob++/llms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7dd9984e0612a63339317aa863c11f75381b6ce",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/b7dd9984e0612a63339317aa863c11f75381b6ce"
+    },
+    {
+      "path": "miniwob++/llms/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "192b2a375ff55663e85e1d50efa5da34d7b50720",
+      "size": 25,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/192b2a375ff55663e85e1d50efa5da34d7b50720"
+    },
+    {
+      "path": "miniwob++/llms/call.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "489ed8f43ecd342c2fe7b9733aeabc73ef517f1f",
+      "size": 2249,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/489ed8f43ecd342c2fe7b9733aeabc73ef517f1f"
+    },
+    {
+      "path": "miniwob++/llms/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a453e0a83abd3aaed8b3448f8eaf0cbaffd04447",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/a453e0a83abd3aaed8b3448f8eaf0cbaffd04447"
+    },
+    {
+      "path": "miniwob++/llms/providers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58505868b040db61bc9b5d133a5a74cb2b4d2266",
+      "size": 264,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/58505868b040db61bc9b5d133a5a74cb2b4d2266"
+    },
+    {
+      "path": "miniwob++/llms/providers/gpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa53072a0f61ed202a0a1def4fc42163ff66fd67",
+      "size": 993,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/aa53072a0f61ed202a0a1def4fc42163ff66fd67"
+    },
+    {
+      "path": "miniwob++/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f28efe4e1dd419ad9bc667767c2408cb19f1be",
+      "size": 12933,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/63f28efe4e1dd419ad9bc667767c2408cb19f1be"
+    },
+    {
+      "path": "miniwob++/miniwob_tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82a9653bd993d87907ba95ee79025b4d7b79979b",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/82a9653bd993d87907ba95ee79025b4d7b79979b"
+    },
+    {
+      "path": "miniwob++/miniwob_tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "790d804adf5d967f35c56e2af8f6a813a93ffe16",
+      "size": 258,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/790d804adf5d967f35c56e2af8f6a813a93ffe16"
+    },
+    {
+      "path": "miniwob++/miniwob_tools/action.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5738e16284d0f30d06886400f3cedd8b092add85",
+      "size": 3981,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/5738e16284d0f30d06886400f3cedd8b092add85"
+    },
+    {
+      "path": "miniwob++/miniwob_tools/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "999ab5b623358dd6b22098d842bf408001f1e8b5",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/999ab5b623358dd6b22098d842bf408001f1e8b5"
+    },
+    {
+      "path": "miniwob++/miniwob_tools/configs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb63e4c90d944f5be7dfb061fc96d5ab699ec842",
+      "size": 184,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/cb63e4c90d944f5be7dfb061fc96d5ab699ec842"
+    },
+    {
+      "path": "miniwob++/miniwob_tools/configs/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "298d441755de44a2c593741db587f4d4897c3e8a",
+      "size": 2030,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/298d441755de44a2c593741db587f4d4897c3e8a"
+    },
+    {
+      "path": "miniwob++/miniwob_tools/configs/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2656bcc566b977833a0819ba7fc281bcc6f465",
+      "size": 4001,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/df2656bcc566b977833a0819ba7fc281bcc6f465"
+    },
+    {
+      "path": "miniwob++/miniwob_tools/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9583c78434677c4fe3fc6bdbb153ecd9d4ced22",
+      "size": 6897,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b9583c78434677c4fe3fc6bdbb153ecd9d4ced22"
+    },
+    {
+      "path": "miniwob++/monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b980c14e6c5e4c9725bf6462310294905edca3c1",
+      "size": 6104,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b980c14e6c5e4c9725bf6462310294905edca3c1"
+    },
+    {
+      "path": "miniwob++/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84f416e56ceaed792e1096df2678f0909f02eb53",
+      "size": 153,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/84f416e56ceaed792e1096df2678f0909f02eb53"
+    },
+    {
+      "path": "miniwob++/setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "webarena",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0162c8e45336b496b8da7b796e26a76e3f34ce66",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/0162c8e45336b496b8da7b796e26a76e3f34ce66"
+    },
+    {
+      "path": "webarena/.github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9afc5772d40296a3faee315d27d208b9bd117748",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/9afc5772d40296a3faee315d27d208b9bd117748"
+    },
+    {
+      "path": "webarena/.github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "650957c9869d05c6a50e583e6b6a378ae5301252",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/650957c9869d05c6a50e583e6b6a378ae5301252"
+    },
+    {
+      "path": "webarena/.github/workflows/pre-commit.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d53972baabbf9858f7fd0109d9872796185c972",
+      "size": 305,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/6d53972baabbf9858f7fd0109d9872796185c972"
+    },
+    {
+      "path": "webarena/.github/workflows/tests.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79be870487e8e23eae9ba106f86cde6b4908f7b9",
+      "size": 1537,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/79be870487e8e23eae9ba106f86cde6b4908f7b9"
+    },
+    {
+      "path": "webarena/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b48414ce4db30ef92e23fdf6bca7bd166ca519ba",
+      "size": 2347,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b48414ce4db30ef92e23fdf6bca7bd166ca519ba"
+    },
+    {
+      "path": "webarena/.pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b2ed9194d529a04d94e597cf76d5b65e738016",
+      "size": 638,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/16b2ed9194d529a04d94e597cf76d5b65e738016"
+    },
+    {
+      "path": "webarena/CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a28320d2b8f6038585b5a64f1feaea28b8dbe062",
+      "size": 353,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/a28320d2b8f6038585b5a64f1feaea28b8dbe062"
+    },
+    {
+      "path": "webarena/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "webarena/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2641ed06d6f24566f75b75bc9f5f1be0c2473d91",
+      "size": 3931,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/2641ed06d6f24566f75b75bc9f5f1be0c2473d91"
+    },
+    {
+      "path": "webarena/agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54ee74c5320140e57cc04d29bb0c635ace035f45",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/54ee74c5320140e57cc04d29bb0c635ace035f45"
+    },
+    {
+      "path": "webarena/agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9028d30c3d489f1fb7dbfbe8135d5965c724e16b",
+      "size": 175,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/9028d30c3d489f1fb7dbfbe8135d5965c724e16b"
+    },
+    {
+      "path": "webarena/agent/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "490d08efe9e8c704bf447e73e6c880a2bf2acc6f",
+      "size": 7516,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/490d08efe9e8c704bf447e73e6c880a2bf2acc6f"
+    },
+    {
+      "path": "webarena/agent/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e862194f45c942bb572d55d5ebdc087aaf8d0c6d",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/e862194f45c942bb572d55d5ebdc087aaf8d0c6d"
+    },
+    {
+      "path": "webarena/agent/prompts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0682719eeec9ae832c25bc0f11b5d624867f8af",
+      "size": 80,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/e0682719eeec9ae832c25bc0f11b5d624867f8af"
+    },
+    {
+      "path": "webarena/agent/prompts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f3caba88facb66ce491e0d9d9869e945b450e61",
+      "size": 34,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/3f3caba88facb66ce491e0d9d9869e945b450e61"
+    },
+    {
+      "path": "webarena/agent/prompts/prompt_constructor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039b87cfd161b5e512af6ac384040de115b7c270",
+      "size": 24393,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/039b87cfd161b5e512af6ac384040de115b7c270"
+    },
+    {
+      "path": "webarena/agent/prompts/raw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7e5bc9346214de7704a815d860b8dd52f963d68",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/a7e5bc9346214de7704a815d860b8dd52f963d68"
+    },
+    {
+      "path": "webarena/agent/prompts/raw/new_action_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5382b03347aaae5021f2069aeebae692ad96db46",
+      "size": 2745,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/5382b03347aaae5021f2069aeebae692ad96db46"
+    },
+    {
+      "path": "webarena/agent/prompts/raw/p_cot_id_actree_2s.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b85e54cc256c9da0d8f46519d4ade1c47942fd83",
+      "size": 4581,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b85e54cc256c9da0d8f46519d4ade1c47942fd83"
+    },
+    {
+      "path": "webarena/agent/prompts/raw/p_cot_id_actree_2s_no_na.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "945cd95996d126193486684ceba05bc1d0906411",
+      "size": 4486,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/945cd95996d126193486684ceba05bc1d0906411"
+    },
+    {
+      "path": "webarena/agent/prompts/raw/p_direct_id_actree_2s.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d4e4f6ad2c2fcc35cf63b7df042e11e2dcaaaf4",
+      "size": 3735,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/8d4e4f6ad2c2fcc35cf63b7df042e11e2dcaaaf4"
+    },
+    {
+      "path": "webarena/agent/prompts/raw/p_direct_id_actree_2s_no_na.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3994544020f59e2070969cdfcfa3e3e75fc2875",
+      "size": 3657,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c3994544020f59e2070969cdfcfa3e3e75fc2875"
+    },
+    {
+      "path": "webarena/agent/prompts/raw/p_direct_id_actree_3s_llama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6278d2bc87115abe878c649c9765d71ac3d5c77b",
+      "size": 3290,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/6278d2bc87115abe878c649c9765d71ac3d5c77b"
+    },
+    {
+      "path": "webarena/agent/prompts/raw/test_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5979e58a0724c4d0b4b187fd232ec4adff78670d",
+      "size": 1438,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/5979e58a0724c4d0b4b187fd232ec4adff78670d"
+    },
+    {
+      "path": "webarena/agent/prompts/to_json.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efb283c4db72daf61fded6f8f95e24e28fa09593",
+      "size": 808,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/efb283c4db72daf61fded6f8f95e24e28fa09593"
+    },
+    {
+      "path": "webarena/browser_env",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f772f152803bff15e25a0c11b7a1313ec0880301",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/f772f152803bff15e25a0c11b7a1313ec0880301"
+    },
+    {
+      "path": "webarena/browser_env/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ecdbe028899010080166ffa467c5b9ed8e09ed",
+      "size": 1994,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/90ecdbe028899010080166ffa467c5b9ed8e09ed"
+    },
+    {
+      "path": "webarena/browser_env/actions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039cd4289d42e1abd4f8c3d9f9284f6207a0d0b2",
+      "size": 60571,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/039cd4289d42e1abd4f8c3d9f9284f6207a0d0b2"
+    },
+    {
+      "path": "webarena/browser_env/async_envs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29fb32f3b2fd67ae54d10f2c62dec34f194c19a3",
+      "size": 5355,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/29fb32f3b2fd67ae54d10f2c62dec34f194c19a3"
+    },
+    {
+      "path": "webarena/browser_env/auto_login.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1354a2179dc9d9c84c291300523cf3f7c8958d34",
+      "size": 5308,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/1354a2179dc9d9c84c291300523cf3f7c8958d34"
+    },
+    {
+      "path": "webarena/browser_env/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12761121e5a7b764897a7cf0c3302a39d9491c0a",
+      "size": 4713,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/12761121e5a7b764897a7cf0c3302a39d9491c0a"
+    },
+    {
+      "path": "webarena/browser_env/env_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cf52de7d998c90abb3741416e2c8ab9b434758",
+      "size": 1417,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/81cf52de7d998c90abb3741416e2c8ab9b434758"
+    },
+    {
+      "path": "webarena/browser_env/envs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7ad03e33773f30766f06bd2c717c96fcf3a63c",
+      "size": 11028,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/be7ad03e33773f30766f06bd2c717c96fcf3a63c"
+    },
+    {
+      "path": "webarena/browser_env/helper_functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18521ab38a930108029eea59d68a390a258dad8c",
+      "size": 12910,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/18521ab38a930108029eea59d68a390a258dad8c"
+    },
+    {
+      "path": "webarena/browser_env/html_tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a41da1f030ee2c33c5bf3fad5cdb6fa18b8f40c",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/6a41da1f030ee2c33c5bf3fad5cdb6fa18b8f40c"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e76c66450d28770e375207d897b39780f6d9685",
+      "size": 197,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/5e76c66450d28770e375207d897b39780f6d9685"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26496684b5e1ed91dc2f8a55f078a8744f47103e",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/26496684b5e1ed91dc2f8a55f078a8744f47103e"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/configs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b900a6766eb3b94eb6d303fe05bfceab9ff25bb2",
+      "size": 132,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b900a6766eb3b94eb6d303fe05bfceab9ff25bb2"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/configs/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a97936431fc776253188e36c82ed9cd3dfe56f00",
+      "size": 815,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/a97936431fc776253188e36c82ed9cd3dfe56f00"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/configs/html_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "904d02128cd93c738ca194dd37991b93630dfefc",
+      "size": 477,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/904d02128cd93c738ca194dd37991b93630dfefc"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/html_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b173ce072e122a97b6b10fdd5e606e7fd8e81b0",
+      "size": 17321,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/7b173ce072e122a97b6b10fdd5e606e7fd8e81b0"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/identifier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "793ebed00bbaef8d133e16294a73b53840b7ce6c",
+      "size": 1919,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/793ebed00bbaef8d133e16294a73b53840b7ce6c"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38d6b9499153752f0bc47f27758e57f1434e6c62",
+      "size": 3888,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/38d6b9499153752f0bc47f27758e57f1434e6c62"
+    },
+    {
+      "path": "webarena/browser_env/html_tools/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3c71fbff680290a7b9eb77c2dd3c37a15d1410c",
+      "size": 3107,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c3c71fbff680290a7b9eb77c2dd3c37a15d1410c"
+    },
+    {
+      "path": "webarena/browser_env/processors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b8d948a9c5128e2a367d82f0df45ddfa2d9b02",
+      "size": 32862,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/25b8d948a9c5128e2a367d82f0df45ddfa2d9b02"
+    },
+    {
+      "path": "webarena/browser_env/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "webarena/browser_env/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c6c0a0e9c3c85a5b650c87ad94b4aef59999db8",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/0c6c0a0e9c3c85a5b650c87ad94b4aef59999db8"
+    },
+    {
+      "path": "webarena/browser_env/scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "719e3e385bed32c0338973d4c0454643583ef841",
+      "size": 1229,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/719e3e385bed32c0338973d4c0454643583ef841"
+    },
+    {
+      "path": "webarena/browser_env/scripts/canva_handler.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "997ec78a43c419a84183e3d3a0575f4ce19b9210",
+      "size": 1264,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/997ec78a43c419a84183e3d3a0575f4ce19b9210"
+    },
+    {
+      "path": "webarena/browser_env/scripts/get_data.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492a52a4a3160bcfa85729093b2ea72a9d5a627d",
+      "size": 2236,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/492a52a4a3160bcfa85729093b2ea72a9d5a627d"
+    },
+    {
+      "path": "webarena/browser_env/scripts/get_text.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e583ed465223592ed2fd65f83b6acc4fc3c86223",
+      "size": 1593,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/e583ed465223592ed2fd65f83b6acc4fc3c86223"
+    },
+    {
+      "path": "webarena/browser_env/scripts/label_marker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c55af52c1376cb2d7c304d76254bc9d2f4c31d5",
+      "size": 2467,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/6c55af52c1376cb2d7c304d76254bc9d2f4c31d5"
+    },
+    {
+      "path": "webarena/browser_env/scripts/local_marker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a21bc0cf3b2e4d7db6f64aaa8c2e6e580f4e75de",
+      "size": 1640,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/a21bc0cf3b2e4d7db6f64aaa8c2e6e580f4e75de"
+    },
+    {
+      "path": "webarena/browser_env/scripts/mix_marker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3d02e719e2c069c6eaa70322bc670613c0b09e9",
+      "size": 5982,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b3d02e719e2c069c6eaa70322bc670613c0b09e9"
+    },
+    {
+      "path": "webarena/browser_env/trajectory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4c41070be21285a6e3ee3f3b95dcae88d9b203",
+      "size": 128,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/1c4c41070be21285a6e3ee3f3b95dcae88d9b203"
+    },
+    {
+      "path": "webarena/browser_env/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18142426bf50713c463e5219366da5f3cb996f73",
+      "size": 1659,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/18142426bf50713c463e5219366da5f3cb996f73"
+    },
+    {
+      "path": "webarena/check_errors.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c319d3e1ca09c5a5ea3a8c4e279a825de59cce4b",
+      "size": 814,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c319d3e1ca09c5a5ea3a8c4e279a825de59cce4b"
+    },
+    {
+      "path": "webarena/config_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01fcfe860a6962e5b6a7a2ed36d93861ae8252b3",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/01fcfe860a6962e5b6a7a2ed36d93861ae8252b3"
+    },
+    {
+      "path": "webarena/config_files/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b9775cafb1b45de8a3fd5dfffc4defbdb2d517d",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/9b9775cafb1b45de8a3fd5dfffc4defbdb2d517d"
+    },
+    {
+      "path": "webarena/config_files/examples/1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4dd6fecb5c514fa8486b2ed05261a4645e29f72",
+      "size": 1064,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b4dd6fecb5c514fa8486b2ed05261a4645e29f72"
+    },
+    {
+      "path": "webarena/config_files/examples/2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c7eff26e86f437b0c56e1da51bc9ac8f7a367b7",
+      "size": 897,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0c7eff26e86f437b0c56e1da51bc9ac8f7a367b7"
+    },
+    {
+      "path": "webarena/config_files/examples/3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6dcda2f19bb805de906e63d07a4c556f96f90dc",
+      "size": 902,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/e6dcda2f19bb805de906e63d07a4c556f96f90dc"
+    },
+    {
+      "path": "webarena/config_files/examples/4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc9bc7c8136df997ad9e3f7a396e2d6f5f67be1d",
+      "size": 970,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/bc9bc7c8136df997ad9e3f7a396e2d6f5f67be1d"
+    },
+    {
+      "path": "webarena/config_files/test.raw.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f9f440d7ea3434a92bd0e677d27369e1d0d3798",
+      "size": 880776,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/3f9f440d7ea3434a92bd0e677d27369e1d0d3798"
+    },
+    {
+      "path": "webarena/environment_docker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40b9a8d61d7a9ae2ac2059981242e2d84c8fc37a",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/40b9a8d61d7a9ae2ac2059981242e2d84c8fc37a"
+    },
+    {
+      "path": "webarena/environment_docker/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc31e066902cb25d1c1dd4f6abc69c4d7261ae6c",
+      "size": 7687,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/bc31e066902cb25d1c1dd4f6abc69c4d7261ae6c"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91c2ac3fd036574e345eb28e5f0f39e97a8de931",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/91c2ac3fd036574e345eb28e5f0f39e97a8de931"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b092c7ffa04900b92f70d3bf2816320e0f65b64",
+      "size": 517,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0b092c7ffa04900b92f70d3bf2816320e0f65b64"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "239df6f5261a4ff11752b542035ca2b7cf268ddd",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/239df6f5261a4ff11752b542035ca2b7cf268ddd"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a18754d25c28f490e64351e65927e654d9bae284",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/a18754d25c28f490e64351e65927e654d9bae284"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/calculator.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53b7013861baf76f47886aa9934facf8742811b0",
+      "size": 171636,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/53b7013861baf76f47886aa9934facf8742811b0"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/cms.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea5b53b351d9d97a003debff49f7ec9ffd6a10f",
+      "size": 391453,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/7ea5b53b351d9d97a003debff49f7ec9ffd6a10f"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/gitlab.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c4af3b0ab08c85931b01cba7e7ebfcd26ed937",
+      "size": 43405,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/a9c4af3b0ab08c85931b01cba7e7ebfcd26ed937"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/manual1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0416212ff65c8d3967cd47c8f8291ed52d28489b",
+      "size": 177622,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0416212ff65c8d3967cd47c8f8291ed52d28489b"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/manual2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be6c7796b2740626e9a9b25e03e696dda35ec978",
+      "size": 186548,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/be6c7796b2740626e9a9b25e03e696dda35ec978"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/map.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6718f5140c5935f188083949baff8b29a7775fd4",
+      "size": 797669,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/6718f5140c5935f188083949baff8b29a7775fd4"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/onestopshop.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2669443a40a7b9d6309aad5ce6b1a3977572aa5c",
+      "size": 225657,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/2669443a40a7b9d6309aad5ce6b1a3977572aa5c"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/password.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891651313e38257f6714b1e08f03e3decbab65cc",
+      "size": 20027,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/891651313e38257f6714b1e08f03e3decbab65cc"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/reddit.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "796b00613f64cc577d784b97d6d054d09e9373e8",
+      "size": 62680,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/796b00613f64cc577d784b97d6d054d09e9373e8"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/scratchpad.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4afea7fdd2806c5299051809b6b382b6c7900c40",
+      "size": 146660,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/4afea7fdd2806c5299051809b6b382b6c7900c40"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/static/figures/wikipedia.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa4695991434c3d7d468058da47f74571a17c8c4",
+      "size": 714857,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/aa4695991434c3d7d468058da47f74571a17c8c4"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b787366fc848676e3bdccc71f91eb03a2042bd7",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/8b787366fc848676e3bdccc71f91eb03a2042bd7"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/templates/calculator.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "644529851b07da31ed9399155e9721b05f2c53a6",
+      "size": 3346,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/644529851b07da31ed9399155e9721b05f2c53a6"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/templates/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14096b690632161d068002637b670f36263338bf",
+      "size": 5651,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/14096b690632161d068002637b670f36263338bf"
+    },
+    {
+      "path": "webarena/environment_docker/webarena-homepage/templates/scratchpad.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd939d572eb81bba4cc6924a9c5f2867425190ab",
+      "size": 2557,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/bd939d572eb81bba4cc6924a9c5f2867425190ab"
+    },
+    {
+      "path": "webarena/evaluation_harness",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6805261c598b9a9e186632791e221525ec8ff82",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/e6805261c598b9a9e186632791e221525ec8ff82"
+    },
+    {
+      "path": "webarena/evaluation_harness/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e942c1066769ac2f6fa12f1dc786df4af1209a1d",
+      "size": 181,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/e942c1066769ac2f6fa12f1dc786df4af1209a1d"
+    },
+    {
+      "path": "webarena/evaluation_harness/evaluators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0417d4836bc6b68e8e970882e6bd141c39520fd",
+      "size": 13280,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/d0417d4836bc6b68e8e970882e6bd141c39520fd"
+    },
+    {
+      "path": "webarena/evaluation_harness/helper_functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "317236e85bf0bf8b86a0fb18b5cdbd8448660547",
+      "size": 7565,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/317236e85bf0bf8b86a0fb18b5cdbd8448660547"
+    },
+    {
+      "path": "webarena/llms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6f08aa9f15963306e96f48a4420ae0493e6f7c5",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/c6f08aa9f15963306e96f48a4420ae0493e6f7c5"
+    },
+    {
+      "path": "webarena/llms/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbdae10447022d4b2cad97e0b9cb887fb2c272c",
+      "size": 518,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/acbdae10447022d4b2cad97e0b9cb887fb2c272c"
+    },
+    {
+      "path": "webarena/llms/lm_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd1c9cd66539e8ef867c1ab287ddba912cb79832",
+      "size": 2722,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/cd1c9cd66539e8ef867c1ab287ddba912cb79832"
+    },
+    {
+      "path": "webarena/llms/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "894f460243a61a66abb0daee6c8ebe3f6692bdad",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/894f460243a61a66abb0daee6c8ebe3f6692bdad"
+    },
+    {
+      "path": "webarena/llms/providers/hf_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e8987d02ab1620b85bc913b38ee81f27222a23",
+      "size": 545,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b5e8987d02ab1620b85bc913b38ee81f27222a23"
+    },
+    {
+      "path": "webarena/llms/providers/openai_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bbc54755d68d3e3e38f37e957cf59e9b7c1730a",
+      "size": 9081,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/4bbc54755d68d3e3e38f37e957cf59e9b7c1730a"
+    },
+    {
+      "path": "webarena/llms/providers/ours.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb9d38896418f5e7747fcba09f3964c5a1d697d",
+      "size": 1399,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/5eb9d38896418f5e7747fcba09f3964c5a1d697d"
+    },
+    {
+      "path": "webarena/llms/tokenizers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8842e477efb428bd4b23adf30faab6f5aea1e4e",
+      "size": 1123,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c8842e477efb428bd4b23adf30faab6f5aea1e4e"
+    },
+    {
+      "path": "webarena/llms/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c73efaf8f04134215f4f4e6ce17e186cc416ed3b",
+      "size": 2799,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c73efaf8f04134215f4f4e6ce17e186cc416ed3b"
+    },
+    {
+      "path": "webarena/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "812d0350d9ee7bebd228c30850ef16f9c2929aa4",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/812d0350d9ee7bebd228c30850ef16f9c2929aa4"
+    },
+    {
+      "path": "webarena/media/example_trace_viewer.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "249919a81547c06d60d55ec26c748ce2b433c77b",
+      "size": 1428447,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/249919a81547c06d60d55ec26c748ce2b433c77b"
+    },
+    {
+      "path": "webarena/media/homepage_demo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0875b0ccb157040a81e5004db776c386b459707",
+      "size": 143977,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/c0875b0ccb157040a81e5004db776c386b459707"
+    },
+    {
+      "path": "webarena/media/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96855a37c5a4354931e1982e0e4d76cb40f40b28",
+      "size": 1287379,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/96855a37c5a4354931e1982e0e4d76cb40f40b28"
+    },
+    {
+      "path": "webarena/media/overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5920639b8d67de5149b56141c8a3d1a2074606",
+      "size": 340387,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/9c5920639b8d67de5149b56141c8a3d1a2074606"
+    },
+    {
+      "path": "webarena/media/v1_result.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0e34e6bc6d230d650e98b9692ebd98b59503e8b",
+      "size": 38069,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/d0e34e6bc6d230d650e98b9692ebd98b59503e8b"
+    },
+    {
+      "path": "webarena/media/v2_result.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a89107a4442b194365859c66f969f86e11a467",
+      "size": 154226,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/70a89107a4442b194365859c66f969f86e11a467"
+    },
+    {
+      "path": "webarena/minimal_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd451f994833cf516891df0911b96ad9145a3038",
+      "size": 4616,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/fd451f994833cf516891df0911b96ad9145a3038"
+    },
+    {
+      "path": "webarena/parallel_run.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7299dfdf61f5534c8f4d733a02b3d4ef0e72bf1e",
+      "size": 2736,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/7299dfdf61f5534c8f4d733a02b3d4ef0e72bf1e"
+    },
+    {
+      "path": "webarena/prepare.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64014fce254d0c715c3accae1ae1cb1362a2a6be",
+      "size": 120,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/64014fce254d0c715c3accae1ae1cb1362a2a6be"
+    },
+    {
+      "path": "webarena/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2f7703f0e14cee5169e310d97fd83048e50ef7d",
+      "size": 194,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/d2f7703f0e14cee5169e310d97fd83048e50ef7d"
+    },
+    {
+      "path": "webarena/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8d48903b4b9d4e9b9f8741eb2eda3e5db60c70e",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/a8d48903b4b9d4e9b9f8741eb2eda3e5db60c70e"
+    },
+    {
+      "path": "webarena/resources/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd33b9c3f3794ac07e836fa14e23348056bd58d9",
+      "size": 2883,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/dd33b9c3f3794ac07e836fa14e23348056bd58d9"
+    },
+    {
+      "path": "webarena/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bebcaa31c3d107c6646e6e9153eafa90658860",
+      "size": 16186,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/05bebcaa31c3d107c6646e6e9153eafa90658860"
+    },
+    {
+      "path": "webarena/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0d050389b6e54405fd271a8f0bd5473c4e7c97b",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/c0d050389b6e54405fd271a8f0bd5473c4e7c97b"
+    },
+    {
+      "path": "webarena/scripts/check_error_runs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0039b5680adb604e644ad351ae26add62d72687c",
+      "size": 4963,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0039b5680adb604e644ad351ae26add62d72687c"
+    },
+    {
+      "path": "webarena/scripts/collect_obs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df3aa485ddcd30e6466c591c0242aeac75fc2a7f",
+      "size": 1628,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/df3aa485ddcd30e6466c591c0242aeac75fc2a7f"
+    },
+    {
+      "path": "webarena/scripts/generate_test_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0da10ffc7478d0a8febf14bddce1ed7becaba2c4",
+      "size": 838,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0da10ffc7478d0a8febf14bddce1ed7becaba2c4"
+    },
+    {
+      "path": "webarena/scripts/html2json.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3756cef1f2f3b9dc14cf24a440c318026a0afa34",
+      "size": 4867,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/3756cef1f2f3b9dc14cf24a440c318026a0afa34"
+    },
+    {
+      "path": "webarena/scripts/webarena-zeno.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29df42cddf3aec2ef34f66ba32e0cb12a7de2dcd",
+      "size": 10926,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/29df42cddf3aec2ef34f66ba32e0cb12a7de2dcd"
+    },
+    {
+      "path": "webarena/setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aadc6ad0c7e77f3b42b1ca9b6592c8abed5fd9fc",
+      "size": 369,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/aadc6ad0c7e77f3b42b1ca9b6592c8abed5fd9fc"
+    },
+    {
+      "path": "webarena/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f1a1763ca9cebc7bc16576d353d3284ee5d3c7d",
+      "size": 69,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/7f1a1763ca9cebc7bc16576d353d3284ee5d3c7d"
+    },
+    {
+      "path": "webarena/solver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c3276916ecb90c5a24671ec7bfbb06831fce343",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/2c3276916ecb90c5a24671ec7bfbb06831fce343"
+    },
+    {
+      "path": "webarena/solver/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9440218de54744b4c0ca82c5b315fbf6b2bd6a",
+      "size": 1219,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/db9440218de54744b4c0ca82c5b315fbf6b2bd6a"
+    },
+    {
+      "path": "webarena/solver/shopping_admin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f2cb0293df75850e1dba6705d95cdb8e003253",
+      "size": 32909,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/11f2cb0293df75850e1dba6705d95cdb8e003253"
+    },
+    {
+      "path": "webarena/solver/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c8627a2029d36593b1ca2167f0455dda718aa31",
+      "size": 3867,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/9c8627a2029d36593b1ca2167f0455dda718aa31"
+    },
+    {
+      "path": "webarena/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7b642310a9dbd35970d1033cc74b96239dc7af5",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/c7b642310a9dbd35970d1033cc74b96239dc7af5"
+    },
+    {
+      "path": "webarena/tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5f973a3e0e473fb7f175604fb0d9ae358dce537",
+      "size": 1760,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b5f973a3e0e473fb7f175604fb0d9ae358dce537"
+    },
+    {
+      "path": "webarena/tests/test_browser_env",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97486b9379e2f4c53a86b5b139a04f8a01257ab3",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/97486b9379e2f4c53a86b5b139a04f8a01257ab3"
+    },
+    {
+      "path": "webarena/tests/test_browser_env/test_action_functionalities.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bdfc0d290a13ffdd88dca614e06e55170c62d82",
+      "size": 11515,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0bdfc0d290a13ffdd88dca614e06e55170c62d82"
+    },
+    {
+      "path": "webarena/tests/test_browser_env/test_actions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "332a32bd23a89411d97249641cc05fe80dccb866",
+      "size": 4699,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/332a32bd23a89411d97249641cc05fe80dccb866"
+    },
+    {
+      "path": "webarena/tests/test_browser_env/test_auth_cookie.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2456a7aebfb87d702b03e29155ac5cf8b01adc08",
+      "size": 2319,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/2456a7aebfb87d702b03e29155ac5cf8b01adc08"
+    },
+    {
+      "path": "webarena/tests/test_browser_env/test_playwright_actions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce55eeb5a369720b08563c429d0c234b50829a3e",
+      "size": 3907,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/ce55eeb5a369720b08563c429d0c234b50829a3e"
+    },
+    {
+      "path": "webarena/tests/test_browser_env/test_script_browser_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a7886127e5b489b457698340572f50d7a12455",
+      "size": 8447,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/33a7886127e5b489b457698340572f50d7a12455"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0b43dfce1ccbef26483b23f4cafaba374542603",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/d0b43dfce1ccbef26483b23f4cafaba374542603"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afe27fff944b703e406f165507604d53a6292d79",
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/trees/afe27fff944b703e406f165507604d53a6292d79"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/func_eval_fail.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ffdd0ab785f1aa91451e8a66778a7a7030ea7cc",
+      "size": 841,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/0ffdd0ab785f1aa91451e8a66778a7a7030ea7cc"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/func_eval_success.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d3df88573233570aad5bae7de03e0879c81dee",
+      "size": 842,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/d3d3df88573233570aad5bae7de03e0879c81dee"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/func_url_func_1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993a2463ea060704549570402362c59e8fdf3e59",
+      "size": 686,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/993a2463ea060704549570402362c59e8fdf3e59"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/func_url_func_2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b29ba21ffc2b90ae142f54786158cf67500e4199",
+      "size": 977,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/b29ba21ffc2b90ae142f54786158cf67500e4199"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/html_content_element_exact_match.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660803953d3cd07b0a65af4faa382c6683feab71",
+      "size": 864,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/660803953d3cd07b0a65af4faa382c6683feab71"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/html_content_exact_match.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ea7951ab8edeb15c5928891622c3c01b6e1f7a0",
+      "size": 783,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/6ea7951ab8edeb15c5928891622c3c01b6e1f7a0"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/html_content_url_comb.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "514817bca025e78214164848cab72ebba89203f6",
+      "size": 922,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/514817bca025e78214164848cab72ebba89203f6"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/string_match.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152763e7af3b849a6cc6ee4c0eb133aadf81e460",
+      "size": 478,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/152763e7af3b849a6cc6ee4c0eb133aadf81e460"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/configs/url_exact_match.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c29f4d79fe8b98c1fe4a1adf0d815349cb22077",
+      "size": 525,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/1c29f4d79fe8b98c1fe4a1adf0d815349cb22077"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/test_evaluators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef0db6738fe2660d4acf364948c2c32eb0735e8",
+      "size": 10276,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/bef0db6738fe2660d4acf364948c2c32eb0735e8"
+    },
+    {
+      "path": "webarena/tests/test_evaluation_harness/test_helper_functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd671b933f60ff1acbda8ee8526cfcfb34518869",
+      "size": 946,
+      "url": "https://api.github.com/repos/THUDM/AutoWebGLM/git/blobs/bd671b933f60ff1acbda8ee8526cfcfb34518869"
+    }
+  ],
+  "truncated": false
+}

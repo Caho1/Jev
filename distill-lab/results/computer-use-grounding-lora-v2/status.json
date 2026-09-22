@@ -1,0 +1,18 @@
+{
+  "phase": "paused",
+  "time": "2026-09-22T01:36:10+0800",
+  "reason": "user_requested_pause_before_5090_training",
+  "process_running": false,
+  "last_reported_optimizer_step": 40,
+  "last_reported_completed_pairs": 320,
+  "total_pairs": 2068,
+  "progress": 0.15473887814313347,
+  "latest_saved_checkpoint": {
+    "path": "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/computer-use-grounding-lora-v2/step-0025",
+    "optimizer_step": 25,
+    "completed_pairs": 200,
+    "sha256": "66fa902c2b90cfb584a01f1139997840426ee0419e88f3320f48c81b3967cd2f"
+  },
+  "optimizer_state_saved": false,
+  "resume_note": "模型权重已保留；未保存优化器状态，后续不应宣称精确断点续训。"
+}

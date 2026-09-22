@@ -1,0 +1,100 @@
+{
+  "retrieved_date": "2026-09-22",
+  "ecommerce_original": {
+    "total_records": 1000,
+    "dialogue_intent_records": 300,
+    "image_classification_records": 700,
+    "intent_distribution": {
+      "商品材质": 14,
+      "商品规格": 13,
+      "排水方式": 9,
+      "控制方式": 12,
+      "是否易褪色": 4,
+      "上市时间": 11,
+      "是否会生锈": 8,
+      "反馈用后症状": 4,
+      "适用季节": 24,
+      "何时上货": 13,
+      "发货数量": 14,
+      "功效功能": 17,
+      "套装推荐": 17,
+      "是否好用": 8,
+      "用法用量": 17,
+      "包装区别": 17,
+      "能否调光": 14,
+      "单品推荐": 20,
+      "版本款型区别": 18,
+      "反馈密封性不好": 15,
+      "气泡": 12,
+      "养护方法": 10,
+      "信号情况": 9
+    }
+  },
+  "kuake_qic": {
+    "KUAKE-QIC_test": {
+      "count": 1994,
+      "nonempty_labels": 0,
+      "label_distribution": {
+        "": 1994
+      }
+    },
+    "KUAKE-QIC_train": {
+      "count": 6931,
+      "nonempty_labels": 6931,
+      "label_distribution": {
+        "治疗方案": 1750,
+        "其他": 1617,
+        "疾病表述": 594,
+        "病因分析": 153,
+        "注意事项": 650,
+        "功效作用": 370,
+        "病情诊断": 877,
+        "就医建议": 371,
+        "医疗费用": 177,
+        "指标解读": 137,
+        "后果表述": 235
+      }
+    },
+    "KUAKE-QIC_dev": {
+      "count": 1955,
+      "nonempty_labels": 1955,
+      "label_distribution": {
+        "治疗方案": 676,
+        "疾病表述": 158,
+        "其他": 395,
+        "指标解读": 32,
+        "病情诊断": 288,
+        "就医建议": 134,
+        "注意事项": 120,
+        "病因分析": 29,
+        "功效作用": 28,
+        "后果表述": 45,
+        "医疗费用": 50
+      }
+    }
+  },
+  "synthetic": {
+    "QingshanAI__ecom-customer-service-synthetic": {
+      "count": 992,
+      "unique_user_texts": 787,
+      "scene_count": 58
+    },
+    "QingshanAI__ecom-logistics-synthetic": {
+      "count": 987,
+      "unique_user_texts": 694,
+      "scene_count": 12
+    },
+    "QingshanAI__ecom-after-sale-synthetic": {
+      "count": 997,
+      "unique_user_texts": 862,
+      "scene_count": 14
+    }
+  },
+  "downloaded_file_sha256": {
+    "KUAKE-QIC_test.json": "4bf945146552efa5847f38959a3509bd4d4a2d960c904a81cfa550f958a95ddd",
+    "KUAKE-QIC_train.json": "090b296e71e6ca5144a193e2fc32b0297ab662cb689539ced1272198f19bc372",
+    "KUAKE-QIC_dev.json": "a572e0576afe8510bc9d6b25424f835e6d30e760109ac9fb48c8a77696aa2602",
+    "www2025-train.json": "a56f4447236a093adb21db6d82d8a6d23d0a67affcf7acd6f693eb8a7f3f3b40"
+  },
+  "synthetic_total_unique_user_texts": 2340
+}

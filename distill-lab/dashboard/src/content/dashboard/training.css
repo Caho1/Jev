@@ -1,0 +1,46 @@
+.training-page { padding-top:20px; padding-bottom:48px; }
+.training-visually-hidden { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+.training-live { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:24px; flex-wrap:wrap; }
+.training-live>div { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+.training-live strong { font-size:14px; }
+.training-dot { width:8px; height:8px; border-radius:50%; background:#228b65; }
+.training-dot.warning { background:#c68222; }
+.training-muted { color:var(--secondary); font-size:13px; line-height:1.7; }
+p.training-muted { margin:12px 0 0; }
+.training-metrics { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.training-metrics .dashboard-component { height:100%; }
+.training-progress { height:5px; background:var(--border); overflow:hidden; border-radius:5px; margin-top:14px; }
+.training-progress>div { height:100%; background:var(--chart-1); border-radius:5px; }
+.training-empty { padding:48px 20px; text-align:center; color:var(--secondary); font-size:14px; line-height:1.8; }
+.training-callout { color:var(--text); font-size:14px; line-height:1.8; margin:12px 0; }
+.training-limit { border-top:1px solid var(--border); padding-top:16px; margin-top:32px!important; }
+.training-facts { display:grid; grid-template-columns:1fr 1.6fr; font-size:14px; gap:18px 12px; margin:16px 0 0; }
+.training-facts dt { color:var(--secondary); }
+.training-facts dd { margin:0; overflow-wrap:anywhere; }
+.training-range { display:flex; gap:12px; align-items:baseline; margin-top:16px; flex-wrap:wrap; }
+.training-range strong { font-size:32px; font-weight:550; letter-spacing:-1px; }
+.training-range span { font-size:13px; color:var(--secondary); }
+.training-error { color:#b23c31; padding:20px; border:1px solid #b23c31; border-radius:12px; margin-bottom:20px; }
+.jev-progress-row { display:flex; align-items:baseline; flex-wrap:wrap; gap:12px 24px; margin:16px 0; }
+.jev-progress-row strong { font-size:30px; letter-spacing:-.7px; font-weight:550; font-variant-numeric:tabular-nums; }
+.jev-progress-row span { color:var(--secondary); font-size:14px; }
+.jev-case-search { width:260px; max-width:100%; height:36px; border:1px solid var(--border); border-radius:7px; background:var(--surface); color:var(--text); padding:0 10px; font:inherit; font-size:13px; }
+.jev-case-text { display:block; min-width:230px; max-width:350px; white-space:normal; line-height:1.65; }
+.jev-case-gold { display:block; width:140px; white-space:normal; overflow-wrap:anywhere; line-height:1.6; }
+.jev-case-answer { display:flex; flex-direction:column; gap:7px; min-width:130px; max-width:165px; white-space:normal; }
+.jev-case-label { overflow-wrap:anywhere; line-height:1.55; }
+.jev-case-verdict { display:flex; align-items:center; gap:10px; font-size:12px; white-space:nowrap; }
+.jev-case-verdict.correct { color:#258064; }
+.jev-case-verdict.incorrect { color:#b25844; }
+.jev-case-probability { color:var(--secondary); font-variant-numeric:tabular-nums; }
+.jev-case-message { margin:20px 0; padding:16px 20px; border-left:3px solid var(--chart-1); background:var(--background); font-size:18px; line-height:1.7; white-space:pre-wrap; overflow-wrap:anywhere; }
+.jev-case-expected { font-size:14px; line-height:1.7; overflow-wrap:anywhere; }
+.jev-case-models { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:20px; }
+.jev-case-model { min-width:0; padding:16px; border:1px solid var(--border); border-radius:10px; }
+.jev-case-model h3 { font-size:14px; font-weight:600; margin:0 0 18px; }
+.jev-case-model .jev-case-answer { max-width:100%; }
+.jev-case-top3 { padding-left:20px; margin-bottom:0; }
+.jev-case-top3 li { padding:7px 0; font-size:12px; line-height:1.6; overflow-wrap:anywhere; }
+.jev-case-top3 strong { display:block; color:var(--secondary); font-weight:500; font-variant-numeric:tabular-nums; }
+@media(max-width:760px) { .jev-case-models { grid-template-columns:1fr; } .jev-case-search { width:100%; } }
+@media(max-width:760px) { .training-metrics { grid-template-columns:1fr; } .training-live { align-items:flex-start; } .training-facts { grid-template-columns:1fr 1.3fr; } }

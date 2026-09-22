@@ -1,0 +1,5 @@
+# Add to the existing distill-lab training environment for the local browser diagnostic.
+browser-harness==0.1.13
+httpx[http2]==0.28.1
+playwright==1.63.0
+pytest==9.1.1

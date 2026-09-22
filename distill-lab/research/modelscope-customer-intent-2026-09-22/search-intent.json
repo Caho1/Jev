@@ -1,0 +1,768 @@
+{
+  "success": true,
+  "request_id": "11e42644-8153-47d2-8403-257fc130cd00",
+  "data": {
+    "datasets": [
+      {
+        "id": "smau0441/Intent_Recognition_and_Image_Classification_in_E-commerce_Scenarios",
+        "display_name": "电商场景意图识别和图像分类-Plus",
+        "description": "该数据集来自于 WWW2025 多模态对话系统意图识别挑战赛，网址：https://tianchi.aliyun.com/competition/entrance/532277/information 。本项目对原始数据集进行了扩充。",
+        "file_size": 7058963143,
+        "downloads": 329,
+        "likes": 11,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-06-20T05:26:18Z",
+        "last_modified": "2025-06-21T08:31:40Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "yangzailu/chinese-medical-intent-annotation-dataset",
+        "display_name": "中文医疗意图标注数据集（病症 / 病因 / 治疗 / 适用症 / 多问）",
+        "description": "本数据集为中文医疗咨询场景意图标注数据集，包含用户常见医疗咨询意图，涵盖适用症、病因、临床表现、治疗方法、多问、无法确定等类别，可用于医疗意图识别、文本分类、NLP 学习与研究。",
+        "file_size": 445880,
+        "downloads": 290,
+        "likes": 2,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-05-08T07:57:06Z",
+        "last_modified": "2026-05-08T07:57:22Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "yangzailu/chinese-medical-consult-intent-annotation-dataset",
+        "display_name": "中文医疗咨询意图标注数据集",
+        "description": "本数据集为中文医疗咨询场景文本分类数据集，包含用户真实医疗咨询问句，并标注对应的意图标签。涵盖：治疗方案、疾病表述、其他 等类别，可用于医疗领域 NLP、意图识别、文本分类模型训练与技术研究。数据集采用 Apache License 2.0 开源，仅用于学习研究，不提供医疗诊断与治疗建议。",
+        "file_size": 1191131,
+        "downloads": 116,
+        "likes": 4,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-05-08T07:58:12Z",
+        "last_modified": "2026-05-08T09:31:56Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "yangzailu/chinese-foreign-trade-intent-annotation-dataset",
+        "display_name": "中文外贸咨询意图标注数据集",
+        "description": "本数据集为中文外贸场景文本分类 / 意图识别数据集，包含外贸人员高频真实问句，覆盖出口流程、客户开发、贸易术语、付款方式、清关物流、合同单据、市场行情、物流运费、业务沟通、认证资质等意图类型。可用于外贸领域 NLP、意图识别、问答系统训练与技术研究。数据完全公开合规，仅用于技术研究，不构成外贸操作建议。",
+        "file_size": 5356,
+        "downloads": 43,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-05-08T08:00:24Z",
+        "last_modified": "2026-05-08T08:00:38Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/SuperbIC_SLURP-Intent",
+        "display_name": "SuperbIC_SLURP-Intent",
+        "description": "",
+        "file_size": 11191575,
+        "downloads": 576,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-05-23T05:07:52Z",
+        "last_modified": "2025-05-23T05:09:39Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "ppnpyj/intent_detection_Amap_SFT",
+        "display_name": "intent_detection_Amap_SFT",
+        "description": "",
+        "file_size": 136838,
+        "downloads": 32,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-07-22T07:10:19Z",
+        "last_modified": "2025-07-22T07:22:23Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/amazon_massive_intent",
+        "display_name": "amazon_massive_intent",
+        "description": "",
+        "file_size": 16957343,
+        "downloads": 3725,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2024-09-06T07:24:00Z",
+        "last_modified": "2026-02-25T13:33:05Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/mtop_intent",
+        "display_name": "mtop_intent",
+        "description": "",
+        "file_size": 20375651,
+        "downloads": 2626,
+        "likes": 0,
+        "license": "unknown",
+        "tasks": [],
+        "created_at": "2024-09-06T06:35:05Z",
+        "last_modified": "2025-07-20T00:30:04Z",
+        "tags": [
+          "license:unknown",
+          "custom_tag:mteb",
+          "custom_tag:text"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "modelscope_mp_260903038/ckcz-trading-intent-dataset",
+        "display_name": "购买意向分析数据集",
+        "description": "",
+        "file_size": 249544,
+        "downloads": 2,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-03-13T06:28:25Z",
+        "last_modified": "2026-03-13T06:38:55Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": true,
+        "login_required": true
+      },
+      {
+        "id": "Entertech/AI_Generated_Intent_dataset",
+        "display_name": "AI_Generated_Intent_dataset",
+        "description": "",
+        "file_size": 2295917687,
+        "downloads": 51,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-03-24T02:27:22Z",
+        "last_modified": "2025-03-24T10:28:10Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/IntentClassification_SLURP",
+        "display_name": "IntentClassification_SLURP",
+        "description": "",
+        "file_size": 10957260,
+        "downloads": 758,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-04-22T04:08:24Z",
+        "last_modified": "2025-04-22T04:10:10Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/IntentClassification_SLURP-Intent",
+        "display_name": "IntentClassification_SLURP-Intent",
+        "description": "",
+        "file_size": 11191587,
+        "downloads": 755,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-04-22T04:07:01Z",
+        "last_modified": "2025-04-22T04:10:05Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/IntentClassification_FluentSpeechCommands-Object",
+        "display_name": "IntentClassification_FluentSpeechCommands-Object",
+        "description": "",
+        "file_size": 12845059,
+        "downloads": 55,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-01-22T05:00:14Z",
+        "last_modified": "2025-01-22T12:35:44Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "allenai/intent-aware-lfqa-multiview",
+        "display_name": "intent-aware-lfqa-multiview",
+        "description": "",
+        "file_size": 296747711,
+        "downloads": 5,
+        "likes": 0,
+        "license": "odc-by",
+        "tasks": [],
+        "created_at": "2026-04-24T02:02:54Z",
+        "last_modified": "2026-04-24T02:03:12Z",
+        "tags": [
+          "license:odc-by"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "duwanqi/ssmodel-danmu-intent-from-v4",
+        "display_name": "ssmodel-danmu-intent-from-v4",
+        "description": "",
+        "file_size": 27599541,
+        "downloads": 273,
+        "likes": 0,
+        "license": "Apache-2.0",
+        "tasks": [],
+        "created_at": "2026-08-13T12:28:20Z",
+        "last_modified": "2026-08-17T08:36:25Z",
+        "tags": [
+          "license:Apache-2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "allenai/intent-aware-lfqa-intent-implicit",
+        "display_name": "intent-aware-lfqa-intent-implicit",
+        "description": "",
+        "file_size": 63408063,
+        "downloads": 5,
+        "likes": 0,
+        "license": "odc-by",
+        "tasks": [],
+        "created_at": "2026-04-24T02:03:31Z",
+        "last_modified": "2026-04-24T02:03:45Z",
+        "tags": [
+          "license:odc-by"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/InjongoIntent",
+        "display_name": "InjongoIntent",
+        "description": "",
+        "file_size": 1878020,
+        "downloads": 238,
+        "likes": 0,
+        "license": "cc-by-4.0",
+        "tasks": [],
+        "created_at": "2026-06-01T04:58:46Z",
+        "last_modified": "2026-06-01T04:59:35Z",
+        "tags": [
+          "license:cc-by-4.0",
+          "custom_tag:mteb",
+          "custom_tag:text"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "sevenchen777/IntentBench",
+        "display_name": "IntentBench",
+        "description": "",
+        "file_size": 8121333835,
+        "downloads": 56,
+        "likes": 1,
+        "license": "cc-by-nc-nd-4.0",
+        "tasks": [],
+        "created_at": "2026-02-07T01:22:08Z",
+        "last_modified": "2026-02-07T01:36:05Z",
+        "tags": [
+          "license:cc-by-nc-nd-4.0",
+          "custom_tag:video-understanding",
+          "custom_tag:human-intent",
+          "custom_tag:reasoning",
+          "custom_tag:multimodal",
+          "custom_tag:RL",
+          "custom_tag:audio-understanding",
+          "custom_tag:benchmark"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/llm-eval-massive_intent",
+        "display_name": "llm-eval-massive_intent",
+        "description": "",
+        "file_size": 1287356,
+        "downloads": 53,
+        "likes": 0,
+        "license": "other",
+        "tasks": [],
+        "created_at": "2026-06-01T07:49:09Z",
+        "last_modified": "2026-06-01T17:19:43Z",
+        "tags": [
+          "license:other"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/IntentClassification_SLURP_MINDS14-Intent",
+        "display_name": "IntentClassification_SLURP_MINDS14-Intent",
+        "description": "",
+        "file_size": 11190060,
+        "downloads": 1156,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-02-10T10:51:10Z",
+        "last_modified": "2025-02-10T10:51:27Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/IntentClassification_SLURP_MINDS14-Action",
+        "display_name": "IntentClassification_SLURP_MINDS14-Action",
+        "description": "",
+        "file_size": 12486650,
+        "downloads": 1156,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-02-10T10:50:47Z",
+        "last_modified": "2025-02-10T10:51:04Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/IntentClassification_SLURP_MINDS14",
+        "display_name": "IntentClassification_SLURP_MINDS14",
+        "description": "",
+        "file_size": 10955740,
+        "downloads": 1155,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-02-10T10:44:44Z",
+        "last_modified": "2025-02-10T10:45:03Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DynamicSuperb/IntentClassification_SLURP-Action",
+        "display_name": "IntentClassification_SLURP-Action",
+        "description": "",
+        "file_size": 12488177,
+        "downloads": 753,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-04-22T03:07:53Z",
+        "last_modified": "2025-04-22T03:10:16Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "AlexWortega/whitebox-intent-activations-v1",
+        "display_name": "whitebox-intent-activations-v1",
+        "description": "",
+        "file_size": 684516231225,
+        "downloads": 321,
+        "likes": 0,
+        "license": "other",
+        "tasks": [],
+        "created_at": "2026-08-02T21:11:50Z",
+        "last_modified": "2026-08-08T15:48:41Z",
+        "tags": [
+          "license:other"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/MassiveIntentClassification",
+        "display_name": "MassiveIntentClassification",
+        "description": "",
+        "file_size": 24603695,
+        "downloads": 316,
+        "likes": 0,
+        "license": "other",
+        "tasks": [],
+        "created_at": "2026-06-01T07:33:05Z",
+        "last_modified": "2026-06-01T07:34:22Z",
+        "tags": [
+          "license:other"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/massive_intent",
+        "display_name": "massive_intent",
+        "description": "",
+        "file_size": 7728907,
+        "downloads": 261,
+        "likes": 0,
+        "license": "other",
+        "tasks": [],
+        "created_at": "2026-06-01T13:28:01Z",
+        "last_modified": "2026-06-01T13:28:45Z",
+        "tags": [
+          "license:other"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/MTOPIntentClassification",
+        "display_name": "MTOPIntentClassification",
+        "description": "",
+        "file_size": 3339322,
+        "downloads": 119,
+        "likes": 0,
+        "license": "unknown",
+        "tasks": [],
+        "created_at": "2026-06-01T06:06:49Z",
+        "last_modified": "2026-06-01T06:10:32Z",
+        "tags": [
+          "license:unknown",
+          "custom_tag:mteb",
+          "custom_tag:text"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/RuNLUIntentClassification",
+        "display_name": "RuNLUIntentClassification",
+        "description": "",
+        "file_size": 750754,
+        "downloads": 41,
+        "likes": 0,
+        "license": "cc-by-4.0",
+        "tasks": [],
+        "created_at": "2026-06-01T07:45:50Z",
+        "last_modified": "2026-06-01T13:47:33Z",
+        "tags": [
+          "license:cc-by-4.0",
+          "custom_tag:mteb",
+          "custom_tag:text"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "MTEB/ru_nlu_intent",
+        "display_name": "ru_nlu_intent",
+        "description": "",
+        "file_size": 681326,
+        "downloads": 15,
+        "likes": 0,
+        "license": "other",
+        "tasks": [],
+        "created_at": "2026-06-01T06:34:26Z",
+        "last_modified": "2026-06-01T06:34:38Z",
+        "tags": [
+          "license:other"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "allenai/intent-aware-lfqa-baseline",
+        "display_name": "intent-aware-lfqa-baseline",
+        "description": "",
+        "file_size": 63138298,
+        "downloads": 5,
+        "likes": 0,
+        "license": "odc-by",
+        "tasks": [],
+        "created_at": "2026-04-24T02:03:13Z",
+        "last_modified": "2026-04-24T02:03:25Z",
+        "tags": [
+          "license:odc-by"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "allenai/intent-aware-lfqa-intent-explicit",
+        "display_name": "intent-aware-lfqa-intent-explicit",
+        "description": "",
+        "file_size": 76535947,
+        "downloads": 5,
+        "likes": 0,
+        "license": "odc-by",
+        "tasks": [],
+        "created_at": "2026-04-24T02:02:53Z",
+        "last_modified": "2026-04-24T02:03:07Z",
+        "tags": [
+          "license:odc-by"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "AriaDeLuca/Act2Intention",
+        "display_name": "Act2Intention",
+        "description": "",
+        "file_size": 282762014,
+        "downloads": 4,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-09-15T02:02:35Z",
+        "last_modified": "2025-09-15T02:40:08Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": true
+      },
+      {
+        "id": "todaywarm/intention",
+        "display_name": "intention",
+        "description": "",
+        "file_size": 30483,
+        "downloads": 0,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-06-05T04:14:23Z",
+        "last_modified": "2026-06-05T04:15:02Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "ibm-research/vira-intents-live",
+        "display_name": "vira-intents-live",
+        "description": "",
+        "file_size": 458527,
+        "downloads": 105,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-10-02T07:46:45Z",
+        "last_modified": "2025-10-02T07:51:22Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "ibm-research/vira-intents",
+        "display_name": "vira-intents",
+        "description": "",
+        "file_size": 262515,
+        "downloads": 95,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-10-02T21:01:33Z",
+        "last_modified": "2025-10-02T23:59:27Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DAMO_NLP/LCQMC",
+        "display_name": "大规模问题匹配数据集",
+        "description": "Question matching is a fundamental task of QA, which is usually recognized as a semantic matching task, sometimes a paraphrase identification task. The goal of the task is to search questions that have similar intent as the input question from an existing database. We introduce a large-scale Chinese question matching corpus (named LCQMC). LCQMC is more general than paraphrase corpus as it focuses on intent matching rather than paraphrase. The corpus contains 260,068 question pairs with manual annotation and we split it into three parts, i.e., a training set containing 238,766 question pairs, a development set with 8,802 question pairs, and a test set with 12,500 question pairs. We test several well-known sentence matching methods on it. The experimental results not only demonstrate the good quality of LCQMC, but also provide solid baseline performance for further researches on this corpus.",
+        "file_size": 18691347,
+        "downloads": 3171,
+        "likes": 6,
+        "license": "Apache License 2.0",
+        "tasks": [
+          "sentence-similarity"
+        ],
+        "created_at": "2022-09-28T07:33:11Z",
+        "last_modified": "2022-09-28T07:37:47Z",
+        "tags": [
+          "license:Apache License 2.0",
+          "task:sentence-similarity"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "OmniData/Fluent_Speech_Commands",
+        "display_name": "Fluent_Speech_Commands",
+        "description": "",
+        "file_size": 3117312661,
+        "downloads": 3358,
+        "likes": 0,
+        "license": "[CC BY-NC 4.0]",
+        "tasks": [],
+        "created_at": "2024-07-10T08:23:01Z",
+        "last_modified": "2024-07-10T08:37:25Z",
+        "tags": [
+          "license:[CC BY-NC 4.0]",
+          "custom_tag:Voice"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "carina790/OralGovQA",
+        "display_name": "OralGovQA",
+        "description": "OralGovQA 包含 8,246 条中文政务咨询问题，每条同时提供口语化表达和对应的正式书面表达，标注五类政务咨询意图（申请条件、办理流程、所需材料、政策依据、办理时限）。问题来源于各级政府门户网站、政务服务网的公开问答与办事指南。口语化表达参照市民实际留言板中的日常咨询方式，涵盖直接询问、催促进度、代人咨询、不了解政策背景等常见对话情境。数据采集时间跨度为 2020-2026 年，覆盖全国各省市政府公开信息与政务服务事项。",
+        "file_size": 2680190,
+        "downloads": 57,
+        "likes": 0,
+        "license": "cc-by-nc-sa-4.0",
+        "tasks": [
+          "question-answering"
+        ],
+        "created_at": "2026-05-28T07:59:38Z",
+        "last_modified": "2026-05-28T09:16:52Z",
+        "tags": [
+          "license:cc-by-nc-sa-4.0",
+          "task:question-answering",
+          "custom_tag:government",
+          "custom_tag:citizen-service",
+          "custom_tag:query-rewriting",
+          "custom_tag:colloquial",
+          "custom_tag:intent-classification"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "FBK-MT/Speech-MASSIVE-test",
+        "display_name": "Speech-MASSIVE-test",
+        "description": "",
+        "file_size": 23855598058,
+        "downloads": 529,
+        "likes": 0,
+        "license": "[cc-by-nc-sa-4.0]",
+        "tasks": [],
+        "created_at": "2025-09-26T04:00:16Z",
+        "last_modified": "2025-09-26T18:51:53Z",
+        "tags": [
+          "license:[cc-by-nc-sa-4.0]",
+          "custom_tag:spoken language understanding",
+          "custom_tag:speech translation",
+          "custom_tag:slot filling",
+          "custom_tag:speaker identification",
+          "custom_tag:intent classification"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "FBK-MT/Speech-MASSIVE",
+        "display_name": "Speech-MASSIVE",
+        "description": "",
+        "file_size": 32498292795,
+        "downloads": 183,
+        "likes": 0,
+        "license": "[cc-by-nc-sa-4.0]",
+        "tasks": [],
+        "created_at": "2025-09-26T03:38:02Z",
+        "last_modified": "2025-10-07T17:29:59Z",
+        "tags": [
+          "license:[cc-by-nc-sa-4.0]",
+          "custom_tag:spoken language understanding",
+          "custom_tag:speech translation",
+          "custom_tag:slot filling",
+          "custom_tag:speaker identification",
+          "custom_tag:intent classification"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      }
+    ],
+    "total_count": 42,
+    "page_number": 1,
+    "page_size": 40
+  }
+}

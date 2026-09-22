@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "files_sha256_verified": 11,
+  "steps": 78,
+  "candidate_count_per_model": 24787,
+  "full_candidate_ids_and_gold_match_frozen_development": true,
+  "metrics_recomputed_from_all_scores": true,
+  "pilot_max_score_difference": {
+    "baseline": 0.0,
+    "tuned": 0.0
+  },
+  "rank_changes": {
+    "improved_rank": 36,
+    "same_rank": 0,
+    "worse_rank": 42
+  },
+  "by_website": [
+    {
+      "website": "amtrak",
+      "steps": 19,
+      "baseline": {
+        "hits_at_1": 0,
+        "hits_at_8": 0,
+        "hits_at_24": 0,
+        "hits_at_64": 2
+      },
+      "tuned": {
+        "hits_at_1": 1,
+        "hits_at_8": 1,
+        "hits_at_24": 2,
+        "hits_at_64": 8
+      }
+    },
+    {
+      "website": "eventbrite",
+      "steps": 14,
+      "baseline": {
+        "hits_at_1": 1,
+        "hits_at_8": 1,
+        "hits_at_24": 3,
+        "hits_at_64": 7
+      },
+      "tuned": {
+        "hits_at_1": 0,
+        "hits_at_8": 0,
+        "hits_at_24": 1,
+        "hits_at_64": 5
+      }
+    },
+    {
+      "website": "ign",
+      "steps": 8,
+      "baseline": {
+        "hits_at_1": 0,
+        "hits_at_8": 0,
+        "hits_at_24": 0,
+        "hits_at_64": 1
+      },
+      "tuned": {
+        "hits_at_1": 0,
+        "hits_at_8": 1,
+        "hits_at_24": 1,
+        "hits_at_64": 2
+      }
+    },
+    {
+      "website": "tesla",
+      "steps": 37,
+      "baseline": {
+        "hits_at_1": 0,
+        "hits_at_8": 4,
+        "hits_at_24": 10,
+        "hits_at_64": 18
+      },
+      "tuned": {
+        "hits_at_1": 0,
+        "hits_at_8": 1,
+        "hits_at_24": 5,
+        "hits_at_64": 17
+      }
+    }
+  ],
+  "calibration_and_holdout_files_opened": false
+}

@@ -1,0 +1,15 @@
+{
+  "dashboard_url": "http://127.0.0.1:4173/?view=1&tab=customer-zh",
+  "build_passed": true,
+  "normal_viewport_visual_check": true,
+  "narrow_viewport_width": 430,
+  "narrow_viewport_visual_check": true,
+  "viewport_restored": true,
+  "search_plate_number_results": 2,
+  "wrong_only_results": 82,
+  "all_cases_restored": 103,
+  "full_input_dialog_checked": true,
+  "source_panel_checked": true,
+  "three_model_columns_present": true,
+  "browser_errors_observed": 0
+}

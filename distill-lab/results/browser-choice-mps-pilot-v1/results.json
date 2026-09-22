@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "training_seconds": 708.5353967499977,
+  "optimizer_steps": 32,
+  "baseline": {
+    "records": 78,
+    "attempted": 78,
+    "valid": 78,
+    "labeled_records": 78,
+    "questions": {
+      "operation": {
+        "records": 78,
+        "correct": 38,
+        "valid": 78,
+        "accuracy": 0.48717948717948717
+      },
+      "item": {
+        "records": 78,
+        "correct": 18,
+        "valid": 78,
+        "accuracy": 0.23076923076923078
+      }
+    },
+    "joint_accuracy": 0.11538461538461539,
+    "grounded_joint_accuracy": 0.01282051282051282,
+    "candidate_recall": 0.5128205128205128,
+    "median_request_ms": 1375.8333750010934,
+    "metric_scope": "offline next-step decisions; not closed-loop task success"
+  },
+  "tuned": {
+    "records": 78,
+    "attempted": 78,
+    "valid": 78,
+    "labeled_records": 78,
+    "questions": {
+      "operation": {
+        "records": 78,
+        "correct": 36,
+        "valid": 78,
+        "accuracy": 0.46153846153846156
+      },
+      "item": {
+        "records": 78,
+        "correct": 19,
+        "valid": 78,
+        "accuracy": 0.24358974358974358
+      }
+    },
+    "joint_accuracy": 0.1282051282051282,
+    "grounded_joint_accuracy": 0.0,
+    "candidate_recall": 0.5128205128205128,
+    "median_request_ms": 1374.9641250178684,
+    "metric_scope": "offline next-step decisions; not closed-loop task success"
+  },
+  "paired_inputs_identical": true,
+  "closed_loop_success_measured": false,
+  "holdout_used": false,
+  "note": "single small pilot; development results are not final test accuracy"
+}

@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-09-21T16:40:39.415664+00:00",
+  "model": "jev-1.13.0",
+  "rows": 502,
+  "purpose": "evaluation only; never training or checkpoint selection",
+  "instruction": "Choose the banking customer service intent that best matches the customer message.",
+  "criteria": {
+    "abroad": "Using a bank card abroad or preparing to use it in another country.",
+    "address": "Updating the postal or residential address registered with the bank.",
+    "app_error": "A technical error or malfunction in the banking mobile application.",
+    "atm_limit": "The limit on cash withdrawals from an ATM, or changing that limit.",
+    "balance": "Checking the current balance or available money in a bank account.",
+    "business_loan": "Applying for or asking about a loan for a business.",
+    "card_issues": "A bank card is not working, is declined, or has another usage problem.",
+    "cash_deposit": "Depositing physical cash into a bank account.",
+    "direct_debit": "Setting up, managing, or cancelling a direct debit payment.",
+    "freeze": "Freezing or blocking a bank card or account, for example after loss or theft.",
+    "high_value_payment": "Making a large payment or transfer and its amount limits.",
+    "joint_account": "Opening or managing a bank account shared with another person.",
+    "latest_transactions": "Viewing recent transactions or account transaction history.",
+    "pay_bill": "Paying a bill through a bank account or banking service."
+  },
+  "dataset_sha256": "466cfeeaba000511e4bb3c59055d9a6dfcda760d1a1f4ff99ce887c5229c858f",
+  "source_revision": "40ce77cb32a384e4d50a568e1ec39ac804019d33",
+  "gold_in_request": false,
+  "language": "zh-CN source transcription",
+  "rate_per_second": 4,
+  "workers": 4,
+  "code_sha256": "ea00b0d427e0793eabe49d45802af274c621cabb9c97f777331a650b593a5214"
+}

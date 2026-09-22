@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "records": 103,
+    "correct": 4,
+    "accuracy": 0.038834951456310676,
+    "macro_f1": 0.005426855426855427,
+    "unique_predictions": 2,
+    "all_fixed_ids_match": true
+  },
+  "tuned": {
+    "records": 103,
+    "correct": 21,
+    "accuracy": 0.20388349514563106,
+    "macro_f1": 0.17301487309006106,
+    "unique_predictions": 14,
+    "all_fixed_ids_match": true
+  },
+  "multilingual": {
+    "records": 103,
+    "correct": 13,
+    "accuracy": 0.1262135922330097,
+    "macro_f1": 0.11292723149866006,
+    "unique_predictions": 19,
+    "all_fixed_ids_match": true
+  }
+}

@@ -1,0 +1,156 @@
+{"prepared_trajectories": 10, "of": 109}
+{"prepared_trajectories": 20, "of": 109}
+{"prepared_trajectories": 30, "of": 109}
+{"prepared_trajectories": 40, "of": 109}
+{"prepared_trajectories": 50, "of": 109}
+{"prepared_trajectories": 60, "of": 109}
+{"prepared_trajectories": 70, "of": 109}
+{"prepared_trajectories": 80, "of": 109}
+{"prepared_trajectories": 90, "of": 109}
+{"prepared_trajectories": 100, "of": 109}
+{
+  "status": "prepared",
+  "splits": {
+    "train": {
+      "records": 519,
+      "trajectories": 72,
+      "websites": [
+        "agoda",
+        "booking",
+        "budget",
+        "carmax",
+        "delta",
+        "enterprise",
+        "espn",
+        "exploretock",
+        "gamestop",
+        "imdb",
+        "instacart",
+        "jetblue",
+        "kayak",
+        "kohls",
+        "newegg",
+        "redbox",
+        "rottentomatoes",
+        "sixflags",
+        "soundcloud",
+        "sports.yahoo",
+        "ticketcenter",
+        "travelzoo",
+        "tvguide",
+        "ultimate-guitar",
+        "uniqlo",
+        "united",
+        "us.megabus",
+        "viator"
+      ],
+      "operations": {
+        "SELECT": 14,
+        "CLICK": 438,
+        "TYPE": 67
+      },
+      "candidate_recalled": 118,
+      "candidate_recall": 0.22736030828516376,
+      "defer_labels": 401,
+      "tokens": {
+        "min": 1758,
+        "median": 2632,
+        "max": 3661
+      },
+      "length_buckets": {
+        "0_512": 0,
+        "513_2048": 13,
+        "2049_4096": 506,
+        "4097_8192": 0
+      }
+    },
+    "development": {
+      "records": 78,
+      "trajectories": 13,
+      "websites": [
+        "amtrak",
+        "eventbrite",
+        "ign",
+        "tesla"
+      ],
+      "operations": {
+        "CLICK": 55,
+        "TYPE": 20,
+        "SELECT": 3
+      },
+      "candidate_recalled": 18,
+      "candidate_recall": 0.23076923076923078,
+      "defer_labels": 60,
+      "tokens": {
+        "min": 1557,
+        "median": 2473,
+        "max": 2984
+      },
+      "length_buckets": {
+        "0_512": 0,
+        "513_2048": 8,
+        "2049_4096": 70,
+        "4097_8192": 0
+      }
+    },
+    "calibration": {
+      "records": 105,
+      "trajectories": 13,
+      "websites": [
+        "airbnb",
+        "nyc",
+        "parking",
+        "underarmour"
+      ],
+      "operations": {
+        "CLICK": 88,
+        "TYPE": 16,
+        "SELECT": 1
+      },
+      "candidate_recalled": 24,
+      "candidate_recall": 0.22857142857142856,
+      "defer_labels": 81,
+      "tokens": {
+        "min": 2019,
+        "median": 2610,
+        "max": 3042
+      },
+      "length_buckets": {
+        "0_512": 0,
+        "513_2048": 2,
+        "2049_4096": 103,
+        "4097_8192": 0
+      }
+    },
+    "pilot_holdout": {
+      "records": 68,
+      "trajectories": 10,
+      "websites": [
+        "amazon",
+        "new.mta.info",
+        "rei",
+        "seatgeek"
+      ],
+      "operations": {
+        "CLICK": 56,
+        "TYPE": 6,
+        "SELECT": 6
+      },
+      "candidate_recalled": 15,
+      "candidate_recall": 0.22058823529411764,
+      "defer_labels": 53,
+      "tokens": {
+        "min": 2007,
+        "median": 2510,
+        "max": 3362
+      },
+      "length_buckets": {
+        "0_512": 0,
+        "513_2048": 2,
+        "2049_4096": 66,
+        "4097_8192": 0
+      }
+    }
+  },
+  "excluded": 53
+}

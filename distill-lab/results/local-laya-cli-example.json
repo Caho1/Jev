@@ -1,0 +1,26 @@
+{
+  "device": "mps",
+  "variant": "tuned",
+  "text": "我已经转账了，但收款人还没收到。",
+  "choice": "transfer_not_received_by_recipient",
+  "top3": [
+    {
+      "label": "transfer_not_received_by_recipient",
+      "probability": 0.701475082668249
+    },
+    {
+      "label": "direct_debit_payment_not_recognised",
+      "probability": 0.18566347324306715
+    },
+    {
+      "label": "Refund_not_showing_up",
+      "probability": 0.03694863580905488
+    }
+  ],
+  "temperature": 1.1343233648166147,
+  "load_seconds": 15.697081083984813,
+  "forward_seconds": 0.2503483749751467,
+  "lengths": [
+    595
+  ]
+}

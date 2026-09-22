@@ -1,0 +1,78 @@
+{
+  "kind": "offline synthetic control-flow comparison",
+  "warning": "Counts only. Not a live task speed benchmark or comparison with competitors. Host-supplied dependencies are unsupported by the old version.",
+  "results": [
+    {
+      "case": "renumbered_no_effect",
+      "version": "before",
+      "status": "step_budget",
+      "observations": 13,
+      "mutations": 6,
+      "decisions": 6,
+      "payload_bytes": 1319
+    },
+    {
+      "case": "renumbered_no_effect",
+      "version": "after",
+      "status": "repeated_action",
+      "observations": 3,
+      "mutations": 1,
+      "decisions": 1,
+      "payload_bytes": 162
+    },
+    {
+      "case": "no_eligible_actions",
+      "version": "before",
+      "status": "blocked",
+      "observations": 1,
+      "mutations": 0,
+      "decisions": 1,
+      "payload_bytes": 97
+    },
+    {
+      "case": "no_eligible_actions",
+      "version": "after",
+      "status": "no_candidates",
+      "observations": 1,
+      "mutations": 0,
+      "decisions": 0,
+      "payload_bytes": 0
+    },
+    {
+      "case": "candidate_payload",
+      "version": "before",
+      "status": "blocked",
+      "observations": 1,
+      "mutations": 0,
+      "decisions": 1,
+      "payload_bytes": 162
+    },
+    {
+      "case": "candidate_payload",
+      "version": "after",
+      "status": "blocked",
+      "observations": 1,
+      "mutations": 0,
+      "decisions": 1,
+      "payload_bytes": 162
+    },
+    {
+      "case": "verified_dependency_chain",
+      "version": "before",
+      "status": "verified",
+      "observations": 5,
+      "mutations": 2,
+      "decisions": 2,
+      "payload_bytes": 492
+    },
+    {
+      "case": "verified_dependency_chain",
+      "version": "after",
+      "status": "verified",
+      "observations": 3,
+      "mutations": 2,
+      "decisions": 0,
+      "payload_bytes": 0
+    }
+  ]
+}

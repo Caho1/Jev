@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_customer_intent_zh.py", line 285, in <module>
+    run(args, event)
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_customer_intent_zh.py", line 145, in run
+    raise ValueError("编码长度或候选数与准备阶段不一致")
+ValueError: 编码长度或候选数与准备阶段不一致

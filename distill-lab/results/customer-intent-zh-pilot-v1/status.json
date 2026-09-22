@@ -1,0 +1,7 @@
+{
+  "phase": "failed",
+  "time": "2026-09-22T11:01:29+0800",
+  "pid": 92478,
+  "error_type": "ValueError",
+  "error": "编码长度或候选数与准备阶段不一致"
+}

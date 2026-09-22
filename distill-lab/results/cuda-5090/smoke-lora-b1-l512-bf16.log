@@ -1,0 +1,20 @@
+加载缓存 Laya：lora, batch=1, length=512
+加载完成：总参数 425,680,643，可训练参数 30,635,009
+预热 1: 0.792 秒，loss=0.0459
+预热 2: 0.072 秒，loss=0.0322
+计时 3: 0.079 秒，loss=0.0167
+计时 4: 0.079 秒，loss=0.0069
+计时 5: 0.080 秒，loss=0.0034
+{
+  "mean_step_seconds": 0.07954018438855807,
+  "median_step_seconds": 0.07925495132803917,
+  "min_step_seconds": 0.07915542647242546,
+  "max_step_seconds": 0.08021017536520958,
+  "std_step_seconds": 0.00058235919398346,
+  "examples_per_second": 12.572261526512765,
+  "tokens_per_second": 6436.997901574536,
+  "mean_forward_seconds": 0.02848049874107043,
+  "mean_backward_seconds": 0.04053329055507978,
+  "mean_optimizer_seconds": 0.010526395092407862
+}
+结果已保存：/root/autodl-tmp/laya-context-bench-20260921/results/cuda-5090/smoke-lora-b1-l512-bf16.json

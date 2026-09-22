@@ -1,0 +1,10 @@
+{
+  "pid": 81576,
+  "command": [
+    "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/bin/python",
+    "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_computer_grounding.py"
+  ],
+  "log": "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/computer-use-grounding-lora-v1.log",
+  "output": "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/results/computer-use-grounding-lora-v1",
+  "started_at": "2026-09-22T01:15:18+0800"
+}

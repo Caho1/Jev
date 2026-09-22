@@ -1,0 +1,47 @@
+Existing accuracy reused: jev
+jev short parallel_api C 4 round 1 11.6 req/s
+jev short parallel_api C 8 round 0 20.5 req/s
+jev short parallel_api C 8 round 1 20.8 req/s
+jev short parallel_api C 16 round 0 41.1 req/s
+jev short parallel_api C 16 round 1 39.1 req/s
+jev mixed parallel_api C 1 round 0 2.9 req/s
+jev mixed parallel_api C 1 round 1 3.1 req/s
+jev mixed parallel_api C 4 round 0 11.2 req/s
+jev mixed parallel_api C 4 round 1 11.6 req/s
+jev mixed parallel_api C 8 round 0 20.2 req/s
+jev mixed parallel_api C 8 round 1 22.1 req/s
+Traceback (most recent call last):
+  File "/Users/bystanders/Desktop/pythonproject/Jev/decision-lab/run.py", line 217, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/decision-lab/run.py", line 210, in main
+    if a.load:run_load(r,tasks,out,resume=a.resume_load)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/decision-lab/run.py", line 151, in run_load
+    list(pool.map(lambda _:warm(),range(concurrency)))
+  File "/Users/bystanders/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/bystanders/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/decision-lab/run.py", line 151, in <lambda>
+    list(pool.map(lambda _:warm(),range(concurrency)))
+                           ^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/decision-lab/run.py", line 150, in warm
+    def warm():barrier.wait(timeout=30);return runner.call(jobs[0])
+                                               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/decision-lab/run.py", line 81, in call
+    data,metrics=self.local.client.evaluate(t['state'],t['questions'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/snake/jev_client.py", line 69, in evaluate
+    raise Halt("Jev transport failed: " + type(e).__name__) from None
+jev_client.Halt: Jev transport failed: SSLEOFError

@@ -1,0 +1,5 @@
+{
+  "temperature": 1.1343233648166147,
+  "source": "calibration split",
+  "confidence_definition": "maximum class softmax probability after temperature scaling; not a correctness guarantee"
+}

@@ -1,0 +1,56 @@
+{
+  "model": "laya_computer",
+  "input_sha256": "45e090ae2a887a895c0a57dc949a3a896d1cb5928e66de596b024dd7af5b7db4",
+  "requests": [
+    {
+      "id": "mind2web:b910229f-6133-452c-a640-6a6ec67b668b:2a1a10d0-4641-4d0a-85fd-024a5dbfef2b",
+      "sha256": "1a415d1064cb243cb2e4ca4b94459ae0cce3c11af98d0dccf3e411ac28ce3dcc"
+    },
+    {
+      "id": "mind2web:b910229f-6133-452c-a640-6a6ec67b668b:96b8805f-69fa-420b-823e-29ff28e471f8",
+      "sha256": "c6a050d0e10a379af1cfe7b2e706adf81ff78b51c71fb345ae1261c6e56f5fc0"
+    },
+    {
+      "id": "mind2web:2a45ede7-6449-40b2-b032-149ddbe205a9:aed97d15-86ae-44d5-b329-3b10758f50bb",
+      "sha256": "cb38b839fa2566d89cc79b6065d8a32edeae97f5c6d46611b810579a74882feb"
+    },
+    {
+      "id": "mind2web:2a45ede7-6449-40b2-b032-149ddbe205a9:342bae0c-0a5a-4040-8b4e-238906800a1f",
+      "sha256": "dd1989436ee0a54724a964e93c763470aa614e6e515b83f7af1f0d9889501aea"
+    },
+    {
+      "id": "mind2web:3be7acd4-c8c4-4e0d-b2b6-f82a4e17de8c:ab7e03f5-52b6-4226-aa07-97b50ddf55cf",
+      "sha256": "5ca1590dc44a00463d6fe57ab338506be098527ad19b799f3a3396db96bda2a2"
+    },
+    {
+      "id": "mind2web:3be7acd4-c8c4-4e0d-b2b6-f82a4e17de8c:62ad40a1-3e77-4bb7-bced-d863ee082eb0",
+      "sha256": "6680ff55a65b0155b66c7ebcf37bc6d1726732861cd9978ec5bd77730813f2b7"
+    },
+    {
+      "id": "mind2web:851ed4e6-51ee-47ad-a861-a28bdc61a102:c3012402-7d2b-49f8-8a3f-4a6ff36ca6a4",
+      "sha256": "5a8d976b4d9086302cba3f5e458e495a731b1d833249dfa646250ab221bb1932"
+    },
+    {
+      "id": "mind2web:851ed4e6-51ee-47ad-a861-a28bdc61a102:d47cbb1c-7d70-445f-a145-f4af8c2e35f9",
+      "sha256": "add4b4ef1d67cd671389fe9c10856670bd58a68379d239016d10e3c976026bfa"
+    }
+  ],
+  "optimizer_updates": 0,
+  "ui_actions": 0,
+  "retries": 0,
+  "purpose": "evaluation",
+  "code_sha256": {
+    "evaluate_computer_replay.py": "95caf1700c5cd091e220b9fba59bfbd150e26ea40ee9ff563c5c2a19ca4ff093",
+    "computer_replay.py": "2eff948697b90276c47fb3583e22c7f5eb203354a51a9cadd101a4c22092dd4d"
+  },
+  "backend": {
+    "variant": "laya_computer",
+    "checkpoint_sha256": "28ae4cb32eda10bc70ceea8cacede0c89192bf5943a91d3885475f206490ff35",
+    "base_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+    "device": "mps",
+    "dtype": "float32",
+    "temperature": 1.0,
+    "calibrated": false,
+    "execution": "one forward per question; no shared-state KV cache"
+  }
+}

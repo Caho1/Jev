@@ -1,0 +1,192 @@
+{
+  "_id": "69dba2385198e117f61b959c",
+  "id": "webagentlab/webchain-legacy",
+  "author": "webagentlab",
+  "sha": "bd5699076abec17010963ca6a7c66ea7c5fa01ff",
+  "lastModified": "2026-08-28T12:38:25.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:cc-by-4.0",
+    "size_categories:100K<n<1M",
+    "format:parquet",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2603.05295",
+    "region:us",
+    "web-agent",
+    "gui-agent",
+    "multimodal",
+    "trajectory",
+    "grounding",
+    "planning",
+    "accessibility-tree",
+    "screenshot",
+    "reinforcement-learning"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tWebChain\n\t\n\nWebChain is a large-scale, human-annotated dataset of real-world web interaction trajectories for training and evaluating GUI agents and web agents. WebChain contains 31,725 trajectories, 317,993 steps, and 428 unique domains. Its core contribution is a Triple Alignment of visual context, structural context, and action grounding, enabling supervision for both spatial grounding and long-horizon planning. \nPaper: https://arxiv.org/abs/2603.05295\n\n\t\n\t\t\n\t\n\t\n\t\tOpen access… See the full description on the dataset page: https://huggingface.co/datasets/webagentlab/webchain-legacy.",
+  "downloads": 1092,
+  "likes": 9,
+  "cardData": {
+    "pretty_name": "WebChain",
+    "license": "cc-by-4.0",
+    "license_link": "LICENSE",
+    "size_categories": [
+      "10K<n<100K"
+    ],
+    "tags": [
+      "web-agent",
+      "gui-agent",
+      "multimodal",
+      "trajectory",
+      "grounding",
+      "planning",
+      "accessibility-tree",
+      "screenshot",
+      "reinforcement-learning"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "processed/high_parquet/high_test.parquet"
+    },
+    {
+      "rfilename": "processed/high_parquet/webchain_high_part.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_test.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_00.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_01.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_02.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_03.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_04.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_05.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_06.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_07.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_08.parquet"
+    },
+    {
+      "rfilename": "processed/low_parquet/low_train_part_09.parquet"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z01"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z02"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z03"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z04"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z05"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z06"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z07"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z08"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z09"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z10"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z11"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z12"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z13"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z14"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z15"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z16"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z17"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z18"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.z19"
+    },
+    {
+      "rfilename": "raw/full_screenshots/all_fullscreenshot.zip"
+    },
+    {
+      "rfilename": "raw/img/all_img.z01"
+    },
+    {
+      "rfilename": "raw/img/all_img.z02"
+    },
+    {
+      "rfilename": "raw/img/all_img.z03"
+    },
+    {
+      "rfilename": "raw/img/all_img.z04"
+    },
+    {
+      "rfilename": "raw/img/all_img.z05"
+    },
+    {
+      "rfilename": "raw/img/all_img.z06"
+    },
+    {
+      "rfilename": "raw/img/all_img.z07"
+    },
+    {
+      "rfilename": "raw/img/all_img.zip"
+    },
+    {
+      "rfilename": "raw/json/all_json_files.zip"
+    }
+  ],
+  "createdAt": "2026-04-12T13:46:32.000Z",
+  "usedStorage": 837032987556
+}

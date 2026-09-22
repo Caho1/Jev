@@ -1,0 +1,24 @@
+{
+  "precision": "bf16",
+  "seq_len": 8192,
+  "mode": "lora",
+  "rank": 16,
+  "batch_size": 8,
+  "eval_batch": 16,
+  "accumulation": 4,
+  "epochs": 3,
+  "lr": 0.0001,
+  "head_lr": 5e-05,
+  "seed": 42,
+  "gradient_checkpointing": true,
+  "checkpoint_head": true,
+  "source_revision": "42626c348753fbb17572a813127df2278a1ec527",
+  "code_sha256": {
+    "train_banking77.py": "03257c7f300a5b8b41a10b30a3f83a1428b684144a3377f75b21342c213bf318",
+    "banking77_data.py": "6580402505e4c1e6cfd062aef5012b67e680966f1a4fc81e824f17afb9671918",
+    "benchmark_training.py": "e2382721bd8508e9928975d4b54bd342ef97dce7b5f9f6f58a94939d46144cac"
+  },
+  "selected_epoch": 3,
+  "development_nll": 0.583108115106658,
+  "saved_parameters": 30635009
+}

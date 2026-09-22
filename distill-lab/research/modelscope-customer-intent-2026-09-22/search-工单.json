@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "request_id": "97eb0f19-c047-4de4-afbe-283cc3bdd4e4",
+  "data": {
+    "datasets": [
+      {
+        "id": "walle1991/veripatrol-retail-telemetry-432k",
+        "display_name": "店巡 · 300店冷链高维时序仿真与资产基准数据集",
+        "description": "世界人工智能开源大赛 (GOAI 2026) 决赛参赛作品「店巡 (VeriPatrol)」配套物理仿真数据集：包含全国 300 家门店、1,500 台智能冷链设备、43.2 万条高维分钟级传感器时序数据 (24 维物理与异常特征)、5,100 批次资产台账与 156 起真实故障工单。",
+        "file_size": 37951756,
+        "downloads": 11,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-09-19T08:23:01Z",
+        "last_modified": "2026-09-19T08:36:49Z",
+        "tags": [
+          "license:Apache License 2.0",
+          "custom_tag:physical-digital",
+          "custom_tag:time-series",
+          "custom_tag:agent-infra",
+          "custom_tag:anomaly-detection",
+          "custom_tag:goai-2026",
+          "custom_tag:retail",
+          "custom_tag:iot"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "md15557445066/L1_Device_Level_Data_Center_Time_Series_Dataset",
+        "display_name": "L1设备级数据中心时序数据集",
+        "description": "基于德塔森特某持续运行的内部机房的运行数据，数据稳定、连续，已做初步清洗、插值，并基于原始采集数据融合了机房、设备的异常、故障、告警等实时状态，以及机房地理位置、日历日、天气等外部环境，以及来源于工单系统的用户报修-设备维修的业务数据等，本数据集提供CSV+数据字典。",
+        "file_size": 1497718854,
+        "downloads": 2,
+        "likes": 2,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-03-25T08:09:49Z",
+        "last_modified": "2026-03-26T09:14:32Z",
+        "tags": [
+          "license:Apache License 2.0",
+          "custom_tag:时序数据集"
+        ],
+        "private": false,
+        "gated": true,
+        "login_required": true
+      }
+    ],
+    "total_count": 2,
+    "page_number": 1,
+    "page_size": 40
+  }
+}

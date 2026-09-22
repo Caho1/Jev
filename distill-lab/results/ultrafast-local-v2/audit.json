@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "models": {
+    "laya_base": {
+      "replay_requests": 48,
+      "valid_responses": 48,
+      "model_input_matches_frozen_dom": true,
+      "selected_actions_map_to_observed_targets": true,
+      "all_heads_valid": true,
+      "input_truncation": false,
+      "max_input_tokens": 671,
+      "closed_requests": 34,
+      "closed_forward_passes": 64,
+      "closed_runtime_errors": [],
+      "warmup_requests": 1,
+      "total_requests": 83,
+      "text_helper_calls": 0,
+      "closed_ui_actions": 27
+    },
+    "laya_computer": {
+      "replay_requests": 48,
+      "valid_responses": 48,
+      "model_input_matches_frozen_dom": true,
+      "selected_actions_map_to_observed_targets": true,
+      "all_heads_valid": true,
+      "input_truncation": false,
+      "max_input_tokens": 671,
+      "closed_requests": 25,
+      "closed_forward_passes": 46,
+      "closed_runtime_errors": [],
+      "warmup_requests": 1,
+      "total_requests": 74,
+      "text_helper_calls": 0,
+      "closed_ui_actions": 19
+    }
+  },
+  "cloud_model_calls": 0,
+  "checks": "Frozen inputs, all probability heads, action mapping, metrics recomputation, independent terminal predicates"
+}

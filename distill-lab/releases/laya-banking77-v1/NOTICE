@@ -1,0 +1,18 @@
+Laya BANKING77 fine-tune v1
+Publication packaging and BANKING77-specific inference loader: Cahol, 2026.
+
+This release is derived from Laya by Nandha Kishor M / Convai Innovations.
+Upstream code: https://github.com/NandhaKishorM/laya
+Code revision: 42626c348753fbb17572a813127df2278a1ec527
+Base model: https://huggingface.co/convaiinnovations/laya
+Base revision: 1c5edc17a7acd8701df6fc341c0d179f1c62c982
+The original laya/common.py is included unchanged as laya_common.py.
+The upstream Apache License 2.0 is included as LICENSE.
+
+Changes: supervised BANKING77 adaptation of encoder LoRA, decision transformer,
+type embeddings and option scorer; separate temperature calibration; custom
+input encoding that preserves all 77 options; standalone checkpoint loader.
+The upstream act/escalate head was not fine-tuned and is not exposed by this loader.
+
+BANKING77 dataset: PolyAI; Casanueva et al. (2020).
+Dataset attribution and CC BY 4.0 license are described in DATA_LICENSE.md.

@@ -1,0 +1,150 @@
+{
+  "created_at": "2026-09-21T13:56:01.238919+00:00",
+  "hardware": {
+    "chip": "Apple M5 Pro",
+    "physical_memory_bytes": 51539607552,
+    "os": "macOS-27.0-arm64-arm-64bit"
+  },
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "4.57.6",
+    "peft": "0.21.0",
+    "safetensors": "0.8.0"
+  },
+  "model": {
+    "id": "convaiinnovations/laya",
+    "revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "source_revision": "42626c348753fbb17572a813127df2278a1ec527",
+    "source_sha256": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2",
+    "parameters": 425680643,
+    "trainable_parameters": 30635009,
+    "strict_checkpoint_load": true
+  },
+  "configuration": {
+    "mode": "lora",
+    "device": "mps",
+    "dtype": "float32",
+    "cpu_fallback": false,
+    "memory_limit_gib": 16.0,
+    "batch_size": 1,
+    "sequence_length": 4096,
+    "options": 4,
+    "warmup_steps": 2,
+    "measured_steps": 5,
+    "lora_rank": 16,
+    "lora_targets": [
+      "Wqkv",
+      "Wo"
+    ],
+    "gradient_checkpointing": true,
+    "optimizer": "AdamW",
+    "foreach": false,
+    "encoder_learning_rate": 0.0001,
+    "head_learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "loss": "cross_entropy",
+    "synthetic_data": true
+  },
+  "setup_seconds": 15.74027133299387,
+  "summary": {
+    "mean_step_seconds": 6.221604582999134,
+    "median_step_seconds": 6.240466249990277,
+    "min_step_seconds": 6.085237833001884,
+    "max_step_seconds": 6.347400833008578,
+    "std_step_seconds": 0.0978036433779171,
+    "examples_per_second": 0.1607302403519107,
+    "tokens_per_second": 658.3510644814262,
+    "mean_forward_seconds": 2.1667907330032903,
+    "mean_backward_seconds": 4.034600992000196,
+    "mean_optimizer_seconds": 0.020212857995647936
+  },
+  "max_observed_memory": {
+    "mps_allocated_bytes": 2074062336,
+    "mps_driver_bytes": 11924602880,
+    "process_rss_bytes": 952057856
+  },
+  "gradient_and_update_checks": {
+    "encoder.base_model.model.layers.0.attn.Wqkv.lora_B.default.weight": {
+      "gradient_norm": 0.2419227659702301,
+      "gradient_finite": true,
+      "max_weight_change": 9.999996109399945e-05
+    },
+    "scorer.3.weight": {
+      "gradient_norm": 2.6812427043914795,
+      "gradient_finite": true,
+      "max_weight_change": 0.00010002218186855316
+    }
+  },
+  "steps": [
+    {
+      "step": 0,
+      "warmup": true,
+      "loss": 0.0644189864397049,
+      "forward_seconds": 2.3549586669832934,
+      "backward_seconds": 4.0210884580155835,
+      "optimizer_seconds": 0.07151570898713544,
+      "total_seconds": 6.447562833986012
+    },
+    {
+      "step": 1,
+      "warmup": true,
+      "loss": 0.0248417928814888,
+      "forward_seconds": 2.109762833977584,
+      "backward_seconds": 3.941079583019018,
+      "optimizer_seconds": 0.0197250829951372,
+      "total_seconds": 6.070567499991739
+    },
+    {
+      "step": 2,
+      "warmup": false,
+      "loss": 0.009818828664720058,
+      "forward_seconds": 2.11588045800454,
+      "backward_seconds": 3.9485011670039967,
+      "optimizer_seconds": 0.020856207993347198,
+      "total_seconds": 6.085237833001884
+    },
+    {
+      "step": 3,
+      "warmup": false,
+      "loss": 0.004351670388132334,
+      "forward_seconds": 2.146441707998747,
+      "backward_seconds": 4.092106583993882,
+      "optimizer_seconds": 0.020452791010029614,
+      "total_seconds": 6.259001083002659
+    },
+    {
+      "step": 4,
+      "warmup": false,
+      "loss": 0.001660279231145978,
+      "forward_seconds": 2.1642807080061175,
+      "backward_seconds": 4.056411750003463,
+      "optimizer_seconds": 0.019773791980696842,
+      "total_seconds": 6.240466249990277
+    },
+    {
+      "step": 5,
+      "warmup": false,
+      "loss": 0.0009870424401015043,
+      "forward_seconds": 2.2538830830017105,
+      "backward_seconds": 4.073159833991667,
+      "optimizer_seconds": 0.020357916015200317,
+      "total_seconds": 6.347400833008578
+    },
+    {
+      "step": 6,
+      "warmup": false,
+      "loss": 0.0005034133209846914,
+      "forward_seconds": 2.153467708005337,
+      "backward_seconds": 4.002825625007972,
+      "optimizer_seconds": 0.019623582978965715,
+      "total_seconds": 6.175916915992275
+    }
+  ],
+  "limitations": [
+    "只用四分类合成文本测速，不能用于判断业务准确率或收敛。",
+    "计时包含前向、反向、AdamW 更新及设备同步，不含分词、数据传输、验证和保存。",
+    "内存为初始化及每步结束的采样最大值，不代表步内瞬时峰值；GPU 与 RSS 不应相加。",
+    "预热后仅做少量迭代，不能代表长时间训练的温度、功耗和速度稳定性。",
+    "每次运行从原始缓存权重重新加载，测速后的权重不保存。"
+  ]
+}

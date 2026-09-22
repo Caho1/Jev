@@ -1,0 +1,2769 @@
+{
+  "_id": "6a228b1f917b834b5d5fdc90",
+  "id": "webagentlab/webchain",
+  "author": "webagentlab",
+  "sha": "59ab57fea3d6270c260b6603418afb93dee8c1ce",
+  "lastModified": "2026-08-28T12:38:25.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:cc-by-4.0",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:tabular",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2603.05295",
+    "region:us",
+    "web-agent",
+    "gui-agent",
+    "multimodal",
+    "trajectory",
+    "grounding",
+    "planning",
+    "accessibility-tree",
+    "screenshot",
+    "reinforcement-learning",
+    "supervised-fine-tuning"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tWebChain v2\n\t\n\nA large-scale, human-annotated dataset of real-world web interaction trajectories for training and evaluating web agents.\n[Paper] [Code] [Dataset]\nWebChain captures how people complete real tasks on live websites. It is designed for agents that must both identify the correct interface element and reason through a sequence of actions. Each trajectory aligns screenshots, web structure, grounded actions, and reasoning signals instead of treating web navigation as… See the full description on the dataset page: https://huggingface.co/datasets/webagentlab/webchain.",
+  "downloads": 3531,
+  "likes": 1,
+  "cardData": {
+    "pretty_name": "WebChain v2",
+    "license": "cc-by-4.0",
+    "license_link": "LICENSE",
+    "size_categories": [
+      "10K<n<100K"
+    ],
+    "tags": [
+      "web-agent",
+      "gui-agent",
+      "multimodal",
+      "trajectory",
+      "grounding",
+      "planning",
+      "accessibility-tree",
+      "screenshot",
+      "reinforcement-learning",
+      "supervised-fine-tuning"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/seed_sft/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/seed_sft/README.md"
+    },
+    {
+      "rfilename": "data/seed_sft/dataset_index.json"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/actions.csv"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/intent_taxonomy.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/structure_url_sample_check.json"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/traces.csv"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/windows.csv"
+    },
+    {
+      "rfilename": "data/seed_sft/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_00/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_01/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_02/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_03/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_04/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_05/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_06/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_07/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_08/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_09/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_10/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_11/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_12/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_13/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_14/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_14/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_14/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_14/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_14/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_14/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_14/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_15/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_16/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_17/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_18/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_19/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_20/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_21/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_21/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_21/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_21/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_21/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_21/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_21/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_22/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_23/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_24/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_25/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_26/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_27/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_28/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_29/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_30/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_31/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_32/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_33/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_34/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_35/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_36/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_37/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_38/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_39/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_40/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_41/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_42/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_43/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/sft/webchain_seed_demo_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_44/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_45/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_46/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_46/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_46/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_46/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_46/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_46/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_46/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/metadata/action_mapping.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/metadata/test_suite_sft_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/sft/webchain_seed_demo_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/parts/part_47/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/rl_reward_spec.md"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/README.md"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/manifest.jsonl"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/metadata/actions.csv"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/metadata/traces.csv"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/metadata/windows.csv"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/metadata/windows.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/sft/test_suite_150.parquet"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/trace_ids.tsv"
+    },
+    {
+      "rfilename": "data/seed_sft/test_suite_150/verify_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/tools/check_structure_urls.py"
+    },
+    {
+      "rfilename": "data/seed_sft/tools/sample_test_suite.py"
+    },
+    {
+      "rfilename": "data/seed_sft/tools/verify_seed_delivery.py"
+    },
+    {
+      "rfilename": "data/seed_sft/validation_summary.json"
+    },
+    {
+      "rfilename": "data/seed_sft/verify_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/dataset_index.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_00/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_01/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_02/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_03/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_04/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_05/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_06/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_07/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_08/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_09/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_10/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_11/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_12/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_13/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_14/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_15/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_16/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_17/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_18/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_19/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_20/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_21/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_22/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_23/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_24/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_25/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_26/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_27/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_28/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_29/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_30/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_31/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_32/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_33/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_34/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_35/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_36/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_37/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_38/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_39/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_40/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_41/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_42/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_43/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/sft/webchain_raw_full_sft-00001.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_44/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_45/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_46/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/metadata/action_counts.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/metadata/exclude_reasons.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/metadata/validation_rows.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/sft/webchain_raw_full_sft-00000.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/parts/part_47/validation_summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/test_suite_150/MANIFEST.sha256"
+    },
+    {
+      "rfilename": "data/trace_sft/test_suite_150/README.md"
+    },
+    {
+      "rfilename": "data/trace_sft/test_suite_150/manifest.jsonl"
+    },
+    {
+      "rfilename": "data/trace_sft/test_suite_150/metadata/actions.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/test_suite_150/metadata/traces.parquet"
+    },
+    {
+      "rfilename": "data/trace_sft/test_suite_150/summary.json"
+    },
+    {
+      "rfilename": "data/trace_sft/test_suite_150/trace_ids.tsv"
+    },
+    {
+      "rfilename": "data/trace_sft/validation_summary.json"
+    }
+  ],
+  "createdAt": "2026-06-05T08:38:55.000Z",
+  "usedStorage": 722038307968
+}

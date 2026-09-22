@@ -1,0 +1,95 @@
+{
+  "repo": "zsjslab/TeleEval-CS",
+  "sha": "7f42d26f3ef94a487467aa82d7c74f21f82b7b52",
+  "tree": {
+    "sha": "7f42d26f3ef94a487467aa82d7c74f21f82b7b52",
+    "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/trees/7f42d26f3ef94a487467aa82d7c74f21f82b7b52",
+    "tree": [
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6e77b08909f2e34c57dce5b47021a315d1ee70e",
+        "size": 11325,
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/blobs/e6e77b08909f2e34c57dce5b47021a315d1ee70e"
+      },
+      {
+        "path": "Pre-trained_models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "89ffbbcbebd4c0ef08d56bc294cb178a28ba8dff",
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/trees/89ffbbcbebd4c0ef08d56bc294cb178a28ba8dff"
+      },
+      {
+        "path": "Pre-trained_models/example_02",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d4990e9851c421812cd85446c0ec167d3b6219d",
+        "size": 198,
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/blobs/9d4990e9851c421812cd85446c0ec167d3b6219d"
+      },
+      {
+        "path": "README.en",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+        "size": 1,
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cc0594f40fac5ce2db86037dbd2cf220d07e327",
+        "size": 312551,
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/blobs/6cc0594f40fac5ce2db86037dbd2cf220d07e327"
+      },
+      {
+        "path": "date_file",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d0426bede48f1e1e4f5735fb6226e6d9fc367113",
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/trees/d0426bede48f1e1e4f5735fb6226e6d9fc367113"
+      },
+      {
+        "path": "date_file/ep-file",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87cd4eb317ecbf93d8526fb74cf313f8ed811c11",
+        "size": 34,
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/blobs/87cd4eb317ecbf93d8526fb74cf313f8ed811c11"
+      },
+      {
+        "path": "model_code",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6b64dc0b529aef56c90c8cada65e485dcb8e32ad",
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/trees/6b64dc0b529aef56c90c8cada65e485dcb8e32ad"
+      },
+      {
+        "path": "model_code/example_1",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25f811103ab9979e5d578a497821698909af4b4c",
+        "size": 181,
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/blobs/25f811103ab9979e5d578a497821698909af4b4c"
+      },
+      {
+        "path": "typical_example",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7f15c9434f9235c3fa14f8a045b4a93aca0031f5",
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/trees/7f15c9434f9235c3fa14f8a045b4a93aca0031f5"
+      },
+      {
+        "path": "typical_example/example_03",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "473d037997d749f600ee2b3ef969ba917521aae6",
+        "size": 261,
+        "url": "https://api.github.com/repos/zsjslab/TeleEval-CS/git/blobs/473d037997d749f600ee2b3ef969ba917521aae6"
+      }
+    ],
+    "truncated": false
+  }
+}

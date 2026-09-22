@@ -1,0 +1,8 @@
+{
+  "corpus_sha256": "743f36fbf2b1e1b36e0f3ad2db91d161631bdd05beb41c59ed5d1cc9021e6b43",
+  "seed": 260921,
+  "cases": 256,
+  "questions": 368,
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "method": "Frozen synthetic cases; labels never sent. Accuracy single pass after 3 warmups. Load: synchronized bursts at C=1/4/8/16, 48 requests per round, 2 rounds per workload. All clients in a burst share release time; next burst waits for all. Local serial queue and explicit cross-request microbatch tested separately. GPU calls never run concurrently from Python threads. API one warm TLS connection per worker. No result caching, no silent retries. Successful latency quantiles plus errors and quality-adjusted throughput. Repeated trials and translated/position variants are not independent population samples."
+}

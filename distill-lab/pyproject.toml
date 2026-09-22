@@ -1,0 +1,25 @@
+[project]
+name = "jev-laya-distillation"
+version = "0.1.0"
+description = "Local notebooks and MPS benchmarks for Laya business decision fine-tuning"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "ipykernel>=6.30,<8",
+  "nbclient>=0.10,<1",
+  "numpy>=2,<3",
+]
+
+[project.optional-dependencies]
+training = [
+    "peft>=0.17,<1",
+    "psutil>=7,<8",
+    "safetensors>=0.4,<1",
+    "torch>=2.8,<3",
+    "transformers>=4.48,<5",
+]
+evaluation = [
+    "pyarrow>=25.0.1,<26",
+]
+
+[tool.uv]
+package = false

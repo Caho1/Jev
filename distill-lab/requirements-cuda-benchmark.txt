@@ -1,0 +1,7 @@
+# 在隔离虚拟环境中复用机器已有、且支持 RTX 5090 的 CUDA PyTorch。
+# 本次使用 torch==2.8.0+cu128；不使用 Mac 的 uv.lock 替换远程 CUDA 环境。
+transformers==4.57.6
+peft==0.21.0
+safetensors==0.8.0
+numpy>=2,<3
+psutil>=7,<8

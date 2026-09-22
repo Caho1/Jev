@@ -1,0 +1,401 @@
+{
+  "repo": "nlpjoe/2018-CCL-UIIMCS",
+  "sha": "e2abd21d2d38ccbb06e5a08b8e479d2a73abf477",
+  "tree": {
+    "sha": "e2abd21d2d38ccbb06e5a08b8e479d2a73abf477",
+    "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/trees/e2abd21d2d38ccbb06e5a08b8e479d2a73abf477",
+    "tree": [
+      {
+        "path": ".DS_Store",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5008ddfcf53c02e82d7eee2e57c38e5672ef89f6",
+        "size": 6148,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/5008ddfcf53c02e82d7eee2e57c38e5672ef89f6"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb88481937f0c52b27fd56f499d5fbcc9a0c5441",
+        "size": 5065,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/eb88481937f0c52b27fd56f499d5fbcc9a0c5441"
+      },
+      {
+        "path": "WechatIMG.jpeg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13f71b5f8fab704d3f1ce28276016105cd54f817",
+        "size": 116019,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/13f71b5f8fab704d3f1ce28276016105cd54f817"
+      },
+      {
+        "path": "pic_png",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "585b15b3b7af65f8c469a8a20918608d0a324281",
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/trees/585b15b3b7af65f8c469a8a20918608d0a324281"
+      },
+      {
+        "path": "pic_png/.DS_Store",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5008ddfcf53c02e82d7eee2e57c38e5672ef89f6",
+        "size": 6148,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/5008ddfcf53c02e82d7eee2e57c38e5672ef89f6"
+      },
+      {
+        "path": "pic_png/幻灯片1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a76ec40fa97e2fabed27ca7eb5f2bb3bf0feeb4f",
+        "size": 31636,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/a76ec40fa97e2fabed27ca7eb5f2bb3bf0feeb4f"
+      },
+      {
+        "path": "pic_png/幻灯片10.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6ff2bb6a0d8101c1ff635b4c16eda973b148cc6",
+        "size": 39824,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/f6ff2bb6a0d8101c1ff635b4c16eda973b148cc6"
+      },
+      {
+        "path": "pic_png/幻灯片11.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "340ac0a1fbb0fa1d3b757d6a27179f4652816436",
+        "size": 96513,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/340ac0a1fbb0fa1d3b757d6a27179f4652816436"
+      },
+      {
+        "path": "pic_png/幻灯片12.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "986d28ab42cf9029595887ebaddf324c0ac69a4d",
+        "size": 20535,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/986d28ab42cf9029595887ebaddf324c0ac69a4d"
+      },
+      {
+        "path": "pic_png/幻灯片13.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "925fd1ae38a2a0ce16c89fecda59cddc9bd3d2f5",
+        "size": 44276,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/925fd1ae38a2a0ce16c89fecda59cddc9bd3d2f5"
+      },
+      {
+        "path": "pic_png/幻灯片14.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5df84f5b1e04038fda5aa4010c82ac71da4b5fa3",
+        "size": 76147,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/5df84f5b1e04038fda5aa4010c82ac71da4b5fa3"
+      },
+      {
+        "path": "pic_png/幻灯片15.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30a4b9e12f8fb3a9bd786aa8e9ab04ea937f9cd7",
+        "size": 79606,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/30a4b9e12f8fb3a9bd786aa8e9ab04ea937f9cd7"
+      },
+      {
+        "path": "pic_png/幻灯片16.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5745cf2784484346137659841cdf68021182d7ac",
+        "size": 81362,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/5745cf2784484346137659841cdf68021182d7ac"
+      },
+      {
+        "path": "pic_png/幻灯片17.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5a410302465652fc3190be661842dfda370c80c",
+        "size": 30346,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/d5a410302465652fc3190be661842dfda370c80c"
+      },
+      {
+        "path": "pic_png/幻灯片18.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1d6d6aeacb8b305f169e8caf7d0dc272dba50ba",
+        "size": 41048,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/d1d6d6aeacb8b305f169e8caf7d0dc272dba50ba"
+      },
+      {
+        "path": "pic_png/幻灯片19.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82933fbb899b72588d8d941e8ba6417658500484",
+        "size": 19507,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/82933fbb899b72588d8d941e8ba6417658500484"
+      },
+      {
+        "path": "pic_png/幻灯片2.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "909a728291245dff27b8855159cc3d30ea5ac347",
+        "size": 18313,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/909a728291245dff27b8855159cc3d30ea5ac347"
+      },
+      {
+        "path": "pic_png/幻灯片20.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d9602f6d9a06cceac2f96e7bb521cee5a4e96bd",
+        "size": 52591,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/9d9602f6d9a06cceac2f96e7bb521cee5a4e96bd"
+      },
+      {
+        "path": "pic_png/幻灯片21.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be942997d00d98ef08bac10ac509d1c052ecbfb6",
+        "size": 49350,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/be942997d00d98ef08bac10ac509d1c052ecbfb6"
+      },
+      {
+        "path": "pic_png/幻灯片22.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ca02b88b273642aa0cd723c2a3e861858f33fc1",
+        "size": 220935,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/8ca02b88b273642aa0cd723c2a3e861858f33fc1"
+      },
+      {
+        "path": "pic_png/幻灯片23.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc0f75ee4770806f2bc1cff66a8fb9de6c30d73f",
+        "size": 62194,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/fc0f75ee4770806f2bc1cff66a8fb9de6c30d73f"
+      },
+      {
+        "path": "pic_png/幻灯片24.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f26e3e78c86adbe88c119046ba76a6e63f2d213",
+        "size": 20519,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/6f26e3e78c86adbe88c119046ba76a6e63f2d213"
+      },
+      {
+        "path": "pic_png/幻灯片25.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "995782a45c92daf63e9bdcfcec8ed7cd01636102",
+        "size": 84731,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/995782a45c92daf63e9bdcfcec8ed7cd01636102"
+      },
+      {
+        "path": "pic_png/幻灯片26.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e00022af6d1ab25afe4592a360488be241d1cba8",
+        "size": 26913,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/e00022af6d1ab25afe4592a360488be241d1cba8"
+      },
+      {
+        "path": "pic_png/幻灯片27.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93381e3f43f1e4ae22d4a56a66613a58888ba0d5",
+        "size": 41790,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/93381e3f43f1e4ae22d4a56a66613a58888ba0d5"
+      },
+      {
+        "path": "pic_png/幻灯片28.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9689a442d1f9bc81137b8e969a058a485edd340",
+        "size": 18033,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/a9689a442d1f9bc81137b8e969a058a485edd340"
+      },
+      {
+        "path": "pic_png/幻灯片29.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db063a7ef566fec8199fcce19a366c21a994739c",
+        "size": 52315,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/db063a7ef566fec8199fcce19a366c21a994739c"
+      },
+      {
+        "path": "pic_png/幻灯片3.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61e4c6ff951bae77c7b43df9c59c1c08923b2c00",
+        "size": 155738,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/61e4c6ff951bae77c7b43df9c59c1c08923b2c00"
+      },
+      {
+        "path": "pic_png/幻灯片30.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8e5d5a5dc0faeafc787bf1247f93830f7d5b07b",
+        "size": 19348,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/d8e5d5a5dc0faeafc787bf1247f93830f7d5b07b"
+      },
+      {
+        "path": "pic_png/幻灯片31.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "caba37a6cdbeb39ba4d2cddb69658441773296f7",
+        "size": 46984,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/caba37a6cdbeb39ba4d2cddb69658441773296f7"
+      },
+      {
+        "path": "pic_png/幻灯片32.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f5554cbc1232a4b0717c1e125d46b500594adb6",
+        "size": 52923,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/8f5554cbc1232a4b0717c1e125d46b500594adb6"
+      },
+      {
+        "path": "pic_png/幻灯片33.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec64443f37a917176df6d8686a1d1e710ebaf24c",
+        "size": 17613,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/ec64443f37a917176df6d8686a1d1e710ebaf24c"
+      },
+      {
+        "path": "pic_png/幻灯片34.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48b02d90082dc2d4ad16e1a0b0598d21ae9981e2",
+        "size": 50383,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/48b02d90082dc2d4ad16e1a0b0598d21ae9981e2"
+      },
+      {
+        "path": "pic_png/幻灯片35.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dae229e8aa8c3478d3b422a9d72bd4996e350ff9",
+        "size": 69083,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/dae229e8aa8c3478d3b422a9d72bd4996e350ff9"
+      },
+      {
+        "path": "pic_png/幻灯片36.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f84cdde192ad353667d3bfab106b9a9a88a56828",
+        "size": 50453,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/f84cdde192ad353667d3bfab106b9a9a88a56828"
+      },
+      {
+        "path": "pic_png/幻灯片37.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d8429d81d82b9e5cb0f55cc4d3715582b852aa3",
+        "size": 70961,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/9d8429d81d82b9e5cb0f55cc4d3715582b852aa3"
+      },
+      {
+        "path": "pic_png/幻灯片38.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "675301741f49e54f1002f99bd89f5d5bc5bdf825",
+        "size": 25224,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/675301741f49e54f1002f99bd89f5d5bc5bdf825"
+      },
+      {
+        "path": "pic_png/幻灯片39.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c452e7ce402741a3ddea6d5e2ecf55cddd16d1f",
+        "size": 28014,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/4c452e7ce402741a3ddea6d5e2ecf55cddd16d1f"
+      },
+      {
+        "path": "pic_png/幻灯片4.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f247f3d788623f0d440283f48eec0a67e3f26c1",
+        "size": 12566,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/4f247f3d788623f0d440283f48eec0a67e3f26c1"
+      },
+      {
+        "path": "pic_png/幻灯片40.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5cc32f6e10fa1f6aa4fcdeece3cb8b1bb9c5c60",
+        "size": 17784,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/b5cc32f6e10fa1f6aa4fcdeece3cb8b1bb9c5c60"
+      },
+      {
+        "path": "pic_png/幻灯片41.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7ace674bbdbe692f40db3956eebb4a5f64b1137",
+        "size": 95168,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/d7ace674bbdbe692f40db3956eebb4a5f64b1137"
+      },
+      {
+        "path": "pic_png/幻灯片42.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4d8a8f6872637e4f96a6bd5d3085d1cb78f0309",
+        "size": 79894,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/a4d8a8f6872637e4f96a6bd5d3085d1cb78f0309"
+      },
+      {
+        "path": "pic_png/幻灯片5.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb7729c2f8f88190a9d30e362121761e60c54c5c",
+        "size": 21282,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/bb7729c2f8f88190a9d30e362121761e60c54c5c"
+      },
+      {
+        "path": "pic_png/幻灯片6.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "609ce3213c55eb9b2c9d64642d8b690086e941df",
+        "size": 11013,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/609ce3213c55eb9b2c9d64642d8b690086e941df"
+      },
+      {
+        "path": "pic_png/幻灯片7.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb931d7f7f849f7f197d6149afdb787fc4153a86",
+        "size": 89945,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/fb931d7f7f849f7f197d6149afdb787fc4153a86"
+      },
+      {
+        "path": "pic_png/幻灯片8.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b7cabdd34eb333fbd5b896d5bd6d330f9c0cd4a",
+        "size": 51326,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/7b7cabdd34eb333fbd5b896d5bd6d330f9c0cd4a"
+      },
+      {
+        "path": "pic_png/幻灯片9.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa453d816e70ae2ec3dd6b567cdc72a6beb649aa",
+        "size": 20287,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/aa453d816e70ae2ec3dd6b567cdc72a6beb649aa"
+      },
+      {
+        "path": "res",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f65244bf169f5f64df7006570074b162827ac4ba",
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/trees/f65244bf169f5f64df7006570074b162827ac4ba"
+      },
+      {
+        "path": "res/答辩PPT.pptx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f0bb7902e77735465cb231feeafeec9e0740a09",
+        "size": 2692432,
+        "url": "https://api.github.com/repos/nlpjoe/2018-CCL-UIIMCS/git/blobs/3f0bb7902e77735465cb231feeafeec9e0740a09"
+      }
+    ],
+    "truncated": false
+  }
+}

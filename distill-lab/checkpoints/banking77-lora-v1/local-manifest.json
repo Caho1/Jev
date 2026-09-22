@@ -1,0 +1,41 @@
+{
+  "verified_at": "2026-09-21T15:47:01.288258+00:00",
+  "format": "fixed base + LoRA and trained decision head",
+  "selected_epoch": 3,
+  "base_revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+  "source_revision": "42626c348753fbb17572a813127df2278a1ec527",
+  "files": {
+    "base/encoder/config.json": {
+      "bytes": 2083,
+      "sha256": "bf3ab80598fdccf414855a2ce80f22859e4492d06ca8a62ddd1cfb63972f8979"
+    },
+    "base/model.safetensors": {
+      "bytes": 842609210,
+      "sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c"
+    },
+    "base/rl_agent_config.json": {
+      "bytes": 745,
+      "sha256": "ae287b56bbcf5f8c4f4541ae9dfd00c914c4c48b940b8398c3058af37ba92bbd"
+    },
+    "base/tokenizer/tokenizer.json": {
+      "bytes": 3583228,
+      "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30"
+    },
+    "base/tokenizer/tokenizer_config.json": {
+      "bytes": 308,
+      "sha256": "50044de60daaa73df97d262e15a40d4faf0160e7d742df64b377877a1320dd12"
+    },
+    "best/calibration.json": {
+      "bytes": 192,
+      "sha256": "28dabe1d0df8e02c4011bc10d34afa8a8cccf9050c40fd072bb3f54d636be0ee"
+    },
+    "best/config.json": {
+      "bytes": 19913,
+      "sha256": "cea77a2b51501dae294e6bc8f33f7a1f5e38ed909fee4bff2c129078b9843026"
+    },
+    "best/trainable.safetensors": {
+      "bytes": 122565852,
+      "sha256": "93d07c19cd56e8eb1308a87e14ac606ff8b36cea663df3e034b74630a55fb707"
+    }
+  }
+}

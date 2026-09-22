@@ -1,0 +1,52 @@
+{
+  "dataset": "BANKING77 official test",
+  "test": {
+    "baseline": {
+      "raw": {
+        "records": 3080,
+        "accuracy": 0.4590909090909091,
+        "macro_f1": 0.42903062307868506,
+        "top3_accuracy": 0.6941558441558442,
+        "nll": 2.561424624810073,
+        "brier_sum_over_classes": 0.7508774987162712,
+        "ece_15_bins_max_probability": 0.16420261329067204,
+        "temperature": 1.0
+      },
+      "calibrated": {
+        "records": 3080,
+        "accuracy": 0.4590909090909091,
+        "macro_f1": 0.42903062307868506,
+        "top3_accuracy": 0.6941558441558442,
+        "nll": 2.4573153042369777,
+        "brier_sum_over_classes": 0.7325728957779584,
+        "ece_15_bins_max_probability": 0.1277216727938718,
+        "temperature": 1.3539146253669692
+      }
+    },
+    "tuned": {
+      "raw": {
+        "records": 3080,
+        "accuracy": 0.8555194805194806,
+        "macro_f1": 0.855314223956437,
+        "top3_accuracy": 0.9642857142857143,
+        "nll": 0.49502848098708485,
+        "brier_sum_over_classes": 0.21226911402311766,
+        "ece_15_bins_max_probability": 0.023711055040914933,
+        "temperature": 1.0
+      },
+      "calibrated": {
+        "records": 3080,
+        "accuracy": 0.8555194805194806,
+        "macro_f1": 0.855314223956437,
+        "top3_accuracy": 0.9642857142857143,
+        "nll": 0.49063814524153176,
+        "brier_sum_over_classes": 0.21135245122478916,
+        "ece_15_bins_max_probability": 0.014417849250068664,
+        "temperature": 1.1343233648166147
+      }
+    }
+  },
+  "selected_epoch": 3,
+  "checkpoint_reload_max_abs_difference": 0.0,
+  "note": "Historical training-run results; packaging checks are reported separately. No Jev outputs used in training."
+}

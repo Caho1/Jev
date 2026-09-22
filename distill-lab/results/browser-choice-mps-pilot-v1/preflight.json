@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "tokens": 6187,
+  "loss": 3.863490104675293,
+  "forward_backward_seconds": 14.897909416991752,
+  "memory": {
+    "process_rss_bytes": 2093039616,
+    "mps_allocated_bytes": 1829342720,
+    "mps_driver_bytes": 16179838976
+  },
+  "optimizer_updates": 0,
+  "memory_scope": "sample after backward, not instantaneous peak"
+}

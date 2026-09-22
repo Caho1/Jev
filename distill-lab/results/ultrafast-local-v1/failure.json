@@ -1,0 +1,6 @@
+{
+  "status": "failed_before_warmup_response",
+  "scored_cases": 0,
+  "cause": "Empty Bearer header rejected by HTTP client; fixed to omit Authorization for loopback",
+  "replacement": "../ultrafast-local-v2"
+}

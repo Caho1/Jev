@@ -1,0 +1,22 @@
+加载缓存 Laya：lora, batch=1, length=4096
+加载完成：总参数 425,680,643，可训练参数 30,635,009
+预热 1: 1.135 秒，loss=0.0731
+预热 2: 0.783 秒，loss=0.0257
+计时 3: 0.775 秒，loss=0.0099
+计时 4: 0.722 秒，loss=0.0053
+计时 5: 0.805 秒，loss=0.0021
+计时 6: 0.761 秒，loss=0.0008
+计时 7: 0.748 秒，loss=0.0005
+{
+  "mean_step_seconds": 0.7621923051774502,
+  "median_step_seconds": 0.7608791440725327,
+  "min_step_seconds": 0.722334872931242,
+  "max_step_seconds": 0.804818831384182,
+  "std_step_seconds": 0.03069976597028827,
+  "examples_per_second": 1.312004848654546,
+  "tokens_per_second": 5373.97186008902,
+  "mean_forward_seconds": 0.293424466252327,
+  "mean_backward_seconds": 0.45737788528203965,
+  "mean_optimizer_seconds": 0.011389953643083572
+}
+结果已保存：/root/autodl-tmp/laya-context-bench-20260921/results/cuda-5090/lora-b1-l4096-fp32-gc.json

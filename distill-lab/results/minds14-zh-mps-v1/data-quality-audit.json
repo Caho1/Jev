@@ -1,0 +1,47 @@
+{
+  "method": "评测完成后的数据质量补充检查，保留原协议502条主结果；含汉字指U+3400至U+9FFF范围内至少一个字符。",
+  "total": 502,
+  "contains_han": 492,
+  "without_han_ids": [
+    "minds14:zh-CN:00009",
+    "minds14:zh-CN:00055",
+    "minds14:zh-CN:00091",
+    "minds14:zh-CN:00092",
+    "minds14:zh-CN:00112",
+    "minds14:zh-CN:00205",
+    "minds14:zh-CN:00289",
+    "minds14:zh-CN:00295",
+    "minds14:zh-CN:00375",
+    "minds14:zh-CN:00404"
+  ],
+  "models": {
+    "baseline": {
+      "zh": {
+        "records": 492,
+        "correct": 266,
+        "accuracy": 0.540650406504065,
+        "macro_f1": 0.5437367407996276
+      },
+      "en": {
+        "records": 492,
+        "correct": 405,
+        "accuracy": 0.823170731707317,
+        "macro_f1": 0.8346918808586902
+      }
+    },
+    "tuned": {
+      "zh": {
+        "records": 492,
+        "correct": 311,
+        "accuracy": 0.6321138211382114,
+        "macro_f1": 0.5846315544099634
+      },
+      "en": {
+        "records": 492,
+        "correct": 426,
+        "accuracy": 0.8658536585365854,
+        "macro_f1": 0.861872697475583
+      }
+    }
+  }
+}

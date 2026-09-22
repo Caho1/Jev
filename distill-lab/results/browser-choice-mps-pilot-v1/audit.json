@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "paired_inputs_identical": true,
+  "source_and_checkpoint_hashes_verified": true,
+  "website_and_trajectory_disjoint": true,
+  "metrics_recomputed_from_predictions": true,
+  "counts": {
+    "baseline": {
+      "records": 78,
+      "operation_correct": 38,
+      "actual_target_correct": 1,
+      "grounded_joint_correct": 1,
+      "target_recalled": 40,
+      "predicted_none": 30
+    },
+    "tuned": {
+      "records": 78,
+      "operation_correct": 36,
+      "actual_target_correct": 2,
+      "grounded_joint_correct": 0,
+      "target_recalled": 40,
+      "predicted_none": 29
+    }
+  }
+}

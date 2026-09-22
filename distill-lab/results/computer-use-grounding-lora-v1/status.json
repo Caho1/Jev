@@ -1,0 +1,7 @@
+{
+  "phase": "failed",
+  "time": "2026-09-22T01:18:36+0800",
+  "pid": 81576,
+  "error_type": "RuntimeError",
+  "error": "MPS backend out of memory (MPS allocated: 19.38 GiB, other allocations: 8.78 GiB, max allowed: 28.00 GiB). Tried to allocate 59.00 MiB on shared pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure)."
+}

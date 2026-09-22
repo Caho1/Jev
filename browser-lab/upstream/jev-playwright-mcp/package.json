@@ -1,0 +1,30 @@
+{
+  "name": "jev-playwright-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Jev-augmented Playwright MCP proxy: page-state triage, prompt-injection shield, goal-based snapshot pruning, and risky-action gating — for any coding agent. Wraps the official @playwright/mcp and degrades to pure passthrough without a TYPESAFE_API_KEY.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "jev-playwright-mcp": "cli.js"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "node build.mjs",
+    "smoke:e2e": "RUN_E2E=1 tsx scripts/smoke-e2e.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "@playwright/mcp": "0.0.81"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "6a15e55d66eb21e8299fd12c",
+  "id": "OpenWebRL/OpenWebRL-SFT-Trajectories",
+  "author": "OpenWebRL",
+  "sha": "50e2a9b82d5c15403130d8bb1da659fab2a490bf",
+  "lastModified": "2026-07-29T04:56:32.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "language:en",
+    "license:apache-2.0",
+    "size_categories:1K<n<10K",
+    "format:json",
+    "modality:tabular",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "region:us",
+    "openwebrl",
+    "web-agents",
+    "visual-web-agents",
+    "supervised-fine-tuning",
+    "browser-automation",
+    "llamafactory",
+    "playwright",
+    "orchard"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tOpenWebRL SFT Trajectories\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nOpenWebRL SFT Trajectories contains successful browser-agent trajectory data collected by Qwen3-VL-235B-A22B-Thinking. These trajectories are used to supervised fine-tune the initial OpenWebRL visual web agent. The SFT checkpoint is then used as the initialization checkpoint for OpenWebRL's subsequent online multi-turn reinforcement learning stage.\nOpenWebRL trains visual web agents on live websites. The full training… See the full description on the dataset page: https://huggingface.co/datasets/OpenWebRL/OpenWebRL-SFT-Trajectories.",
+  "downloads": 162,
+  "likes": 1,
+  "cardData": {
+    "pretty_name": "OpenWebRL SFT Trajectories",
+    "language": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "size_categories": [
+      "1K<n<10K"
+    ],
+    "tags": [
+      "openwebrl",
+      "web-agents",
+      "visual-web-agents",
+      "supervised-fine-tuning",
+      "browser-automation",
+      "llamafactory",
+      "playwright",
+      "orchard"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "OpenWebRL_SFT_trajectories.jsonl"
+    },
+    {
+      "rfilename": "README.md"
+    }
+  ],
+  "createdAt": "2026-05-26T18:24:29.000Z",
+  "usedStorage": 3363098089
+}

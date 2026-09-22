@@ -1,0 +1,53 @@
+{
+  "sample_part": "part_00",
+  "trace_rows": 751,
+  "queries_with_10_plus_cjk": 0,
+  "not_representative_language_estimate": true,
+  "structure_probes": [
+    {
+      "sample": "first",
+      "kind": "html_dom_urls",
+      "url_sha256": "85965a340e4154f1b3b8d193efdf7daf4249567b4d020cce79876a2fff0a5a67",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes_read": 1913692,
+      "truncated": false,
+      "local_file": "webchain-first-html_dom_urls.txt",
+      "json_type": null
+    },
+    {
+      "sample": "first",
+      "kind": "ax_tree_urls",
+      "url_sha256": "3091b5233705467a81ac295303e0560920099366cf1d65f14a1c340786ef4de6",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes_read": 1350134,
+      "truncated": false,
+      "local_file": "webchain-first-ax_tree_urls.txt",
+      "json_type": "dict",
+      "json_keys": [
+        "role",
+        "name",
+        "attributes",
+        "clientHeight",
+        "clientLeft",
+        "clientTop",
+        "clientWidth",
+        "scrollHeight",
+        "scrollLeft",
+        "scrollTop",
+        "scrollWidth",
+        "offsetHeight"
+      ]
+    }
+  ],
+  "webworld_sample": {
+    "rows": 20,
+    "rows_with_10_plus_cjk": 3,
+    "schema": [
+      "conversations"
+    ],
+    "supervision_direction": "given state and action, predict next state, not a gold next action for user goal"
+  },
+  "webchain_language_note": "8 queries contain CJK, none contains 10 or more CJK characters; do not classify this sample as native Chinese tasks."
+}

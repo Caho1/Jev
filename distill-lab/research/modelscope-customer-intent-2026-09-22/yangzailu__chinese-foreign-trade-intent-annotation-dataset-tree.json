@@ -1,0 +1,73 @@
+{
+  "RequestId": "1f8aaf55-bd87-489b-b61d-adeded0d0a5e",
+  "Code": 200,
+  "Message": "success",
+  "Data": {
+    "Files": [
+      {
+        "Id": null,
+        "Name": ".gitattributes",
+        "Type": "blob",
+        "Path": ".gitattributes",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "Commit .gitattributes README.md file(s) in datasets-chinese-foreign-trade-intent-annotation-dataset",
+        "CommitterName": "Administrator",
+        "CommittedDate": 1778227221,
+        "Revision": "38a3e4b7f16b4bb8477f6e149813dbb344835f11",
+        "IsLFS": false,
+        "Size": 3818,
+        "InCheck": false,
+        "Sha256": "53b61e55812199dea8ffe90c52485e2ec5e5bdae1eed92cab20063003da14e29"
+      },
+      {
+        "Id": null,
+        "Name": "README.md",
+        "Type": "blob",
+        "Path": "README.md",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "Commit .gitattributes README.md file(s) in datasets-chinese-foreign-trade-intent-annotation-dataset",
+        "CommitterName": "Administrator",
+        "CommittedDate": 1778227221,
+        "Revision": "38a3e4b7f16b4bb8477f6e149813dbb344835f11",
+        "IsLFS": false,
+        "Size": 406,
+        "InCheck": false,
+        "Sha256": "adfb9524d65461f7a45006310fbb525034303859b020f8c9a6b7746239b8161f"
+      },
+      {
+        "Id": null,
+        "Name": "wm.json",
+        "Type": "blob",
+        "Path": "wm.json",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "Upload wm.json",
+        "CommitterName": "yangzailu",
+        "CommittedDate": 1778227236,
+        "Revision": "34fec80cccd876395fa531d09f6bc1afec902ffb",
+        "IsLFS": true,
+        "Size": 1132,
+        "InCheck": false,
+        "Sha256": "2e44b7ddbf2494daf7d29ae5ead4b5d6465a921b9d23bca88bdeb2a0df5f78c6"
+      }
+    ],
+    "LatestCommitter": {
+      "Id": null,
+      "ShortId": "34fec80c",
+      "Title": "Upload wm.json",
+      "Message": "Upload wm.json",
+      "AuthorName": "yangzailu",
+      "AuthoredDate": null,
+      "AuthorEmail": "yangzailu@163.com",
+      "CommittedDate": 1778227236,
+      "CommitterName": "yangzailu",
+      "CreatedAt": 1778227236
+    },
+    "TotalCount": 3
+  },
+  "PageNumber": 1,
+  "PageSize": 100,
+  "TotalCount": 3
+}

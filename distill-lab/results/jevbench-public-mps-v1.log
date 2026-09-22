@@ -1,0 +1,40 @@
+{"phase": "loading", "updated_at": "2026-09-22T00:29:46+0800", "config": "baseline_512", "completed": 0, "total": 693}
+{"phase": "running", "updated_at": "2026-09-22T00:30:03+0800", "config": "baseline_512", "completed": 20, "total": 693, "correct": 18, "config_completed": 20, "elapsed_seconds": 16.699847458017757}
+{"phase": "running", "updated_at": "2026-09-22T00:30:03+0800", "config": "baseline_512", "completed": 40, "total": 693, "correct": 38, "config_completed": 40, "elapsed_seconds": 17.11422837502323}
+{"phase": "running", "updated_at": "2026-09-22T00:30:04+0800", "config": "baseline_512", "completed": 60, "total": 693, "correct": 55, "config_completed": 60, "elapsed_seconds": 17.582650333002675}
+{"phase": "running", "updated_at": "2026-09-22T00:30:04+0800", "config": "baseline_512", "completed": 80, "total": 693, "correct": 71, "config_completed": 80, "elapsed_seconds": 18.03306300000986}
+{"phase": "running", "updated_at": "2026-09-22T00:30:05+0800", "config": "baseline_512", "completed": 100, "total": 693, "correct": 84, "config_completed": 100, "elapsed_seconds": 18.47442325000884}
+{"phase": "running", "updated_at": "2026-09-22T00:30:05+0800", "config": "baseline_512", "completed": 120, "total": 693, "correct": 96, "config_completed": 120, "elapsed_seconds": 19.021102124999743}
+{"phase": "running", "updated_at": "2026-09-22T00:30:07+0800", "config": "baseline_512", "completed": 140, "total": 693, "correct": 103, "config_completed": 140, "elapsed_seconds": 20.524329542007763}
+{"phase": "running", "updated_at": "2026-09-22T00:30:08+0800", "config": "baseline_512", "completed": 160, "total": 693, "correct": 114, "config_completed": 160, "elapsed_seconds": 22.059406542015495}
+{"phase": "running", "updated_at": "2026-09-22T00:30:10+0800", "config": "baseline_512", "completed": 180, "total": 693, "correct": 121, "config_completed": 180, "elapsed_seconds": 23.42380529199727}
+{"phase": "running", "updated_at": "2026-09-22T00:30:11+0800", "config": "baseline_512", "completed": 200, "total": 693, "correct": 125, "config_completed": 200, "elapsed_seconds": 24.55504612502409}
+{"phase": "running", "updated_at": "2026-09-22T00:30:12+0800", "config": "baseline_512", "completed": 220, "total": 693, "correct": 130, "config_completed": 220, "elapsed_seconds": 25.6027574170148}
+{"phase": "running", "updated_at": "2026-09-22T00:30:12+0800", "config": "baseline_512", "completed": 231, "total": 693, "correct": 135, "config_completed": 231, "elapsed_seconds": 26.314304958010325}
+{"phase": "loading", "updated_at": "2026-09-22T00:30:13+0800", "config": "baseline_8k", "completed": 231, "total": 693}
+{"phase": "running", "updated_at": "2026-09-22T00:30:28+0800", "config": "baseline_8k", "completed": 251, "total": 693, "correct": 18, "config_completed": 20, "elapsed_seconds": 41.66706050001085}
+{"phase": "running", "updated_at": "2026-09-22T00:30:28+0800", "config": "baseline_8k", "completed": 271, "total": 693, "correct": 38, "config_completed": 40, "elapsed_seconds": 42.068024458014406}
+{"phase": "running", "updated_at": "2026-09-22T00:30:29+0800", "config": "baseline_8k", "completed": 291, "total": 693, "correct": 55, "config_completed": 60, "elapsed_seconds": 42.52397758301231}
+{"phase": "running", "updated_at": "2026-09-22T00:30:29+0800", "config": "baseline_8k", "completed": 311, "total": 693, "correct": 71, "config_completed": 80, "elapsed_seconds": 42.96670150000136}
+{"phase": "running", "updated_at": "2026-09-22T00:30:30+0800", "config": "baseline_8k", "completed": 331, "total": 693, "correct": 84, "config_completed": 100, "elapsed_seconds": 43.40478104201611}
+{"phase": "running", "updated_at": "2026-09-22T00:30:30+0800", "config": "baseline_8k", "completed": 351, "total": 693, "correct": 96, "config_completed": 120, "elapsed_seconds": 43.871195333020296}
+{"phase": "running", "updated_at": "2026-09-22T00:30:35+0800", "config": "baseline_8k", "completed": 371, "total": 693, "correct": 101, "config_completed": 140, "elapsed_seconds": 48.75788258301327}
+{"phase": "running", "updated_at": "2026-09-22T00:30:39+0800", "config": "baseline_8k", "completed": 391, "total": 693, "correct": 110, "config_completed": 160, "elapsed_seconds": 52.5615682080097}
+{"phase": "running", "updated_at": "2026-09-22T00:30:44+0800", "config": "baseline_8k", "completed": 411, "total": 693, "correct": 117, "config_completed": 180, "elapsed_seconds": 58.2556752920209}
+{"phase": "running", "updated_at": "2026-09-22T00:30:48+0800", "config": "baseline_8k", "completed": 431, "total": 693, "correct": 120, "config_completed": 200, "elapsed_seconds": 62.11558866701671}
+{"phase": "running", "updated_at": "2026-09-22T00:30:51+0800", "config": "baseline_8k", "completed": 451, "total": 693, "correct": 125, "config_completed": 220, "elapsed_seconds": 64.78081037499942}
+{"phase": "running", "updated_at": "2026-09-22T00:30:53+0800", "config": "baseline_8k", "completed": 462, "total": 693, "correct": 129, "config_completed": 231, "elapsed_seconds": 67.02689958299743}
+{"phase": "loading", "updated_at": "2026-09-22T00:30:53+0800", "config": "banking_8k", "completed": 462, "total": 693}
+{"phase": "running", "updated_at": "2026-09-22T00:31:10+0800", "config": "banking_8k", "completed": 482, "total": 693, "correct": 19, "config_completed": 20, "elapsed_seconds": 83.589293291996}
+{"phase": "running", "updated_at": "2026-09-22T00:31:10+0800", "config": "banking_8k", "completed": 502, "total": 693, "correct": 39, "config_completed": 40, "elapsed_seconds": 84.0646767920116}
+{"phase": "running", "updated_at": "2026-09-22T00:31:11+0800", "config": "banking_8k", "completed": 522, "total": 693, "correct": 57, "config_completed": 60, "elapsed_seconds": 84.58869245799724}
+{"phase": "running", "updated_at": "2026-09-22T00:31:11+0800", "config": "banking_8k", "completed": 542, "total": 693, "correct": 73, "config_completed": 80, "elapsed_seconds": 85.10213929202291}
+{"phase": "running", "updated_at": "2026-09-22T00:31:12+0800", "config": "banking_8k", "completed": 562, "total": 693, "correct": 86, "config_completed": 100, "elapsed_seconds": 85.61847499999567}
+{"phase": "running", "updated_at": "2026-09-22T00:31:12+0800", "config": "banking_8k", "completed": 582, "total": 693, "correct": 100, "config_completed": 120, "elapsed_seconds": 86.17370512502384}
+{"phase": "running", "updated_at": "2026-09-22T00:31:18+0800", "config": "banking_8k", "completed": 602, "total": 693, "correct": 103, "config_completed": 140, "elapsed_seconds": 91.61182479202398}
+{"phase": "running", "updated_at": "2026-09-22T00:31:22+0800", "config": "banking_8k", "completed": 622, "total": 693, "correct": 108, "config_completed": 160, "elapsed_seconds": 95.85041000001365}
+{"phase": "running", "updated_at": "2026-09-22T00:31:28+0800", "config": "banking_8k", "completed": 642, "total": 693, "correct": 114, "config_completed": 180, "elapsed_seconds": 101.86858925002161}
+{"phase": "running", "updated_at": "2026-09-22T00:31:32+0800", "config": "banking_8k", "completed": 662, "total": 693, "correct": 119, "config_completed": 200, "elapsed_seconds": 106.16792120801983}
+{"phase": "running", "updated_at": "2026-09-22T00:31:35+0800", "config": "banking_8k", "completed": 682, "total": 693, "correct": 126, "config_completed": 220, "elapsed_seconds": 109.11654554199777}
+{"phase": "running", "updated_at": "2026-09-22T00:31:38+0800", "config": "banking_8k", "completed": 693, "total": 693, "correct": 130, "config_completed": 231, "elapsed_seconds": 111.57133975002216}
+{"phase": "complete", "updated_at": "2026-09-22T00:31:38+0800", "completed": 693, "total": 693, "elapsed_seconds": 111.66468750001513}

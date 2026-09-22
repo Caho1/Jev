@@ -1,0 +1,220 @@
+{
+  "success": true,
+  "request_id": "2fd0c909-159e-40c7-af60-4ef2b6175021",
+  "data": {
+    "datasets": [
+      {
+        "id": "zyguyue/dxtest",
+        "display_name": "瓜州月电信行业测试",
+        "description": "",
+        "file_size": 74873628,
+        "downloads": 40,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2024-07-10T06:07:08Z",
+        "last_modified": "2024-07-10T06:13:30Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "TeleAI/TELEVAL",
+        "display_name": "TELEVAL",
+        "description": "",
+        "file_size": 6705940690,
+        "downloads": 3337,
+        "likes": 0,
+        "license": "apache-2.0",
+        "tasks": [],
+        "created_at": "2025-08-12T06:13:20Z",
+        "last_modified": "2026-01-29T06:50:18Z",
+        "tags": [
+          "license:apache-2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "TeleAI/TeleChat-PTD",
+        "display_name": "TeleChat-PTD",
+        "description": "",
+        "file_size": 496970008315,
+        "downloads": 6456,
+        "likes": 13,
+        "license": "apache-2.0",
+        "tasks": [],
+        "created_at": "2024-03-27T05:47:43Z",
+        "last_modified": "2025-09-17T06:15:00Z",
+        "tags": [
+          "license:apache-2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "youzhikongqi/ElecInforCorpus-public-V1.0",
+        "display_name": "电子信息制造业文档语料集-V1.0",
+        "description": "",
+        "file_size": 64244752,
+        "downloads": 1,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-09-11T02:30:56Z",
+        "last_modified": "2026-09-11T05:25:07Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": true,
+        "login_required": true
+      },
+      {
+        "id": "TeleAI/TeleTableBench",
+        "display_name": "TeleTableBench",
+        "description": "",
+        "file_size": 261493095,
+        "downloads": 1479,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-09-17T06:12:49Z",
+        "last_modified": "2025-09-28T13:10:07Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "xitingjuke/Oscilloscope_electrical_signal",
+        "display_name": "示波器电信号",
+        "description": "用于测试qwen2.5-vl使用",
+        "file_size": 1525181,
+        "downloads": 111,
+        "likes": 2,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-02-11T08:53:51Z",
+        "last_modified": "2025-02-12T01:26:14Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "market.aliyun/THA_ASR003_CN",
+        "display_name": "1000小时 泰语电话信道",
+        "description": "dataset_response_desc",
+        "file_size": 107617494,
+        "downloads": 53,
+        "likes": 0,
+        "license": "other",
+        "tasks": [
+          "auto-speech-recognition"
+        ],
+        "created_at": "2024-07-29T08:33:13Z",
+        "last_modified": "2024-08-01T13:06:37Z",
+        "tags": [
+          "license:other",
+          "task:auto-speech-recognition"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "TeleAI/TeleVRSLU",
+        "display_name": "TeleVRSLU",
+        "description": "",
+        "file_size": 6049446752,
+        "downloads": 70,
+        "likes": 0,
+        "license": "cc-by-4.0",
+        "tasks": [],
+        "created_at": "2026-01-23T05:03:11Z",
+        "last_modified": "2026-01-23T05:10:30Z",
+        "tags": [
+          "license:cc-by-4.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DatatangBeijing/147Hours-FilipinothePhilippinesSpontaneousDialogueTelephonyspeechdataset",
+        "display_name": "数据堂—147小时菲律宾语自然对话电话信道语音数据",
+        "description": "菲律宾语自然对话电话信道语音数据，基于约30个常见主题来模拟录制。此数据集标注了文本内容、句时间戳、说话人身份、性别等多种属性，由约264名来自不同地域和文化背景的菲律宾本土人录制，准确性高，为语音识别相关研究及应用提供了丰富的资源，经多家AI公司验证：有助于模型面对真实世界的多样性时能够表现出色。我们严格遵循数据保护法规和隐私规定，确保数据采集、存储和使用的过程中维护用户的隐私和合法权益，所有数据均遵循GDPR, CCPA, PIPL",
+        "file_size": 461097,
+        "downloads": 139,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [
+          "auto-speech-recognition"
+        ],
+        "created_at": "2024-05-11T02:10:22Z",
+        "last_modified": "2024-05-11T02:15:27Z",
+        "tags": [
+          "license:Apache License 2.0",
+          "task:auto-speech-recognition",
+          "custom_tag:菲律宾语自然对话电话信道语音数据"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "lcy248369/tengxunshipin",
+        "display_name": "腾讯视频电视剧信息",
+        "description": "数据来源：腾讯视频；数据采集时间：2026/7/9；数据条数：307条，完整的按我设置的要求呈现出来；涉及字段:电视剧名称、标记、图片、主演人员、标题",
+        "file_size": 35753,
+        "downloads": 11,
+        "likes": 1,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-07-09T14:10:27Z",
+        "last_modified": "2026-07-09T14:34:32Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "DatatangBeijing/90000sets-Multi-domainCustomerServiceDialogueTextData",
+        "display_name": "数据堂—9万组多领域客服对话文本数据",
+        "description": "多领域客服对话文本数据总计9万组；涉及领域为电信、电商、金融、生活、商业、教育、医疗和娱乐；每组数据为一轮或多轮对话；该数据可用于大型语言模型（LLM）训练、chatgpt等任务",
+        "file_size": 343136,
+        "downloads": 2991,
+        "likes": 39,
+        "license": "Apache License 2.0",
+        "tasks": [
+          "conversational"
+        ],
+        "created_at": "2024-05-11T01:21:49Z",
+        "last_modified": "2024-05-11T01:27:25Z",
+        "tags": [
+          "license:Apache License 2.0",
+          "task:conversational",
+          "custom_tag:多领域客服对话文本数据"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      }
+    ],
+    "total_count": 11,
+    "page_number": 1,
+    "page_size": 30
+  }
+}

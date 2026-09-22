@@ -1,0 +1,24 @@
+{
+  "models": {
+    "laya_base": {
+      "valid": 8,
+      "request_hashes_equal": true,
+      "summary_recomputed": true
+    },
+    "laya_computer": {
+      "valid": 8,
+      "request_hashes_equal": true,
+      "summary_recomputed": true
+    },
+    "jev": {
+      "valid": 8,
+      "request_hashes_equal": true,
+      "summary_recomputed": true
+    }
+  },
+  "train_development_sites_tasks_groups_disjoint": true,
+  "teacher_exports": 8,
+  "teacher_distributions": 6,
+  "calibration_and_holdout_frames_read": false,
+  "warning": "Historical operation+item protocol, not jev-ultrafast protocol or closed-loop success"
+}

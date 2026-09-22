@@ -1,0 +1,2023 @@
+{
+  "sha": "df82c9fdff91b9b130f2d6b89110d3870ba6260e",
+  "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/df82c9fdff91b9b130f2d6b89110d3870ba6260e",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1990b2abf49d0044519a09d1a510f0f36ef25469",
+      "size": 949,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/1990b2abf49d0044519a09d1a510f0f36ef25469"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b4a333984ad8092f3519ef587aa5ee4c163b10a6",
+      "size": 67,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b4a333984ad8092f3519ef587aa5ee4c163b10a6"
+    },
+    {
+      "path": "PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f86000ce2971045172c4b80880c8556358b99af8",
+      "size": 83,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f86000ce2971045172c4b80880c8556358b99af8"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6edbb651085d6f5f3ed2f0e712bc5493d0e78745",
+      "size": 5730,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/6edbb651085d6f5f3ed2f0e712bc5493d0e78745"
+    },
+    {
+      "path": "convlab2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5138d9b59c46bf6b42c19d90da2a1ffcf7ff4411",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/5138d9b59c46bf6b42c19d90da2a1ffcf7ff4411"
+    },
+    {
+      "path": "convlab2/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf126a1dfc0949d5fcc11f5c864589d079b106be",
+      "size": 356,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/cf126a1dfc0949d5fcc11f5c864589d079b106be"
+    },
+    {
+      "path": "convlab2/dialog_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b125da77ec1d8adaf76b4261e1e294dd5feb73c",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/5b125da77ec1d8adaf76b4261e1e294dd5feb73c"
+    },
+    {
+      "path": "convlab2/dialog_agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e9d4e9e96dffd4ec546815b8bdc6202fe5a4988",
+      "size": 221,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/0e9d4e9e96dffd4ec546815b8bdc6202fe5a4988"
+    },
+    {
+      "path": "convlab2/dialog_agent/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "962123b7d56fb73c8240dc45399ce7d8ae91d044",
+      "size": 5783,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/962123b7d56fb73c8240dc45399ce7d8ae91d044"
+    },
+    {
+      "path": "convlab2/dialog_agent/env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15317265fffc89f174faff715f9a9b320ed5f70",
+      "size": 875,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c15317265fffc89f174faff715f9a9b320ed5f70"
+    },
+    {
+      "path": "convlab2/dialog_agent/session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27019ea984ba342f3e48475db9ff32f29132b8e3",
+      "size": 6244,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/27019ea984ba342f3e48475db9ff32f29132b8e3"
+    },
+    {
+      "path": "convlab2/dst",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46fdbb53297aae571af933d0fcc74c92ac0a3b24",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/46fdbb53297aae571af933d0fcc74c92ac0a3b24"
+    },
+    {
+      "path": "convlab2/dst/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94490bde760e6aacf456ae7fa6b4cd23261a0a36",
+      "size": 33,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/94490bde760e6aacf456ae7fa6b4cd23261a0a36"
+    },
+    {
+      "path": "convlab2/dst/dst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c898ea62a00156df49bbeeb3b33041dc05cbe89",
+      "size": 609,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/8c898ea62a00156df49bbeeb3b33041dc05cbe89"
+    },
+    {
+      "path": "convlab2/dst/rule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47fc38e18101b5553f06674d9259bd5bc85a2a60",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/47fc38e18101b5553f06674d9259bd5bc85a2a60"
+    },
+    {
+      "path": "convlab2/dst/rule/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/dst/rule/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b44ca08e5f5a29fc1a1e1f8db5e026f2d7e8b096",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/b44ca08e5f5a29fc1a1e1f8db5e026f2d7e8b096"
+    },
+    {
+      "path": "convlab2/dst/rule/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/dst/rule/crosswoz/dst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21af20a3f8fdbd2d4653c3ae3970faa552a3f6a4",
+      "size": 4584,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/21af20a3f8fdbd2d4653c3ae3970faa552a3f6a4"
+    },
+    {
+      "path": "convlab2/dst/rule/crosswoz/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3a2e65ab5e1ddc8f5755c616ec9bbdcf614b314",
+      "size": 2574,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d3a2e65ab5e1ddc8f5755c616ec9bbdcf614b314"
+    },
+    {
+      "path": "convlab2/dst/trade",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86d5bbc080d09575231378d6d4f891ba76b2d070",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/86d5bbc080d09575231378d6d4f891ba76b2d070"
+    },
+    {
+      "path": "convlab2/dst/trade/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "437bf561ce361575685d130fb6a3cdeb5dadbf28",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/437bf561ce361575685d130fb6a3cdeb5dadbf28"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/EWC_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63365bf0f17b92e9e46dc799de494ab96a200d52",
+      "size": 4791,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/63365bf0f17b92e9e46dc799de494ab96a200d52"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/GEM_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc238e2e0a6c8d79b45f09d66219db7bd0648cee",
+      "size": 6654,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/fc238e2e0a6c8d79b45f09d66219db7bd0648cee"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "167e0fb2b1398219e1b48d731fa421a7afc5ec1d",
+      "size": 1568,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/167e0fb2b1398219e1b48d731fa421a7afc5ec1d"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/cnembedding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c904bf8432e241e63dcb8461350eee27c3e3bc7b",
+      "size": 976,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c904bf8432e241e63dcb8461350eee27c3e3bc7b"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b824b9c39e41922fc3f1a981346080d0ade9a93",
+      "size": 558,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2b824b9c39e41922fc3f1a981346080d0ade9a93"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adbcababe6dd2fe4372b4e85f9293ca14a4ed086",
+      "size": 611,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/adbcababe6dd2fe4372b4e85f9293ca14a4ed086"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/fine_tune.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44c5416c4d748304c2c1056602a1e6e08e040a8a",
+      "size": 2599,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/44c5416c4d748304c2c1056602a1e6e08e040a8a"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9380181c2f40d02a906d18e25b73c677a99e54c6",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/9380181c2f40d02a906d18e25b73c677a99e54c6"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/models/TRADE.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b94233d5cd0c9e5e6f7ded554b2348bd3c8f7e",
+      "size": 29445,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d0b94233d5cd0c9e5e6f7ded554b2348bd3c8f7e"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/trade.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4628f448dfc4f44d8d771bb6c8d120ea3e1d604f",
+      "size": 33757,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/4628f448dfc4f44d8d771bb6c8d120ea3e1d604f"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61ac882e0508609022f5fa8f449a74402cb8a067",
+      "size": 3745,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/61ac882e0508609022f5fa8f449a74402cb8a067"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7148dab5d97b7c98d4e9b68b1be3e143a4e67131",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/7148dab5d97b7c98d4e9b68b1be3e143a4e67131"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/config.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "58232ffaa80320dd0e09b0b33b33ad7a93d90a4a",
+      "size": 4344,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/58232ffaa80320dd0e09b0b33b33ad7a93d90a4a"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/fix_label.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ba857e58884b85e05da0967dbb1393f3b2d50a6",
+      "size": 4047,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/1ba857e58884b85e05da0967dbb1393f3b2d50a6"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d872817ec2465ade5c78b0bd94b29acdb12c6143",
+      "size": 2466,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d872817ec2465ade5c78b0bd94b29acdb12c6143"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/mapping.pair",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34df41d01e93ce27039e721e1ffb55bf9267e5a2",
+      "size": 1360,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/34df41d01e93ce27039e721e1ffb55bf9267e5a2"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/masked_cross_entropy.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5baaa5d25c4dce28646a21a4beb6a9f54659e934",
+      "size": 6529,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/5baaa5d25c4dce28646a21a4beb6a9f54659e934"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/measures.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "74d278ab82e38d82745ec17b7164a21e3bba8989",
+      "size": 4178,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/74d278ab82e38d82745ec17b7164a21e3bba8989"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/multi-bleu.perl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "92645cbdb34bb31b0ce282333c7e6cd2bfc8106b",
+      "size": 5230,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/92645cbdb34bb31b0ce282333c7e6cd2bfc8106b"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/utils_multiWOZ_DST.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aae4b9368e9cffc5d07f5dd128781c24a9b92bc",
+      "size": 36866,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/1aae4b9368e9cffc5d07f5dd128781c24a9b92bc"
+    },
+    {
+      "path": "convlab2/dst/trade/crosswoz/utils/utils_temp.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "202a2548a62241f1354c38b298bf14081ef31e02",
+      "size": 18440,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/202a2548a62241f1354c38b298bf14081ef31e02"
+    },
+    {
+      "path": "convlab2/dst/trade/trade.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdb1a5cecb12276ad18e0b4a9563a449782d1ddb",
+      "size": 91,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/fdb1a5cecb12276ad18e0b4a9563a449782d1ddb"
+    },
+    {
+      "path": "convlab2/nlg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c5237ef48152cd16d0c6f82a68cd22a10f6d740",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/5c5237ef48152cd16d0c6f82a68cd22a10f6d740"
+    },
+    {
+      "path": "convlab2/nlg/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ee002cb9b894da3cb3df0c6c283136a61c5478d",
+      "size": 33,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/0ee002cb9b894da3cb3df0c6c283136a61c5478d"
+    },
+    {
+      "path": "convlab2/nlg/nlg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac921ceecf43b851de19e6fe267a11e51ba800b7",
+      "size": 533,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/ac921ceecf43b851de19e6fe267a11e51ba800b7"
+    },
+    {
+      "path": "convlab2/nlg/sclstm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0422e8b2fddc245efdd6e9e54c0b934e5c42280",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/f0422e8b2fddc245efdd6e9e54c0b934e5c42280"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/bleu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d30a1de5e2feeb9af2703beba9fcc45db00dbb4",
+      "size": 5321,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3d30a1de5e2feeb9af2703beba9fcc45db00dbb4"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca5728e56b6aa0cb77ed70f0e09cf1078f96a3da",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/ca5728e56b6aa0cb77ed70f0e09cf1078f96a3da"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd34020c0f936f21bec9606959c5f21c7d46c8c",
+      "size": 2115,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3cd34020c0f936f21bec9606959c5f21c7d46c8c"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34cbb31971dc27396d9a00328cfe22ae11ccc464",
+      "size": 55,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/34cbb31971dc27396d9a00328cfe22ae11ccc464"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eeef87b01a863ed45f69f8d1e3d3e919e10bdb41",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/eeef87b01a863ed45f69f8d1e3d3e919e10bdb41"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/config/config.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb2b4c1bff3bc7604daa58265867eee9f986c99e",
+      "size": 395,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/fb2b4c1bff3bc7604daa58265867eee9f986c99e"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/config/config_usr.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82b88c83e6b63817b7df22e0ecc7921672e506ba",
+      "size": 414,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/82b88c83e6b63817b7df22e0ecc7921672e506ba"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7cf7220a3eb50714eae4a1b7796c5edff95b241",
+      "size": 10559,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a7cf7220a3eb50714eae4a1b7796c5edff95b241"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/generate_resources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0687e15e7e7a95bd897fabfd75a2b0fc306f96",
+      "size": 19659,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/7c0687e15e7e7a95bd897fabfd75a2b0fc306f96"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/loader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4db0939ab677b8776851a1d32eb8a5177c97f57a",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/4db0939ab677b8776851a1d32eb8a5177c97f57a"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/loader/dataset_woz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b023326a25f4231998d184b6948ce01930ad17e4",
+      "size": 9149,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b023326a25f4231998d184b6948ce01930ad17e4"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/sc_lstm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8283a5d844f3748afaee3616de169275d56d178",
+      "size": 11220,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c8283a5d844f3748afaee3616de169275d56d178"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/crosswoz/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c16c9658edd998d2f8c4e5232e3893be103de275",
+      "size": 14360,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c16c9658edd998d2f8c4e5232e3893be103de275"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de9c7a392774d7f364ef5f198a6c19e19d8f0cb3",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/de9c7a392774d7f364ef5f198a6c19e19d8f0cb3"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/model/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30cbb6053b893ce9cceba283b6431cc81db9f078",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/30cbb6053b893ce9cceba283b6431cc81db9f078"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/model/layers/decoder_deep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "167f875c76fefb9f14299899b0b31878c701f5f2",
+      "size": 11480,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/167f875c76fefb9f14299899b0b31878c701f5f2"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/model/lm_deep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93385b941ace34683f894ac7aa210257d9df8b91",
+      "size": 3501,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/93385b941ace34683f894ac7aa210257d9df8b91"
+    },
+    {
+      "path": "convlab2/nlg/sclstm/model/masked_cross_entropy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8329a79f511678fcd3d5f32c813201d4560492ba",
+      "size": 1913,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/8329a79f511678fcd3d5f32c813201d4560492ba"
+    },
+    {
+      "path": "convlab2/nlg/template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ba9a2cbe0de24f193252dad5c886d1dfdf0ed27",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/7ba9a2cbe0de24f193252dad5c886d1dfdf0ed27"
+    },
+    {
+      "path": "convlab2/nlg/template/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bc79c52b3bdfb83ec76b3c5e5b45597d079f3c4",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/4bc79c52b3bdfb83ec76b3c5e5b45597d079f3c4"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a2ba5f71ee0512998aa20df8f9ebce4a44151e",
+      "size": 59,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e3a2ba5f71ee0512998aa20df8f9ebce4a44151e"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/auto_system_template_nlg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e40b55533e2ad0c37ceedf4a31f1e194a39f74",
+      "size": 3667078,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a2e40b55533e2ad0c37ceedf4a31f1e194a39f74"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/auto_user_template_nlg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3638cd80e4755fe2e30a4007ad9e860d4863890b",
+      "size": 4132903,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3638cd80e4755fe2e30a4007ad9e860d4863890b"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b6b88825d6637fe734e32617cdef6178bf0744d",
+      "size": 8935,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/0b6b88825d6637fe734e32617cdef6178bf0744d"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/generate_auto_template.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d8132b416013192a1fdbf5e98e07391eaa8166e4",
+      "size": 11005,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d8132b416013192a1fdbf5e98e07391eaa8166e4"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/manual_system_template_nlg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11e10b1726276c8e07dbdd28761e0a59ed90b3e1",
+      "size": 75438,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/11e10b1726276c8e07dbdd28761e0a59ed90b3e1"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/manual_user_template_nlg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6007b45767cf757b3852f77f204d6cc93b0a45",
+      "size": 29539,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/1e6007b45767cf757b3852f77f204d6cc93b0a45"
+    },
+    {
+      "path": "convlab2/nlg/template/crosswoz/nlg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e1af9a79219be8a54f3d621d7068cdbd2e7513f",
+      "size": 19933,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9e1af9a79219be8a54f3d621d7068cdbd2e7513f"
+    },
+    {
+      "path": "convlab2/nlu",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43f6db0fd80fb706508d3b522c6dd129a5627b52",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/43f6db0fd80fb706508d3b522c6dd129a5627b52"
+    },
+    {
+      "path": "convlab2/nlu/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c87cebf668f1643fcec29fa682d4102d5cc4335",
+      "size": 33,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/7c87cebf668f1643fcec29fa682d4102d5cc4335"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f467073da29de3d7224b3b7ca8fa4c62aacbe247",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/f467073da29de3d7224b3b7ca8fa4c62aacbe247"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c7816c7794d89cbb7c3a51ae5f0e208c0e44dd6",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/1c7816c7794d89cbb7c3a51ae5f0e208c0e44dd6"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0abd1333d6b5ef020556c182fb963db2dfb76d5",
+      "size": 3161,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d0abd1333d6b5ef020556c182fb963db2dfb76d5"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89f86c50a29d895db4f02f05bd08e9ab4e007f9a",
+      "size": 55,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/89f86c50a29d895db4f02f05bd08e9ab4e007f9a"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/analyse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ebaeb92a55372865ef4d9c3a1a025e106ea44f9",
+      "size": 2834,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/4ebaeb92a55372865ef4d9c3a1a025e106ea44f9"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b0e0277b6ff1ad7f79c526efc4f18934a745b62",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/6b0e0277b6ff1ad7f79c526efc4f18934a745b62"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/configs/crosswoz_all.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27ad3a28a3c444fa94243505765729313f736006",
+      "size": 629,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/27ad3a28a3c444fa94243505765729313f736006"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/configs/crosswoz_all_context.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543b56482153dc7724c4aeac2f1f7b46c201b5f2",
+      "size": 660,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/543b56482153dc7724c4aeac2f1f7b46c201b5f2"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/configs/crosswoz_all_context_fr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c31d01edb47ffb3f7a3efd4819afb5f921779868",
+      "size": 675,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c31d01edb47ffb3f7a3efd4819afb5f921779868"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/configs/crosswoz_all_fr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7812034a636781231671620fc601f6e2cc6dab5",
+      "size": 643,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e7812034a636781231671620fc601f6e2cc6dab5"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/nlu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "011d0549fb8615bb9f2ad3cb0f23901a8f219eb9",
+      "size": 4167,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/011d0549fb8615bb9f2ad3cb0f23901a8f219eb9"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/postprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48e87573c27d9f19e2f96660e249a240136f6337",
+      "size": 2667,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/48e87573c27d9f19e2f96660e249a240136f6337"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/crosswoz/preprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae9f572f444a3e6fd0deddf29832bd887b3219c",
+      "size": 4408,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2ae9f572f444a3e6fd0deddf29832bd887b3219c"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/dataloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fba4ebf125d71bc6a40d5f3a438faf63a7b0db3d",
+      "size": 6701,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/fba4ebf125d71bc6a40d5f3a438faf63a7b0db3d"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/jointBERT.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f73c9aba6808ff92e15d7967bf6a2aa43419c75",
+      "size": 5019,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/5f73c9aba6808ff92e15d7967bf6a2aa43419c75"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7856e5ecc0c1be7471f9497339a7f9fbc2f3f9ec",
+      "size": 5433,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/7856e5ecc0c1be7471f9497339a7f9fbc2f3f9ec"
+    },
+    {
+      "path": "convlab2/nlu/jointBERT/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6267b9403dd805ea7537763f1063cbcc03965d1",
+      "size": 9919,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a6267b9403dd805ea7537763f1063cbcc03965d1"
+    },
+    {
+      "path": "convlab2/nlu/nlu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e6a0ab6cd165cdf2a4295470d22bfba471a3e71",
+      "size": 563,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9e6a0ab6cd165cdf2a4295470d22bfba471a3e71"
+    },
+    {
+      "path": "convlab2/policy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2433c1b69acf96a381f0014ea51141ea2b8109c5",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/2433c1b69acf96a381f0014ea51141ea2b8109c5"
+    },
+    {
+      "path": "convlab2/policy/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc0b29edaaa66dde5febe62182ee709e800dab67",
+      "size": 612,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/cc0b29edaaa66dde5febe62182ee709e800dab67"
+    },
+    {
+      "path": "convlab2/policy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab0d8ce7f50708fb844d9d0e6944d6bd31cc5ad",
+      "size": 41,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/8ab0d8ce7f50708fb844d9d0e6944d6bd31cc5ad"
+    },
+    {
+      "path": "convlab2/policy/mle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d29e81cfdb8800185ea1886ca9d55d97273d4942",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/d29e81cfdb8800185ea1886ca9d55d97273d4942"
+    },
+    {
+      "path": "convlab2/policy/mle/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95974a5043e9ca6c4e52da9c66fb696b5cd58dde",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/95974a5043e9ca6c4e52da9c66fb696b5cd58dde"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ebf6a8d8018a5beb630ea7e23791714039b39d",
+      "size": 342,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a0ebf6a8d8018a5beb630ea7e23791714039b39d"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63353185bd8c7604156a5a519442f630a2486275",
+      "size": 48,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/63353185bd8c7604156a5a519442f630a2486275"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz/config.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e98b3adcfa890ef276066e03c6bbfe3c25f7489f",
+      "size": 170,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e98b3adcfa890ef276066e03c6bbfe3c25f7489f"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ce836f41011a43ffec72ef3ceb7c07b9bed984",
+      "size": 9962,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b7ce836f41011a43ffec72ef3ceb7c07b9bed984"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f160cc458a5fa425fb94c65e8614c6bb54e524",
+      "size": 3860,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d3f160cc458a5fa425fb94c65e8614c6bb54e524"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz/mle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75ed561a1742f16b5b272bbd0738e8850eae748",
+      "size": 1992,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a75ed561a1742f16b5b272bbd0738e8850eae748"
+    },
+    {
+      "path": "convlab2/policy/mle/crosswoz/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b42b16ce168b84d3df0be5450b9d2f91cae5ad1",
+      "size": 5535,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9b42b16ce168b84d3df0be5450b9d2f91cae5ad1"
+    },
+    {
+      "path": "convlab2/policy/mle/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9b62efd850a55828d35c6c90b1872b0777ec865",
+      "size": 2429,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b9b62efd850a55828d35c6c90b1872b0777ec865"
+    },
+    {
+      "path": "convlab2/policy/mle/mle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "028c3d41efc60bee5132528e7bb81ee61db8dffe",
+      "size": 1944,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/028c3d41efc60bee5132528e7bb81ee61db8dffe"
+    },
+    {
+      "path": "convlab2/policy/mle/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2738517ed6f24900462b16034c0d1ee0ba6948b3",
+      "size": 3982,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2738517ed6f24900462b16034c0d1ee0ba6948b3"
+    },
+    {
+      "path": "convlab2/policy/policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a637205c9c1aee3ece04939bcd48ffc9c51c9a66",
+      "size": 649,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a637205c9c1aee3ece04939bcd48ffc9c51c9a66"
+    },
+    {
+      "path": "convlab2/policy/rlmodule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6917e2ba4094ed0361d6370269069e3983b9a73f",
+      "size": 6586,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/6917e2ba4094ed0361d6370269069e3983b9a73f"
+    },
+    {
+      "path": "convlab2/policy/rule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80b34784d8889c757cd9b5e911da5ba66b4b5002",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/80b34784d8889c757cd9b5e911da5ba66b4b5002"
+    },
+    {
+      "path": "convlab2/policy/rule/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/policy/rule/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ff9f1c4663167cc74c43dd5b6a55cbab781bcd0",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/9ff9f1c4663167cc74c43dd5b6a55cbab781bcd0"
+    },
+    {
+      "path": "convlab2/policy/rule/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab2b8f1d6a8db0b9e27a7fb2d866d8097bedfeab",
+      "size": 67,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/ab2b8f1d6a8db0b9e27a7fb2d866d8097bedfeab"
+    },
+    {
+      "path": "convlab2/policy/rule/crosswoz/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef3c844596bbb7c73bfbcbdfef91aa7ecdf491d",
+      "size": 8406,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2ef3c844596bbb7c73bfbcbdfef91aa7ecdf491d"
+    },
+    {
+      "path": "convlab2/policy/rule/crosswoz/rule_simulator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f2d9416fb9128a854a7ff59ed3f67aa1c9167de",
+      "size": 17202,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/7f2d9416fb9128a854a7ff59ed3f67aa1c9167de"
+    },
+    {
+      "path": "convlab2/policy/vec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bd04b43c4087d193fc596080a3e213ff4dac83e",
+      "size": 756,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9bd04b43c4087d193fc596080a3e213ff4dac83e"
+    },
+    {
+      "path": "convlab2/policy/vector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1de142677b2906aa932561fa119ed8cb25e9943",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/c1de142677b2906aa932561fa119ed8cb25e9943"
+    },
+    {
+      "path": "convlab2/policy/vector/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/policy/vector/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8c378e050a4d856d217ac7fca414be388556623",
+      "size": 761,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b8c378e050a4d856d217ac7fca414be388556623"
+    },
+    {
+      "path": "convlab2/policy/vector/vector_crosswoz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b74f57c4fe851a27b7f450a0845eb5db6af20390",
+      "size": 3848,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b74f57c4fe851a27b7f450a0845eb5db6af20390"
+    },
+    {
+      "path": "convlab2/task",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "251f30cbf7e9cd37b06d5a3bd3ab51336d3a8427",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/251f30cbf7e9cd37b06d5a3bd3ab51336d3a8427"
+    },
+    {
+      "path": "convlab2/task/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/task/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c4fbba11aa168d21d040d8e4a6bcb68a7430a86",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/7c4fbba11aa168d21d040d8e4a6bcb68a7430a86"
+    },
+    {
+      "path": "convlab2/task/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/task/crosswoz/attraction_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "650bbad833a0c27c7a2f3ab3ce8eb8289acda1ef",
+      "size": 3616,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/650bbad833a0c27c7a2f3ab3ce8eb8289acda1ef"
+    },
+    {
+      "path": "convlab2/task/crosswoz/goal_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc772a298ec4251d53c8d689cd7e71e4484c2272",
+      "size": 18510,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/bc772a298ec4251d53c8d689cd7e71e4484c2272"
+    },
+    {
+      "path": "convlab2/task/crosswoz/hotel_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a4b0fe6d76be5727ac1da999a30e68d56e039d6",
+      "size": 7526,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/6a4b0fe6d76be5727ac1da999a30e68d56e039d6"
+    },
+    {
+      "path": "convlab2/task/crosswoz/metro_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91b60a904e47616ba8f0bac11443c99d739f6f80",
+      "size": 949,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/91b60a904e47616ba8f0bac11443c99d739f6f80"
+    },
+    {
+      "path": "convlab2/task/crosswoz/reorder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef15fbfebe9b6b1fc849023c1ccb795a28bee6f",
+      "size": 3311,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3ef15fbfebe9b6b1fc849023c1ccb795a28bee6f"
+    },
+    {
+      "path": "convlab2/task/crosswoz/restaurant_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f291408e14430ab79afb01acc4ce4c03d6c8246c",
+      "size": 5485,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f291408e14430ab79afb01acc4ce4c03d6c8246c"
+    },
+    {
+      "path": "convlab2/task/crosswoz/sentence_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b399c3793ae018583b8cff34b555036605a263f",
+      "size": 5289,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/1b399c3793ae018583b8cff34b555036605a263f"
+    },
+    {
+      "path": "convlab2/task/crosswoz/taxi_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7b590c36e32ca136008eeb70fb6d860738890fd",
+      "size": 1020,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a7b590c36e32ca136008eeb70fb6d860738890fd"
+    },
+    {
+      "path": "convlab2/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a669cda6b18022c15bcdf107699d8fae37dd05fc",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/a669cda6b18022c15bcdf107699d8fae37dd05fc"
+    },
+    {
+      "path": "convlab2/util/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/util/allennlp_file_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d0ac9d537f8f6ca46739779be6b3c525fdae45c",
+      "size": 11553,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3d0ac9d537f8f6ca46739779be6b3c525fdae45c"
+    },
+    {
+      "path": "convlab2/util/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fccc3b4623244b42a3c6cf67fa5f0927ac44247",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/8fccc3b4623244b42a3c6cf67fa5f0927ac44247"
+    },
+    {
+      "path": "convlab2/util/crosswoz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "convlab2/util/crosswoz/dbquery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c876c591205a21eb2ae99a0c38b004806f663f43",
+      "size": 9735,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c876c591205a21eb2ae99a0c38b004806f663f43"
+    },
+    {
+      "path": "convlab2/util/crosswoz/lexicalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d123aaef6b54faabe7e25e287b56f9d91ebebc",
+      "size": 4396,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/77d123aaef6b54faabe7e25e287b56f9d91ebebc"
+    },
+    {
+      "path": "convlab2/util/crosswoz/state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a098446fdb9031c8f8d0ae15d02843161ac4f7e5",
+      "size": 1237,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a098446fdb9031c8f8d0ae15d02843161ac4f7e5"
+    },
+    {
+      "path": "convlab2/util/file_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa06e187eee41b6fd40d09959b77d73e0e3f6797",
+      "size": 731,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/fa06e187eee41b6fd40d09959b77d73e0e3f6797"
+    },
+    {
+      "path": "convlab2/util/module.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d280ce83d77f9aedb6c39195ce16170a1cab21e",
+      "size": 590,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9d280ce83d77f9aedb6c39195ce16170a1cab21e"
+    },
+    {
+      "path": "convlab2/util/train_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2351b30c8f7739d6c40b6167aaa5da49c3dec4ff",
+      "size": 819,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2351b30c8f7739d6c40b6167aaa5da49c3dec4ff"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2365fbcdb4d81ddf42bc01bdb845adfb1b7eea0",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/d2365fbcdb4d81ddf42bc01bdb845adfb1b7eea0"
+    },
+    {
+      "path": "data/crosswoz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0510b247aae66e98b651919b242fe49dd9a951a5",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/0510b247aae66e98b651919b242fe49dd9a951a5"
+    },
+    {
+      "path": "data/crosswoz/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f19bdc9204f2bc20bc3de0a9647ccbbb62d3ab92",
+      "size": 1163,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f19bdc9204f2bc20bc3de0a9647ccbbb62d3ab92"
+    },
+    {
+      "path": "data/crosswoz/database",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4d86c72d935c9c8afea56d31cbec9f9fa4c4400",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/a4d86c72d935c9c8afea56d31cbec9f9fa4c4400"
+    },
+    {
+      "path": "data/crosswoz/database/attraction_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f42952e92d499e4d6c15d24596cfd03f0c0618",
+      "size": 504823,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c8f42952e92d499e4d6c15d24596cfd03f0c0618"
+    },
+    {
+      "path": "data/crosswoz/database/database.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f39728b4037c2442292a7ad78f8f0affb9bb62e4",
+      "size": 1685,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f39728b4037c2442292a7ad78f8f0affb9bb62e4"
+    },
+    {
+      "path": "data/crosswoz/database/hotel_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ee0c1c102f37818dd3b0a1770b569808f4908d",
+      "size": 1237003,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/70ee0c1c102f37818dd3b0a1770b569808f4908d"
+    },
+    {
+      "path": "data/crosswoz/database/metro_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "162caa09245214291f353f077b1215b2d1c7ea03",
+      "size": 512712,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/162caa09245214291f353f077b1215b2d1c7ea03"
+    },
+    {
+      "path": "data/crosswoz/database/restaurant_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f81f6ef445081282cb3c9399ceee259936a6f8",
+      "size": 1335662,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/58f81f6ef445081282cb3c9399ceee259936a6f8"
+    },
+    {
+      "path": "data/crosswoz/database/taxi_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e171a626acf4e3266b468fc419034018d1a84bb4",
+      "size": 119,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e171a626acf4e3266b468fc419034018d1a84bb4"
+    },
+    {
+      "path": "data/crosswoz/gen_da_voc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0859ec82d0c8692f4e5e8cceb79501019c5faca0",
+      "size": 1009,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/0859ec82d0c8692f4e5e8cceb79501019c5faca0"
+    },
+    {
+      "path": "data/crosswoz/sys_da_voc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9290a64b8eb0e92bc7c24d7791ff3cbedf1cb05c",
+      "size": 5899,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9290a64b8eb0e92bc7c24d7791ff3cbedf1cb05c"
+    },
+    {
+      "path": "data/crosswoz/test.json.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5408e20adcc61347533b5ab1fa9ca4e65f269743",
+      "size": 1367462,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/5408e20adcc61347533b5ab1fa9ca4e65f269743"
+    },
+    {
+      "path": "data/crosswoz/train.json.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57eb9cbd004a2e59f301f9e1bdc5500ddf2a98ef",
+      "size": 13624132,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/57eb9cbd004a2e59f301f9e1bdc5500ddf2a98ef"
+    },
+    {
+      "path": "data/crosswoz/usr_da_voc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d095b7ba10a5f1fd81fed2fa796a0b5ec5957a",
+      "size": 6011,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/79d095b7ba10a5f1fd81fed2fa796a0b5ec5957a"
+    },
+    {
+      "path": "data/crosswoz/val.json.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6de13a813f308802dab90d851132a17bc5064a73",
+      "size": 1368203,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/6de13a813f308802dab90d851132a17bc5064a73"
+    },
+    {
+      "path": "example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9829623c3ac9a4682d297d3a8e4a16a4f12ae2",
+      "size": 690584,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/1a9829623c3ac9a4682d297d3a8e4a16a4f12ae2"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa24c0ec3b54566c147524e1aa145f70bb65e5e2",
+      "size": 114,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/aa24c0ec3b54566c147524e1aa145f70bb65e5e2"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b79aa979e930dc0bfff4d58ac38b2a61a22df8",
+      "size": 277,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/18b79aa979e930dc0bfff4d58ac38b2a61a22df8"
+    },
+    {
+      "path": "result.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e68a943bc3b96ed87fafab36acc9df97a8c22de",
+      "size": 415454,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/6e68a943bc3b96ed87fafab36acc9df97a8c22de"
+    },
+    {
+      "path": "setup.cfg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8f02bbc47a37fad52fa7cb76b5b9000f39a6d9b5",
+      "size": 78,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/8f02bbc47a37fad52fa7cb76b5b9000f39a6d9b5"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2a2d645582fd0848a57eb2e3341a355d3d46d040",
+      "size": 1969,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2a2d645582fd0848a57eb2e3341a355d3d46d040"
+    },
+    {
+      "path": "web",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97d2608e68003f37e261dbabe2bf7d4151190ec3",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/97d2608e68003f37e261dbabe2bf7d4151190ec3"
+    },
+    {
+      "path": "web/.editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf2406620fce6d343a19086f81aa20d5becfa8e",
+      "size": 267,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/fbf2406620fce6d343a19086f81aa20d5becfa8e"
+    },
+    {
+      "path": "web/.env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd2d2d6aa7d278345bd0d7783ace6dd92daa5525",
+      "size": 103,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/fd2d2d6aa7d278345bd0d7783ace6dd92daa5525"
+    },
+    {
+      "path": "web/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b090a2cf34a69e537744d5adb0cd90f815c344f0",
+      "size": 172,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b090a2cf34a69e537744d5adb0cd90f815c344f0"
+    },
+    {
+      "path": "web/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed6f0110ec71705ff6b1f6cfa8240207cdd71579",
+      "size": 1806,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/ed6f0110ec71705ff6b1f6cfa8240207cdd71579"
+    },
+    {
+      "path": "web/data_labelling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e725bc3160eb7c9649671bf6cb241e6927f4c8f9",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/e725bc3160eb7c9649671bf6cb241e6927f4c8f9"
+    },
+    {
+      "path": "web/data_labelling/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260b35ed361c8a2bad88df6b74d6301bc0cfa275",
+      "size": 575,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/260b35ed361c8a2bad88df6b74d6301bc0cfa275"
+    },
+    {
+      "path": "web/data_labelling/admin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6084f908c9f96027e5d9bf09f4c27755cba31332",
+      "size": 1383,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/6084f908c9f96027e5d9bf09f4c27755cba31332"
+    },
+    {
+      "path": "web/data_labelling/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82671eb96323ef286768a79f79375451de5f22b",
+      "size": 620,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c82671eb96323ef286768a79f79375451de5f22b"
+    },
+    {
+      "path": "web/data_labelling/match_making",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad47220518ad565ee1eed35257b5433e7555aa5b",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/ad47220518ad565ee1eed35257b5433e7555aa5b"
+    },
+    {
+      "path": "web/data_labelling/match_making/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1596d8723fecf47c6420ed11d0e6beecbd7c0c4",
+      "size": 92,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e1596d8723fecf47c6420ed11d0e6beecbd7c0c4"
+    },
+    {
+      "path": "web/data_labelling/match_making/helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b9622a5239f385c9718b33e978a2e5bca7d435",
+      "size": 1297,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/80b9622a5239f385c9718b33e978a2e5bca7d435"
+    },
+    {
+      "path": "web/data_labelling/match_making/match.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07134b5024c74f9414309b074c828df81bf7f900",
+      "size": 1295,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/07134b5024c74f9414309b074c828df81bf7f900"
+    },
+    {
+      "path": "web/data_labelling/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9dbc3e52c36c061fe360d9b9efa6a419603483",
+      "size": 1804,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3e9dbc3e52c36c061fe360d9b9efa6a419603483"
+    },
+    {
+      "path": "web/data_labelling/redis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "050f6c07d52d3514f1e1d590fff48fec774b04e7",
+      "size": 454,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/050f6c07d52d3514f1e1d590fff48fec774b04e7"
+    },
+    {
+      "path": "web/data_labelling/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "caab6ad1cea27b59a00e09d8a86fe46551f901c1",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/caab6ad1cea27b59a00e09d8a86fe46551f901c1"
+    },
+    {
+      "path": "web/data_labelling/results/input",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "web/data_labelling/results/input/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "web/data_labelling/routes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "773fc2bed1b90ac9bd9a60fa1f5fd5149619bf87",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/773fc2bed1b90ac9bd9a60fa1f5fd5149619bf87"
+    },
+    {
+      "path": "web/data_labelling/routes/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d41d374e5d9179a04b425766b9a800d566d819f",
+      "size": 48,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9d41d374e5d9179a04b425766b9a800d566d819f"
+    },
+    {
+      "path": "web/data_labelling/routes/match.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d42c6d57b1e7ad0a390ccff66ad6f578413ba99",
+      "size": 1575,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2d42c6d57b1e7ad0a390ccff66ad6f578413ba99"
+    },
+    {
+      "path": "web/data_labelling/routes/misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4827bf15e502bfff1b7ecb4329a7798f1d514c04",
+      "size": 3905,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/4827bf15e502bfff1b7ecb4329a7798f1d514c04"
+    },
+    {
+      "path": "web/data_labelling/routes/room.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8291d453a86d1072b83f88b8b5af709e97028d7a",
+      "size": 3236,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/8291d453a86d1072b83f88b8b5af709e97028d7a"
+    },
+    {
+      "path": "web/data_labelling/routes/services.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e3bc59ac03a795d46a3a7d4aa35eab9225fd21b",
+      "size": 1870,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2e3bc59ac03a795d46a3a7d4aa35eab9225fd21b"
+    },
+    {
+      "path": "web/data_labelling/settings.example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f1989627188ae0410b68f02d2c9e5f936441c54",
+      "size": 155,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/2f1989627188ae0410b68f02d2c9e5f936441c54"
+    },
+    {
+      "path": "web/data_labelling/static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e47dcc34436746d59bee8efbfa73969bdc66e61",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/8e47dcc34436746d59bee8efbfa73969bdc66e61"
+    },
+    {
+      "path": "web/data_labelling/static/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b65b2ed306525072acb381548f6871552ea490b9",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/b65b2ed306525072acb381548f6871552ea490b9"
+    },
+    {
+      "path": "web/data_labelling/static/css/bootstrap.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e3fe871295c44f8fa58ddc7ac242463f13e6bd",
+      "size": 155758,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/92e3fe871295c44f8fa58ddc7ac242463f13e6bd"
+    },
+    {
+      "path": "web/data_labelling/static/css/fontawesome.all.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18de34160d75cfe35e48e789bbc14285e7d521ef",
+      "size": 69105,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/18de34160d75cfe35e48e789bbc14285e7d521ef"
+    },
+    {
+      "path": "web/data_labelling/static/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f29e406f6e662dfd366377b3cbc1eeaab2c7e78e",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/f29e406f6e662dfd366377b3cbc1eeaab2c7e78e"
+    },
+    {
+      "path": "web/data_labelling/static/data/attraction_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d823db7ea3a5e830df50c0c424a33c85a532a64",
+      "size": 536987,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/8d823db7ea3a5e830df50c0c424a33c85a532a64"
+    },
+    {
+      "path": "web/data_labelling/static/data/hotel_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a563433f6499f10bf1c9ab1a8f1688b4e11fb55",
+      "size": 1258910,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/5a563433f6499f10bf1c9ab1a8f1688b4e11fb55"
+    },
+    {
+      "path": "web/data_labelling/static/data/metro_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbfd5901ce070ccb66b6e22e3526d8fb2e43cd55",
+      "size": 568089,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/dbfd5901ce070ccb66b6e22e3526d8fb2e43cd55"
+    },
+    {
+      "path": "web/data_labelling/static/data/restaurant_db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d8840ecd2f6572393b5d3499f621e07327e8a86",
+      "size": 1351317,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3d8840ecd2f6572393b5d3499f621e07327e8a86"
+    },
+    {
+      "path": "web/data_labelling/static/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec0747e1225ef189f78c2b45e8820b85231fe45c",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/ec0747e1225ef189f78c2b45e8820b85231fe45c"
+    },
+    {
+      "path": "web/data_labelling/static/js/axios.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69cc188e4fab53d3e1fb4868b5349a51cda99f7f",
+      "size": 12941,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/69cc188e4fab53d3e1fb4868b5349a51cda99f7f"
+    },
+    {
+      "path": "web/data_labelling/static/js/bootstrap.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4c0d1f95cd3ca1b97ed8e7f7f22a91fa24b4edf",
+      "size": 58072,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c4c0d1f95cd3ca1b97ed8e7f7f22a91fa24b4edf"
+    },
+    {
+      "path": "web/data_labelling/static/js/jquery.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1c07fd803b5fc9c54f44e31123ae4fa11e134b0",
+      "size": 88145,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/a1c07fd803b5fc9c54f44e31123ae4fa11e134b0"
+    },
+    {
+      "path": "web/data_labelling/static/js/jquery.min.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e15edef2c718c3e0f6050a1d4e6d749386296e0d",
+      "size": 136409,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e15edef2c718c3e0f6050a1d4e6d749386296e0d"
+    },
+    {
+      "path": "web/data_labelling/static/js/jquery.slim.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af151cfe3feac4541ed4855e7801a52a5728e739",
+      "size": 71037,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/af151cfe3feac4541ed4855e7801a52a5728e739"
+    },
+    {
+      "path": "web/data_labelling/static/js/jquery.slim.min.map",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ccb0fe185ce02561b57df16c568b674b60bd0a",
+      "size": 108769,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/55ccb0fe185ce02561b57df16c568b674b60bd0a"
+    },
+    {
+      "path": "web/data_labelling/static/js/polyfill.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "015adccd568831975c818bab4f3d6c3b7692534e",
+      "size": 99133,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/015adccd568831975c818bab4f3d6c3b7692534e"
+    },
+    {
+      "path": "web/data_labelling/static/js/popper.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c2aeb998dae8cb8db32f23f72f33ee836e8e21",
+      "size": 21162,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/36c2aeb998dae8cb8db32f23f72f33ee836e8e21"
+    },
+    {
+      "path": "web/data_labelling/static/js/socket.io.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b622e1b9879309d32e115fce372a2c4cef636440",
+      "size": 65070,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b622e1b9879309d32e115fce372a2c4cef636440"
+    },
+    {
+      "path": "web/data_labelling/static/js/vue.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "087ee42cd1021d9f0315fd0f8779eceb3ba1f96b",
+      "size": 93675,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/087ee42cd1021d9f0315fd0f8779eceb3ba1f96b"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fbff596b6182d3529fa61a4548912c9cc520cc6",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/4fbff596b6182d3529fa61a4548912c9cc520cc6"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-brands-400.eot",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f991ad37a9fa5b8c837c22074a802c917386463",
+      "size": 129648,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/4f991ad37a9fa5b8c837c22074a802c917386463"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-brands-400.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5f544c7f2de4c1d05a65e577c75a18cd2166ff5",
+      "size": 691865,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c5f544c7f2de4c1d05a65e577c75a18cd2166ff5"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-brands-400.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8836d9ff640f68dbec3382859658289281634e50",
+      "size": 129344,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/8836d9ff640f68dbec3382859658289281634e50"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-brands-400.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d65148dbf18b2cf98aad526c2135a31fcfc49a48",
+      "size": 87544,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d65148dbf18b2cf98aad526c2135a31fcfc49a48"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-brands-400.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2bfe66749850cef4976fcd93bbc03b3dcb2b415",
+      "size": 74656,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e2bfe66749850cef4976fcd93bbc03b3dcb2b415"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-regular-400.eot",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c3418a55ee81feb6bb16e0bc691fae99330530",
+      "size": 34388,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f9c3418a55ee81feb6bb16e0bc691fae99330530"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-regular-400.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b66718565d4da5c4174afb93b125eb3cc1fad1",
+      "size": 144451,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/38b66718565d4da5c4174afb93b125eb3cc1fad1"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-regular-400.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4abb3df8cf5afec43d241be286485acdbdf40e5",
+      "size": 34092,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b4abb3df8cf5afec43d241be286485acdbdf40e5"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-regular-400.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7414354e31d36b46e1843930c941a938b3653c1",
+      "size": 16804,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/b7414354e31d36b46e1843930c941a938b3653c1"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-regular-400.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7faee5634d92314e9d514a63f2c7f24292b1459f",
+      "size": 13584,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/7faee5634d92314e9d514a63f2c7f24292b1459f"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-solid-900.eot",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf4fd60a5f4709e460d2bcba70224d9f8fbbe648",
+      "size": 186708,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/bf4fd60a5f4709e460d2bcba70224d9f8fbbe648"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-solid-900.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b786612231a02216426d68da2cf4c1db9a0778",
+      "size": 816852,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/35b786612231a02216426d68da2cf4c1db9a0778"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-solid-900.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9821bea3a54aa565cd62154b8fc42cee3fb62808",
+      "size": 186424,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9821bea3a54aa565cd62154b8fc42cee3fb62808"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-solid-900.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "493255384445e26787d22e6a7aaddca55e6a8c38",
+      "size": 96256,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/493255384445e26787d22e6a7aaddca55e6a8c38"
+    },
+    {
+      "path": "web/data_labelling/static/webfonts/fa-solid-900.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92c4d57c5a8236cd682757da197d710189c67019",
+      "size": 74328,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/92c4d57c5a8236cd682757da197d710189c67019"
+    },
+    {
+      "path": "web/data_labelling/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fed09dcfc8ef5bb74b3baa6218bebfd08db7a50",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/5fed09dcfc8ef5bb74b3baa6218bebfd08db7a50"
+    },
+    {
+      "path": "web/data_labelling/templates/admin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "568aa4d49e5cf63bbe87c4d9aac92c5cb685ffe2",
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/trees/568aa4d49e5cf63bbe87c4d9aac92c5cb685ffe2"
+    },
+    {
+      "path": "web/data_labelling/templates/admin/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cbf712e3c82e2009156159f273710af5597e676",
+      "size": 2790,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/3cbf712e3c82e2009156159f273710af5597e676"
+    },
+    {
+      "path": "web/data_labelling/templates/base.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59888da90a9229c7af88a13fdc1593d72901462",
+      "size": 1421,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c59888da90a9229c7af88a13fdc1593d72901462"
+    },
+    {
+      "path": "web/data_labelling/templates/chatbox.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9333f7fa2c390f6d5b73cef00937a69300429d69",
+      "size": 6048,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/9333f7fa2c390f6d5b73cef00937a69300429d69"
+    },
+    {
+      "path": "web/data_labelling/templates/clientside.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e51d9505f6e29ba56348a803d475eace3afd9c45",
+      "size": 3309,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e51d9505f6e29ba56348a803d475eace3afd9c45"
+    },
+    {
+      "path": "web/data_labelling/templates/dashboard.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7d7389e697ff7db06d189785116a0db223adc8",
+      "size": 1259,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/ea7d7389e697ff7db06d189785116a0db223adc8"
+    },
+    {
+      "path": "web/data_labelling/templates/heading.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "995b0b8f9a59a423ed702ded7a6870cfe268e3db",
+      "size": 1145,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/995b0b8f9a59a423ed702ded7a6870cfe268e3db"
+    },
+    {
+      "path": "web/data_labelling/templates/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597b46dcd9dc39a939e958cc449eec1a7850a603",
+      "size": 433,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/597b46dcd9dc39a939e958cc449eec1a7850a603"
+    },
+    {
+      "path": "web/data_labelling/templates/login.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59eedf514028a395a9203974a169e24991b644b0",
+      "size": 2334,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/59eedf514028a395a9203974a169e24991b644b0"
+    },
+    {
+      "path": "web/data_labelling/templates/match.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c64f86689fc73f3b90ce916da5c0aee5ac592171",
+      "size": 4211,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/c64f86689fc73f3b90ce916da5c0aee5ac592171"
+    },
+    {
+      "path": "web/data_labelling/templates/register.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0746fe64f2640d4037a56f080e84f37d5927b44",
+      "size": 3300,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f0746fe64f2640d4037a56f080e84f37d5927b44"
+    },
+    {
+      "path": "web/data_labelling/templates/room.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2821344ec2174cfadfe14bd118adad7a51446ae",
+      "size": 1038,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d2821344ec2174cfadfe14bd118adad7a51446ae"
+    },
+    {
+      "path": "web/data_labelling/templates/systemside.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613510ad6ddcfe420fae4b84ec4b741c8886c10b",
+      "size": 13710,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/613510ad6ddcfe420fae4b84ec4b741c8886c10b"
+    },
+    {
+      "path": "web/data_labelling/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68ca4b2c8e3659de2fb53b19dcdc93da9b8a6b5",
+      "size": 1402,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f68ca4b2c8e3659de2fb53b19dcdc93da9b8a6b5"
+    },
+    {
+      "path": "web/ecosystem.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "031ba2e76640721226f0b6796f677bda9a630ae6",
+      "size": 169,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/031ba2e76640721226f0b6796f677bda9a630ae6"
+    },
+    {
+      "path": "web/example_goal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce83bb41bcbfc4066cbc91cfe8b904189da7318e",
+      "size": 33208,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/ce83bb41bcbfc4066cbc91cfe8b904189da7318e"
+    },
+    {
+      "path": "web/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e24d5bb80dc0c1e02b96c4baf9766eb0d60d951f",
+      "size": 117,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e24d5bb80dc0c1e02b96c4baf9766eb0d60d951f"
+    },
+    {
+      "path": "web/resetdb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7be13be65e166488ff78d8bdfcedf483f762a82",
+      "size": 83,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/d7be13be65e166488ff78d8bdfcedf483f762a82"
+    },
+    {
+      "path": "web/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84989859b204a8fc35f6c1d3d6e95d3390ae059c",
+      "size": 69,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/84989859b204a8fc35f6c1d3d6e95d3390ae059c"
+    },
+    {
+      "path": "web/setup.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a0d658462b652a857cd1dd5110a872fadc172c",
+      "size": 32,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/f6a0d658462b652a857cd1dd5110a872fadc172c"
+    },
+    {
+      "path": "web/setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e483da055e6c740668c62398dbe40bb69da4660d",
+      "size": 52,
+      "url": "https://api.github.com/repos/thu-coai/CrossWOZ/git/blobs/e483da055e6c740668c62398dbe40bb69da4660d"
+    }
+  ],
+  "truncated": false
+}

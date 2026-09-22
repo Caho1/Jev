@@ -1,0 +1,29 @@
+加载缓存 Laya：full, batch=1, length=8192
+Token indices sequence length is longer than the specified maximum sequence length for this model (15421 > 8192). Running this sequence through the model will result in indexing errors
+加载完成：总参数 421,293,827，可训练参数 421,029,889
+预热 1: 1.474 秒，loss=0.1192
+预热 2: 1.020 秒，loss=0.0000
+预热 3: 1.091 秒，loss=0.0000
+计时 4: 1.099 秒，loss=0.0000
+计时 5: 1.085 秒，loss=0.0000
+计时 6: 1.053 秒，loss=0.0000
+计时 7: 1.043 秒，loss=0.0000
+计时 8: 1.038 秒，loss=0.0000
+计时 9: 1.095 秒，loss=0.0000
+计时 10: 1.091 秒，loss=0.0000
+计时 11: 1.089 秒，loss=0.0000
+计时 12: 1.098 秒，loss=0.0000
+计时 13: 1.102 秒，loss=0.0000
+{
+  "mean_step_seconds": 1.0793222386389971,
+  "median_step_seconds": 1.0901898685842752,
+  "min_step_seconds": 1.0380556471645832,
+  "max_step_seconds": 1.1021664515137672,
+  "std_step_seconds": 0.02484410747251437,
+  "examples_per_second": 0.9265073619357451,
+  "tokens_per_second": 7589.948308977624,
+  "mean_forward_seconds": 0.5435942187905312,
+  "mean_backward_seconds": 0.520573329180479,
+  "mean_optimizer_seconds": 0.015154690667986869
+}
+结果已保存：/root/autodl-tmp/laya-context-bench-20260921/results/cuda-5090/full-b1-l8192-bf16-gc-head.json

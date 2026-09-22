@@ -1,0 +1,18 @@
+{
+  "purpose": "standalone service integration smoke, excluded from formal benchmark",
+  "model": "laya_base",
+  "choice": "e1",
+  "operation": "CLICK",
+  "latency_ms": 532,
+  "usage": {
+    "local": true,
+    "forward_passes": 2,
+    "singleton_heads": [],
+    "input_tokens_by_head": {
+      "operation": 470,
+      "click_target": 590
+    },
+    "inference_ms": 521.9768749957439,
+    "shared_state_encoding": false
+  }
+}

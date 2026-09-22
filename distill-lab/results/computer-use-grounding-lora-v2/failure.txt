@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_computer_grounding.py", line 411, in main
+    run(args, event)
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/train_computer_grounding.py", line 317, in run
+    (loss_sum/group_size).backward()
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 566, in backward
+    def backward(
+    
+KeyboardInterrupt

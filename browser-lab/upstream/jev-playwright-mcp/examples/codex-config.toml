@@ -1,0 +1,16 @@
+# Codex CLI — add to ~/.codex/config.toml
+# Docs: https://developers.openai.com/codex/cli/config/#mcp-servers
+#
+# Replace /absolute/path/to/jev-playwright-mcp with your checkout path.
+# "--headless" is an upstream Playwright MCP flag and is optional —
+# remove it to watch the browser open on your desktop.
+
+[mcp_servers.jev-playwright]
+command = "node"
+args = ["/absolute/path/to/jev-playwright-mcp/cli.js", "--jev-mode=all", "--headless"]
+
+[mcp_servers.jev-playwright.env]
+TYPESAFE_API_KEY = "tsk_YOUR_KEY_HERE"
+
+# Optional: cap Jev spend for this session at $0.50 (flag form: --jev-budget-usd=0.5)
+# JEV_MCP_BUDGET_USD = "0.50"

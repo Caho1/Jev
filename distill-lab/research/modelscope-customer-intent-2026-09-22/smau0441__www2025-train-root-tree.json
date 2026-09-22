@@ -1,0 +1,89 @@
+{
+  "RequestId": "c21ac51c-40a6-44c5-ad01-8ca173a802ec",
+  "Code": 200,
+  "Message": "success",
+  "Data": {
+    "Files": [
+      {
+        "Id": null,
+        "Name": "images",
+        "Type": "tree",
+        "Path": "images",
+        "Mode": "16384",
+        "CommitId": null,
+        "CommitMessage": "upload dataset folder to repo",
+        "CommitterName": "smau0441",
+        "CommittedDate": 1737949907,
+        "Revision": "85a9a0ab0a32defc074ac50d01bc705284b1104f",
+        "IsLFS": false,
+        "Size": 0,
+        "InCheck": false,
+        "Sha256": ""
+      },
+      {
+        "Id": null,
+        "Name": ".gitattributes",
+        "Type": "blob",
+        "Path": ".gitattributes",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "Commit .gitattributes README.md file(s) in datasets-www2025-train",
+        "CommitterName": "Administrator",
+        "CommittedDate": 1737949156,
+        "Revision": "57f65633040b3b8729c70cb03edca3ce41ab5fad",
+        "IsLFS": false,
+        "Size": 3818,
+        "InCheck": false,
+        "Sha256": "53b61e55812199dea8ffe90c52485e2ec5e5bdae1eed92cab20063003da14e29"
+      },
+      {
+        "Id": null,
+        "Name": "README.md",
+        "Type": "blob",
+        "Path": "README.md",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "增加描述",
+        "CommitterName": "smau0441",
+        "CommittedDate": 1738552799,
+        "Revision": "cadc1a30cbf21c68d271f73f5b70b3cc0b9cf649",
+        "IsLFS": false,
+        "Size": 4647,
+        "InCheck": false,
+        "Sha256": "2644a92adc0a8f35d9001d6016612bc9264111faee79c2c054ac42d17defef88"
+      },
+      {
+        "Id": null,
+        "Name": "train.json",
+        "Type": "blob",
+        "Path": "train.json",
+        "Mode": "33188",
+        "CommitId": null,
+        "CommitMessage": "upload dataset folder to repo",
+        "CommitterName": "smau0441",
+        "CommittedDate": 1737949897,
+        "Revision": "6b71fa487237ddae66c16a641bff704c3c425314",
+        "IsLFS": true,
+        "Size": 1309023,
+        "InCheck": false,
+        "Sha256": "a56f4447236a093adb21db6d82d8a6d23d0a67affcf7acd6f693eb8a7f3f3b40"
+      }
+    ],
+    "LatestCommitter": {
+      "Id": null,
+      "ShortId": "cadc1a30",
+      "Title": "增加描述",
+      "Message": "增加描述",
+      "AuthorName": "smau0441",
+      "AuthoredDate": null,
+      "AuthorEmail": "smau0441@163.com",
+      "CommittedDate": 1738552799,
+      "CommitterName": "smau0441",
+      "CreatedAt": 1738552799
+    },
+    "TotalCount": 4
+  },
+  "PageNumber": 1,
+  "PageSize": 100,
+  "TotalCount": 4
+}

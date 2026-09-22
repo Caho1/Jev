@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mind2web:b910229f-6133-452c-a640-6a6ec67b668b:712b6f48-ec3d-433b-9804-6663aa03c42c",
+    "website": "amtrak",
+    "candidates": 147
+  },
+  {
+    "id": "mind2web:51221157-cb79-407e-95c8-b2c730e95e01:df559d9e-9ae9-42b5-833d-1268b513e3db",
+    "website": "eventbrite",
+    "candidates": 269
+  },
+  {
+    "id": "mind2web:3be7acd4-c8c4-4e0d-b2b6-f82a4e17de8c:ab7e03f5-52b6-4226-aa07-97b50ddf55cf",
+    "website": "ign",
+    "candidates": 496
+  },
+  {
+    "id": "mind2web:851ed4e6-51ee-47ad-a861-a28bdc61a102:c3012402-7d2b-49f8-8a3f-4a6ff36ca6a4",
+    "website": "tesla",
+    "candidates": 108
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "_id": "6483e2130ac26c3d2646d8ea",
+  "id": "osunlp/Mind2Web",
+  "author": "osunlp",
+  "sha": "17ece8eb89862368edc0cc806acee6fca5163474",
+  "lastModified": "2025-10-19T19:15:03.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "language:en",
+    "license:cc-by-4.0",
+    "size_categories:n<1K",
+    "format:json",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:mlcroissant",
+    "arxiv:2306.06070",
+    "region:us",
+    "Web Agent"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for Dataset Name\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nMind2Web is a dataset for developing and evaluating generalist agents for the web that can follow language instructions to complete complex tasks on any website. Existing datasets for web agents either use simulated websites or only cover a limited set of websites and tasks, thus not suitable for generalist web agents. With over 2,000 open-ended tasks collected from 137 websites spanning 31 domains and crowdsourced… See the full description on the dataset page: https://huggingface.co/datasets/osunlp/Mind2Web.",
+  "downloads": 6513,
+  "likes": 131,
+  "cardData": {
+    "license": "cc-by-4.0",
+    "language": [
+      "en"
+    ],
+    "tags": [
+      "Web Agent"
+    ],
+    "size_categories": [
+      "1K<n<10K"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/train/train_0.json"
+    },
+    {
+      "rfilename": "data/train/train_1.json"
+    },
+    {
+      "rfilename": "data/train/train_10.json"
+    },
+    {
+      "rfilename": "data/train/train_2.json"
+    },
+    {
+      "rfilename": "data/train/train_3.json"
+    },
+    {
+      "rfilename": "data/train/train_4.json"
+    },
+    {
+      "rfilename": "data/train/train_5.json"
+    },
+    {
+      "rfilename": "data/train/train_6.json"
+    },
+    {
+      "rfilename": "data/train/train_7.json"
+    },
+    {
+      "rfilename": "data/train/train_8.json"
+    },
+    {
+      "rfilename": "data/train/train_9.json"
+    },
+    {
+      "rfilename": "scores_all_data.pkl"
+    },
+    {
+      "rfilename": "test.zip"
+    }
+  ],
+  "createdAt": "2023-06-10T02:38:11.000Z",
+  "usedStorage": 15824819363
+}

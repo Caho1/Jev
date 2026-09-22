@@ -1,0 +1,236 @@
+{
+  "seconds": 708.5353967499977,
+  "questions": 128,
+  "optimizer_steps": 32,
+  "losses": [
+    2.300758868455887,
+    0.49668198823928833,
+    3.0693485736846924,
+    2.981722116470337,
+    1.5041597783565521,
+    2.5749466717243195,
+    3.748475193977356,
+    4.15912926197052,
+    1.9570412635803223,
+    1.5611169636249542,
+    2.7656357884407043,
+    2.666303128004074,
+    1.2710789442062378,
+    3.362833023071289,
+    3.1078853011131287,
+    2.18487212061882,
+    1.4129671454429626,
+    2.5960667729377747,
+    3.2190162539482117,
+    2.3802251517772675,
+    4.226139545440674,
+    2.3455357253551483,
+    2.5981535017490387,
+    3.59504434466362,
+    2.9923042356967926,
+    3.2366132736206055,
+    2.548785001039505,
+    2.438253879547119,
+    2.691747009754181,
+    2.1986826360225677,
+    2.553586184978485,
+    3.0958651304244995
+  ],
+  "optimizer_step_seconds": [
+    12.736815334006678,
+    2.7774490840092767,
+    35.339228875003755,
+    22.646221041009994,
+    3.538784750009654,
+    20.604396915994585,
+    24.22415591700701,
+    35.28837204200681,
+    12.586723833985161,
+    14.8175202079874,
+    30.93174737499794,
+    27.988099207985215,
+    12.486793707998004,
+    30.743520791002084,
+    29.06239387500682,
+    20.52423858299153,
+    16.069717459002277,
+    19.30885037497501,
+    30.293353374989238,
+    23.231332458992256,
+    45.42536504101008,
+    20.087020292005036,
+    22.420941292017233,
+    28.634774417005247,
+    18.728999874991132,
+    24.69290649998584,
+    26.775241374998586,
+    18.66025762501522,
+    19.932619250001153,
+    11.58558129199082,
+    22.151394749991596,
+    20.665240333997644
+  ],
+  "memory_samples": [
+    {
+      "process_rss_bytes": 2280947712,
+      "mps_allocated_bytes": 2075564288,
+      "mps_driver_bytes": 10578591744
+    },
+    {
+      "process_rss_bytes": 753483776,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 3343007744
+    },
+    {
+      "process_rss_bytes": 1237417984,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 16763469824
+    },
+    {
+      "process_rss_bytes": 1259225088,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 17438818304
+    },
+    {
+      "process_rss_bytes": 1259569152,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 3321921536
+    },
+    {
+      "process_rss_bytes": 1263648768,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 12202229760
+    },
+    {
+      "process_rss_bytes": 1485078528,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 11157962752
+    },
+    {
+      "process_rss_bytes": 1481244672,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 19179929600
+    },
+    {
+      "process_rss_bytes": 1483620352,
+      "mps_allocated_bytes": 2075302144,
+      "mps_driver_bytes": 11667013632
+    },
+    {
+      "process_rss_bytes": 1484161024,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 12201803776
+    },
+    {
+      "process_rss_bytes": 1481490432,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 17163927552
+    },
+    {
+      "process_rss_bytes": 1486258176,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 13009698816
+    },
+    {
+      "process_rss_bytes": 1493008384,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 8238039040
+    },
+    {
+      "process_rss_bytes": 2032189440,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 20991672320
+    },
+    {
+      "process_rss_bytes": 2034794496,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 13009879040
+    },
+    {
+      "process_rss_bytes": 2035286016,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 10987503616
+    },
+    {
+      "process_rss_bytes": 2626551808,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 15200747520
+    },
+    {
+      "process_rss_bytes": 2626650112,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 11673714688
+    },
+    {
+      "process_rss_bytes": 2624995328,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 17700814848
+    },
+    {
+      "process_rss_bytes": 2625847296,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 12198084608
+    },
+    {
+      "process_rss_bytes": 1228865536,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 17772462080
+    },
+    {
+      "process_rss_bytes": 1688354816,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 16641851392
+    },
+    {
+      "process_rss_bytes": 1736474624,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 13013860352
+    },
+    {
+      "process_rss_bytes": 1737359360,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 13014155264
+    },
+    {
+      "process_rss_bytes": 1751613440,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 13013614592
+    },
+    {
+      "process_rss_bytes": 2290843648,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 16910385152
+    },
+    {
+      "process_rss_bytes": 2748858368,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 22134325248
+    },
+    {
+      "process_rss_bytes": 2751381504,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 15972876288
+    },
+    {
+      "process_rss_bytes": 2752430080,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 12214763520
+    },
+    {
+      "process_rss_bytes": 2753609728,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 11673255936
+    },
+    {
+      "process_rss_bytes": 2754281472,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 15201157120
+    },
+    {
+      "process_rss_bytes": 2754445312,
+      "mps_allocated_bytes": 2075040000,
+      "mps_driver_bytes": 11669061632
+    }
+  ],
+  "memory_scope": "after optimizer steps, not instantaneous peak"
+}

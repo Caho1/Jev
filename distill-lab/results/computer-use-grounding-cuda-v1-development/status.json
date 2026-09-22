@@ -1,0 +1,8 @@
+{
+  "phase": "complete",
+  "time": "2026-09-22T01:55:46+0800",
+  "pid": 2317,
+  "pages": 78,
+  "baseline_recall_at_24": 0.16666666666666666,
+  "tuned_recall_at_24": 0.11538461538461539
+}

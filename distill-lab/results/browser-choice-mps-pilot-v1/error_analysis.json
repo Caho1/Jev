@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "target_absent_from_candidates": 38,
+    "target_present_but_predicted_wrong": 39,
+    "target_correct_but_operation_wrong": 0,
+    "non_none_predictions": 48,
+    "operation_incompatible_with_selected_element": 27
+  },
+  "tuned": {
+    "target_absent_from_candidates": 38,
+    "target_present_but_predicted_wrong": 38,
+    "target_correct_but_operation_wrong": 2,
+    "non_none_predictions": 49,
+    "operation_incompatible_with_selected_element": 28
+  }
+}

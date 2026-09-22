@@ -1,0 +1,7 @@
+{
+  "phase": "complete",
+  "time": "2026-09-22T11:46:43+0800",
+  "pid": 93879,
+  "training_seconds": 708.5353967499977,
+  "results": "distill-lab/results/browser-choice-mps-pilot-v1/results.json"
+}

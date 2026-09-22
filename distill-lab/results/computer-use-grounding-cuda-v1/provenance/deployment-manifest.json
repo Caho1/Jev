@@ -1,0 +1,76 @@
+{
+  "remote_project": "/root/autodl-tmp/laya-computer-use-20260922",
+  "dataset": "computer-use-grounding-v1",
+  "calibration_and_holdout_uploaded": false,
+  "initialization": "original Laya base, new LoRA",
+  "files": {
+    "scripts/train_computer_grounding.py": {
+      "sha256": "08764cf29d2e1142687770c828d6d92ae50792d58e242f5ebc42224faf867021",
+      "bytes": 26710
+    },
+    "scripts/typed_laya.py": {
+      "sha256": "f06dbdda6c4b0713fd9fb5fffde6250e093e0fc36a921703c47b26b9de7580f1",
+      "bytes": 5516
+    },
+    "scripts/local_laya.py": {
+      "sha256": "fb2ea76cce9a241219ae9bd0147aa7e86b35bf6ffe08baaa2ce795a00844d2ac",
+      "bytes": 4710
+    },
+    "scripts/benchmark_training.py": {
+      "sha256": "e2382721bd8508e9928975d4b54bd342ef97dce7b5f9f6f58a94939d46144cac",
+      "bytes": 17545
+    },
+    "scripts/train_banking77.py": {
+      "sha256": "03257c7f300a5b8b41a10b30a3f83a1428b684144a3377f75b21342c213bf318",
+      "bytes": 21684
+    },
+    "scripts/banking77_data.py": {
+      "sha256": "6580402505e4c1e6cfd062aef5012b67e680966f1a4fc81e824f17afb9671918",
+      "bytes": 11128
+    },
+    "scripts/prepare_computer_use.py": {
+      "sha256": "167a9fb02bba13238479cbca372cccd07081d5e569e65e76c1bcb9c3887d060c",
+      "bytes": 15937
+    },
+    "scripts/test_computer_grounding_training.py": {
+      "sha256": "98fed685cde160aef800bacba0a46d4cc3d064c986ec281ef241c1c9e8697f24",
+      "bytes": 1489
+    },
+    "scripts/test_computer_use_data.py": {
+      "sha256": "47912a28523baef09057e63584b8c666619c47baf4c872597f4e41b8c92c87ad",
+      "bytes": 3042
+    },
+    "reference/laya_common.py": {
+      "sha256": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2",
+      "bytes": 10044
+    },
+    "reference/laya-LICENSE": {
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173
+    },
+    "data/computer-use-grounding-v1/manifest.json": {
+      "sha256": "68e924874e23205f3bbbd22363032959e7c9f19af1f79915fd9b5be487a26176",
+      "bytes": 4246
+    },
+    "data/computer-use-grounding-v1/train_pairs.jsonl": {
+      "sha256": "9408601f82c39e5f777d6ba97657c6c74a9115d36aff179fdcc3c03b908770b4",
+      "bytes": 6807617
+    },
+    "data/computer-use-grounding-v1/train_frames.jsonl.gz": {
+      "sha256": "6b380a65763507d62b03cabd4b46a4c02b6ee3d1c127229f2bc6db0a7e072e0d",
+      "bytes": 4738585
+    },
+    "data/computer-use-grounding-v1/development_frames.jsonl.gz": {
+      "sha256": "b4ec4869e3238bb28008ee91e14706148401ce2573b5020d4afac7f025e17987",
+      "bytes": 427836
+    },
+    "data/computer-use-grounding-v1/split_assignments.json": {
+      "sha256": "22771eba4af39e6683882bf40dc7f33ec37b8a1d653f2bbcac8f6a01b076dbb3",
+      "bytes": 16109
+    },
+    "requirements-cuda-benchmark.txt": {
+      "sha256": "64c1cfaaad433f122bc88f9082575c39d28bf2892791afecf95da87fa6a97f1b",
+      "bytes": 254
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "request_id": "116ed4af-4382-40ae-ba55-7f5cef8ea1cc",
+  "data": {
+    "datasets": [
+      {
+        "id": "OmniData/RiSAWOZ",
+        "display_name": "RiSAWOZ",
+        "description": "",
+        "file_size": 204336794,
+        "downloads": 60,
+        "likes": 0,
+        "license": "[CC BY-NC 4.0]",
+        "tasks": [],
+        "created_at": "2024-07-03T10:36:02Z",
+        "last_modified": "2024-07-03T10:36:31Z",
+        "tags": [
+          "license:[CC BY-NC 4.0]",
+          "custom_tag:Annotation"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      }
+    ],
+    "total_count": 1,
+    "page_number": 1,
+    "page_size": 30
+  }
+}

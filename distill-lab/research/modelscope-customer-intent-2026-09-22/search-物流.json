@@ -1,0 +1,109 @@
+{
+  "success": true,
+  "request_id": "f66ef74c-b9d4-43ee-b51a-a4d22e10338d",
+  "data": {
+    "datasets": [
+      {
+        "id": "QingshanAI/ecom-logistics-synthetic",
+        "display_name": "电商物流查询对话合成数据集",
+        "description": "987 条中文电商物流场景客服对话，覆盖物流停滞、丢件破损、催发货等，本地大模型合成，可直接用于客服模型微调。",
+        "file_size": 269242,
+        "downloads": 250,
+        "likes": 1,
+        "license": "Apache License 2.0",
+        "tasks": [
+          "conversational"
+        ],
+        "created_at": "2026-08-31T05:28:46Z",
+        "last_modified": "2026-08-31T05:50:19Z",
+        "tags": [
+          "license:Apache License 2.0",
+          "task:conversational",
+          "custom_tag:customer-service",
+          "custom_tag:logistics",
+          "custom_tag:e-commerce"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "yangzailu/chinese-foreign-trade-intent-annotation-dataset",
+        "display_name": "中文外贸咨询意图标注数据集",
+        "description": "本数据集为中文外贸场景文本分类 / 意图识别数据集，包含外贸人员高频真实问句，覆盖出口流程、客户开发、贸易术语、付款方式、清关物流、合同单据、市场行情、物流运费、业务沟通、认证资质等意图类型。可用于外贸领域 NLP、意图识别、问答系统训练与技术研究。数据完全公开合规，仅用于技术研究，不构成外贸操作建议。",
+        "file_size": 5356,
+        "downloads": 41,
+        "likes": 0,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-05-08T08:00:24Z",
+        "last_modified": "2026-05-08T08:00:38Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "Nietsim/wan1103-sn",
+        "display_name": "wan1103-sn",
+        "description": "测试评估脚本 === 开始测试处理 2000 个对话... 处理对话中...━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 处理完成！ 成功处理: 2000 个对话 处理失败: 0 个对话 总耗时: 390.50 秒 结果已保存到: outputs/test_evaluation_results.json ============================================================ 评估结果分析摘要 总对话数量: 2000 评估错误数: 0 有效评估数: 200标签分布 (Top 10): 服务体验-安装售后 : 420 ( 21.0%) 服务体验-物流 : 344 ( 17.2%) 服务体验-退换货 : 279 ( 14.0%) 促销-力度 : 224 ( 11.2%) 其他 : 205 ( 10.2%) 商品-质量 : 202 ( 10.1%) 购物链路-四级页 : 184 ( 9.2%) 商品-丰富性 : 173 ( 8.6%) 商品-价格 : 126 ( 6.3%) 购物链路-支付 : 66 ( 3.3%) 最常见的需求类别: 服务体验-安装售后: 420 次 服务体验-物流: 344 次 服务体验-退换货: 279 次促销-力度: 224 次",
+        "file_size": 26392113,
+        "downloads": 116,
+        "likes": 1,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2025-11-04T01:31:03Z",
+        "last_modified": "2025-11-04T01:35:04Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "iic/GeoGLUE",
+        "display_name": "地理语义理解能力评测基准",
+        "description": "地理语义理解能力评测基准 GeoGLUE（GeoGraphic Language Understanding Evaluation）是由阿里巴巴达摩院自然语言处理组与高德联合发起提供的数据集，旨在推动地理相关文本处理技术和社区的发展。地理文本即描述地理实体、位置的自然文本，具有表达方式丰富、蕴含空间推理、知识强依赖等特点。此外，地理文本与现实地理世界的关联性也带来了诸多挑战。地理文本信息的自动化处理是许多地理语义应用的核心技术，本榜单提炼了其中多个典型场景：地图搜索、电商物流、政府登记、金融交通，并设计了六个核心任务：地理文本要素解析、地址地点切分、地址成分分析、地址实体对齐、POI召回、POI重排序。为了避免地理信息安全问题，涉及POI地址库部分我们基于全开源GIS系统OpenStreetMap标注，并人工编写了数十万Query。欢迎业界和学术界的同行们一起加入到GeoGLUE benchmark的建设中，一起来推动地理语义标准化数据集的发展。",
+        "file_size": 2724211360,
+        "downloads": 45892,
+        "likes": 48,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2022-12-30T07:40:36Z",
+        "last_modified": "2023-05-16T09:53:48Z",
+        "tags": [
+          "license:Apache License 2.0"
+        ],
+        "private": false,
+        "gated": false,
+        "login_required": false
+      },
+      {
+        "id": "huanghao01/video-driver-incident2025",
+        "display_name": "司机安全行驶事件视频数据集",
+        "description": "视频数据集定位于物流运输安全监控场景，通过发生时间和车辆标识与具体的运输任务相关联。每条安全事件记录包含车速、位置、持续时间等上下文信息，可用于分析事件发生的规律和风险因素（如路段、时段、车速与事件类型的关联）。数据集按照\"是否误报\"\"是否危险\"\"是否高危\"\"是否有责\"四个维度进行标注，支持从事件检测到风险评估再到责任认定的完整业务闭环。",
+        "file_size": 0,
+        "downloads": 3,
+        "likes": 1,
+        "license": "Apache License 2.0",
+        "tasks": [],
+        "created_at": "2026-07-12T05:44:47Z",
+        "last_modified": "2026-07-13T02:33:27Z",
+        "tags": [
+          "license:Apache License 2.0",
+          "custom_tag:视频理解",
+          "custom_tag:视频分类"
+        ],
+        "private": false,
+        "gated": true,
+        "login_required": true
+      }
+    ],
+    "total_count": 5,
+    "page_number": 1,
+    "page_size": 30
+  }
+}

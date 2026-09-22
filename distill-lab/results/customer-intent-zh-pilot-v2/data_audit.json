@@ -1,0 +1,12 @@
+{
+  "manifest_files_verified": 12,
+  "cross_split_shared_ids": 0,
+  "cross_split_shared_sessions": 0,
+  "cross_split_shared_groups": 0,
+  "cross_split_shared_normalized_states": 0,
+  "conflicting_exact_input_groups": 0,
+  "conflicts": {},
+  "scope": "Exact hashes and normalized states checked exhaustively; near-duplicate candidate search is approximate.",
+  "states_verified_against_raw_dialogue": 35668,
+  "future_or_annotation_text_injected_by_preprocessing": 0
+}

@@ -1,0 +1,26 @@
+{
+  "pid": 1988,
+  "started_at": "2026-09-21T17:45:46.000920+00:00",
+  "command": [
+    "/root/autodl-tmp/laya-context-bench-20260921/.venv/bin/python",
+    "-u",
+    "/root/autodl-tmp/laya-computer-use-20260922/scripts/train_computer_grounding.py",
+    "--device",
+    "cuda",
+    "--precision",
+    "bf16",
+    "--weights",
+    "/root/autodl-tmp/laya-context-bench-20260921/weights/1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "--output",
+    "/root/autodl-tmp/laya-computer-use-20260922/results/computer-use-grounding-cuda-v1",
+    "--batch-size",
+    "8",
+    "--accumulation",
+    "1",
+    "--eval-batch",
+    "16"
+  ],
+  "log": "/root/autodl-tmp/laya-computer-use-20260922/results/computer-use-grounding-cuda-v1.log",
+  "output": "/root/autodl-tmp/laya-computer-use-20260922/results/computer-use-grounding-cuda-v1",
+  "local_training_remains_paused": true
+}

@@ -1,0 +1,81 @@
+english accuracy 32 / 256
+english accuracy 64 / 256
+english accuracy 96 / 256
+english accuracy 128 / 256
+english accuracy 160 / 256
+english accuracy 192 / 256
+english accuracy 224 / 256
+english accuracy 256 / 256
+english short serial_queue C 1 round 0 120.5 req/s
+english short microbatch C 1 round 0 122.9 req/s
+english short serial_queue C 1 round 1 122.3 req/s
+english short microbatch C 1 round 1 121.8 req/s
+english short serial_queue C 4 round 0 121.9 req/s
+english short microbatch C 4 round 0 261.1 req/s
+english short serial_queue C 4 round 1 120.5 req/s
+english short microbatch C 4 round 1 265.6 req/s
+english short serial_queue C 8 round 0 122.9 req/s
+english short microbatch C 8 round 0 300.6 req/s
+english short serial_queue C 8 round 1 123.6 req/s
+english short microbatch C 8 round 1 315.4 req/s
+english short serial_queue C 16 round 0 120.4 req/s
+english short microbatch C 16 round 0 330.7 req/s
+english short serial_queue C 16 round 1 118.2 req/s
+english short microbatch C 16 round 1 209.4 req/s
+english mixed serial_queue C 1 round 0 82.6 req/s
+english mixed microbatch C 1 round 0 83.3 req/s
+english mixed serial_queue C 1 round 1 91.0 req/s
+english mixed microbatch C 1 round 1 92.2 req/s
+english mixed serial_queue C 4 round 0 85.5 req/s
+english mixed microbatch C 4 round 0 98.5 req/s
+english mixed serial_queue C 4 round 1 89.7 req/s
+english mixed microbatch C 4 round 1 120.0 req/s
+english mixed serial_queue C 8 round 0 84.4 req/s
+english mixed microbatch C 8 round 0 101.8 req/s
+english mixed serial_queue C 8 round 1 89.4 req/s
+english mixed microbatch C 8 round 1 128.4 req/s
+english mixed serial_queue C 16 round 0 85.9 req/s
+english mixed microbatch C 16 round 0 101.3 req/s
+english mixed serial_queue C 16 round 1 92.4 req/s
+english mixed microbatch C 16 round 1 128.6 req/s
+typed accuracy 32 / 256
+typed accuracy 64 / 256
+typed accuracy 96 / 256
+typed accuracy 128 / 256
+typed accuracy 160 / 256
+typed accuracy 192 / 256
+typed accuracy 224 / 256
+typed accuracy 256 / 256
+typed short serial_queue C 1 round 0 120.7 req/s
+typed short microbatch C 1 round 0 121.0 req/s
+typed short serial_queue C 1 round 1 120.7 req/s
+typed short microbatch C 1 round 1 122.6 req/s
+typed short serial_queue C 4 round 0 122.9 req/s
+typed short microbatch C 4 round 0 253.0 req/s
+typed short serial_queue C 4 round 1 121.6 req/s
+typed short microbatch C 4 round 1 266.5 req/s
+typed short serial_queue C 8 round 0 121.0 req/s
+typed short microbatch C 8 round 0 313.5 req/s
+typed short serial_queue C 8 round 1 120.9 req/s
+typed short microbatch C 8 round 1 325.8 req/s
+typed short serial_queue C 16 round 0 120.4 req/s
+typed short microbatch C 16 round 0 342.1 req/s
+typed short serial_queue C 16 round 1 122.0 req/s
+typed short microbatch C 16 round 1 330.6 req/s
+typed mixed serial_queue C 1 round 0 85.5 req/s
+typed mixed microbatch C 1 round 0 86.1 req/s
+typed mixed serial_queue C 1 round 1 92.6 req/s
+typed mixed microbatch C 1 round 1 92.9 req/s
+typed mixed serial_queue C 4 round 0 86.8 req/s
+typed mixed microbatch C 4 round 0 100.7 req/s
+typed mixed serial_queue C 4 round 1 92.5 req/s
+typed mixed microbatch C 4 round 1 123.7 req/s
+typed mixed serial_queue C 8 round 0 85.7 req/s
+typed mixed microbatch C 8 round 0 100.8 req/s
+typed mixed serial_queue C 8 round 1 92.2 req/s
+typed mixed microbatch C 8 round 1 128.6 req/s
+typed mixed serial_queue C 16 round 0 85.8 req/s
+typed mixed microbatch C 16 round 0 103.4 req/s
+typed mixed serial_queue C 16 round 1 91.9 req/s
+typed mixed microbatch C 16 round 1 127.8 req/s
+Completed requested runs

@@ -1,0 +1,401 @@
+{
+  "created_at": "2026-09-21T13:45:25.233767+00:00",
+  "hardware": {
+    "chip": "Apple M5 Pro",
+    "physical_memory_bytes": 51539607552,
+    "os": "macOS-27.0-arm64-arm-64bit"
+  },
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "4.57.6",
+    "peft": "0.21.0",
+    "safetensors": "0.8.0"
+  },
+  "model": {
+    "id": "convaiinnovations/laya",
+    "revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "source_revision": "42626c348753fbb17572a813127df2278a1ec527",
+    "source_sha256": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2",
+    "parameters": 425680643,
+    "trainable_parameters": 30635009,
+    "strict_checkpoint_load": true
+  },
+  "configuration": {
+    "mode": "lora",
+    "device": "mps",
+    "dtype": "float32",
+    "cpu_fallback": false,
+    "batch_size": 4,
+    "sequence_length": 256,
+    "options": 4,
+    "warmup_steps": 5,
+    "measured_steps": 30,
+    "lora_rank": 16,
+    "lora_targets": [
+      "Wqkv",
+      "Wo"
+    ],
+    "gradient_checkpointing": false,
+    "optimizer": "AdamW",
+    "foreach": false,
+    "encoder_learning_rate": 0.0001,
+    "head_learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "loss": "cross_entropy",
+    "synthetic_data": true
+  },
+  "setup_seconds": 17.278602500009583,
+  "summary": {
+    "mean_step_seconds": 0.4228138638631208,
+    "median_step_seconds": 0.42021241650218144,
+    "min_step_seconds": 0.4138620829908177,
+    "max_step_seconds": 0.4473005829786416,
+    "std_step_seconds": 0.008872907150748361,
+    "examples_per_second": 9.46042772451505,
+    "tokens_per_second": 2421.8694974758528,
+    "mean_forward_seconds": 0.17879677916450115,
+    "mean_backward_seconds": 0.22416340560012032,
+    "mean_optimizer_seconds": 0.01985367909849932
+  },
+  "max_observed_memory": {
+    "mps_allocated_bytes": 2074031616,
+    "mps_driver_bytes": 5599674368,
+    "process_rss_bytes": 664354816
+  },
+  "gradient_and_update_checks": {
+    "encoder.base_model.model.layers.0.attn.Wqkv.lora_B.default.weight": {
+      "gradient_norm": 0.14192809164524078,
+      "gradient_finite": true,
+      "max_weight_change": 9.999994654208422e-05
+    },
+    "scorer.3.weight": {
+      "gradient_norm": 3.316439628601074,
+      "gradient_finite": true,
+      "max_weight_change": 0.00010002404451370239
+    }
+  },
+  "steps": [
+    {
+      "step": 0,
+      "warmup": true,
+      "loss": 0.09322534501552582,
+      "forward_seconds": 1.4564751250145491,
+      "backward_seconds": 1.0945314999844413,
+      "optimizer_seconds": 0.07979091702145524,
+      "total_seconds": 2.6307975420204457
+    },
+    {
+      "step": 1,
+      "warmup": true,
+      "loss": 0.048533715307712555,
+      "forward_seconds": 0.1824351669929456,
+      "backward_seconds": 0.2222745000035502,
+      "optimizer_seconds": 0.0196494160045404,
+      "total_seconds": 0.4243590830010362
+    },
+    {
+      "step": 2,
+      "warmup": true,
+      "loss": 0.02468458190560341,
+      "forward_seconds": 0.17808729098760523,
+      "backward_seconds": 0.2263574590033386,
+      "optimizer_seconds": 0.020327250007539988,
+      "total_seconds": 0.4247719999984838
+    },
+    {
+      "step": 3,
+      "warmup": true,
+      "loss": 0.013087326660752296,
+      "forward_seconds": 0.1843923749984242,
+      "backward_seconds": 0.22677358399960212,
+      "optimizer_seconds": 0.01957350000157021,
+      "total_seconds": 0.43073945899959654
+    },
+    {
+      "step": 4,
+      "warmup": true,
+      "loss": 0.007026192266494036,
+      "forward_seconds": 0.1824502919916995,
+      "backward_seconds": 0.2388894169998821,
+      "optimizer_seconds": 0.021310915995854884,
+      "total_seconds": 0.44265062498743646
+    },
+    {
+      "step": 5,
+      "warmup": false,
+      "loss": 0.0035571963526308537,
+      "forward_seconds": 0.1929472500050906,
+      "backward_seconds": 0.2217032499902416,
+      "optimizer_seconds": 0.019393499998841435,
+      "total_seconds": 0.43404399999417365
+    },
+    {
+      "step": 6,
+      "warmup": false,
+      "loss": 0.0018798097735270858,
+      "forward_seconds": 0.17533320799702778,
+      "backward_seconds": 0.21988929199869744,
+      "optimizer_seconds": 0.02072591698379256,
+      "total_seconds": 0.4159484169795178
+    },
+    {
+      "step": 7,
+      "warmup": false,
+      "loss": 0.0008750164415687323,
+      "forward_seconds": 0.17540245898999274,
+      "backward_seconds": 0.22050029100500979,
+      "optimizer_seconds": 0.019523333990946412,
+      "total_seconds": 0.41542608398594894
+    },
+    {
+      "step": 8,
+      "warmup": false,
+      "loss": 0.00047918359632603824,
+      "forward_seconds": 0.17396325001027435,
+      "backward_seconds": 0.23071312499814667,
+      "optimizer_seconds": 0.021551208017626777,
+      "total_seconds": 0.4262275830260478
+    },
+    {
+      "step": 9,
+      "warmup": false,
+      "loss": 0.00031816322007216513,
+      "forward_seconds": 0.18241458298871294,
+      "backward_seconds": 0.2289847919892054,
+      "optimizer_seconds": 0.020412291021784768,
+      "total_seconds": 0.4318116659997031
+    },
+    {
+      "step": 10,
+      "warmup": false,
+      "loss": 0.0001369574893033132,
+      "forward_seconds": 0.18267883302178234,
+      "backward_seconds": 0.22230179200414568,
+      "optimizer_seconds": 0.01906604098621756,
+      "total_seconds": 0.4240466660121456
+    },
+    {
+      "step": 11,
+      "warmup": false,
+      "loss": 0.00011347651889082044,
+      "forward_seconds": 0.17935633298475295,
+      "backward_seconds": 0.22848795799654908,
+      "optimizer_seconds": 0.020146166993072256,
+      "total_seconds": 0.4279904579743743
+    },
+    {
+      "step": 12,
+      "warmup": false,
+      "loss": 6.353457865770906e-05,
+      "forward_seconds": 0.17782237500068732,
+      "backward_seconds": 0.22571120801148936,
+      "optimizer_seconds": 0.01981795797473751,
+      "total_seconds": 0.4233515409869142
+    },
+    {
+      "step": 13,
+      "warmup": false,
+      "loss": 2.872834556910675e-05,
+      "forward_seconds": 0.17839283400098793,
+      "backward_seconds": 0.21955808301572688,
+      "optimizer_seconds": 0.019514999992679805,
+      "total_seconds": 0.4174659170093946
+    },
+    {
+      "step": 14,
+      "warmup": false,
+      "loss": 1.5318102668970823e-05,
+      "forward_seconds": 0.17532170901540667,
+      "backward_seconds": 0.22235158298281021,
+      "optimizer_seconds": 0.019439374998910353,
+      "total_seconds": 0.41711266699712723
+    },
+    {
+      "step": 15,
+      "warmup": false,
+      "loss": 1.2039866305713076e-05,
+      "forward_seconds": 0.17476599998190068,
+      "backward_seconds": 0.2202111250080634,
+      "optimizer_seconds": 0.019862833985826,
+      "total_seconds": 0.41483995897579007
+    },
+    {
+      "step": 16,
+      "warmup": false,
+      "loss": 4.261701178620569e-06,
+      "forward_seconds": 0.1743633339938242,
+      "backward_seconds": 0.2214043750136625,
+      "optimizer_seconds": 0.020690540986834094,
+      "total_seconds": 0.4164582499943208
+    },
+    {
+      "step": 17,
+      "warmup": false,
+      "loss": 2.1755611214757664e-06,
+      "forward_seconds": 0.18460237499675713,
+      "backward_seconds": 0.23013891698792577,
+      "optimizer_seconds": 0.020661832997575402,
+      "total_seconds": 0.4354031249822583
+    },
+    {
+      "step": 18,
+      "warmup": false,
+      "loss": 6.556502967214328e-07,
+      "forward_seconds": 0.18162204200052656,
+      "backward_seconds": 0.22388808298273943,
+      "optimizer_seconds": 0.019484875025227666,
+      "total_seconds": 0.42499500000849366
+    },
+    {
+      "step": 19,
+      "warmup": false,
+      "loss": 1.0132773695659125e-06,
+      "forward_seconds": 0.1766979999956675,
+      "backward_seconds": 0.22377800001413561,
+      "optimizer_seconds": 0.01924058300210163,
+      "total_seconds": 0.41971658301190473
+    },
+    {
+      "step": 20,
+      "warmup": false,
+      "loss": 8.046619655033282e-07,
+      "forward_seconds": 0.17456020798999816,
+      "backward_seconds": 0.21990466699935496,
+      "optimizer_seconds": 0.020178041013423353,
+      "total_seconds": 0.4146429160027765
+    },
+    {
+      "step": 21,
+      "warmup": false,
+      "loss": 2.086161714487389e-07,
+      "forward_seconds": 0.17687608301639557,
+      "backward_seconds": 0.22030262497719377,
+      "optimizer_seconds": 0.020647124998504296,
+      "total_seconds": 0.41782583299209364
+    },
+    {
+      "step": 22,
+      "warmup": false,
+      "loss": 1.7881387748275301e-07,
+      "forward_seconds": 0.1748510419856757,
+      "backward_seconds": 0.21985404199222103,
+      "optimizer_seconds": 0.019452208012808114,
+      "total_seconds": 0.41415729199070483
+    },
+    {
+      "step": 23,
+      "warmup": false,
+      "loss": 1.4901156930591242e-07,
+      "forward_seconds": 0.1746227080002427,
+      "backward_seconds": 0.22029412499978207,
+      "optimizer_seconds": 0.018945249990792945,
+      "total_seconds": 0.4138620829908177
+    },
+    {
+      "step": 24,
+      "warmup": false,
+      "loss": 2.9802320611338473e-08,
+      "forward_seconds": 0.17389745800755918,
+      "backward_seconds": 0.2211598749854602,
+      "optimizer_seconds": 0.019039625010918826,
+      "total_seconds": 0.4140969580039382
+    },
+    {
+      "step": 25,
+      "warmup": false,
+      "loss": 2.9802320611338473e-08,
+      "forward_seconds": 0.180935332988156,
+      "backward_seconds": 0.23421545900055207,
+      "optimizer_seconds": 0.02141929100616835,
+      "total_seconds": 0.43657008299487643
+    },
+    {
+      "step": 26,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.18723229097668082,
+      "backward_seconds": 0.23040250001940876,
+      "optimizer_seconds": 0.020158875006018206,
+      "total_seconds": 0.4377936660021078
+    },
+    {
+      "step": 27,
+      "warmup": false,
+      "loss": 2.9802320611338473e-08,
+      "forward_seconds": 0.1779967499896884,
+      "backward_seconds": 0.2240098750044126,
+      "optimizer_seconds": 0.020793458999833092,
+      "total_seconds": 0.4228000839939341
+    },
+    {
+      "step": 28,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.18993866597884335,
+      "backward_seconds": 0.23765054199611768,
+      "optimizer_seconds": 0.019711375003680587,
+      "total_seconds": 0.4473005829786416
+    },
+    {
+      "step": 29,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.18113491698750295,
+      "backward_seconds": 0.22793775002355687,
+      "optimizer_seconds": 0.020290291984565556,
+      "total_seconds": 0.4293629589956254
+    },
+    {
+      "step": 30,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.1794841670198366,
+      "backward_seconds": 0.2274646669975482,
+      "optimizer_seconds": 0.01952129098935984,
+      "total_seconds": 0.42647012500674464
+    },
+    {
+      "step": 31,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.18168041697936133,
+      "backward_seconds": 0.2204249580099713,
+      "optimizer_seconds": 0.01860287500312552,
+      "total_seconds": 0.42070824999245815
+    },
+    {
+      "step": 32,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.17398074999800883,
+      "backward_seconds": 0.22129750001477078,
+      "optimizer_seconds": 0.01935495898942463,
+      "total_seconds": 0.41463320900220424
+    },
+    {
+      "step": 33,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.17549425002653152,
+      "backward_seconds": 0.22006991697708145,
+      "optimizer_seconds": 0.018801124999299645,
+      "total_seconds": 0.4143652920029126
+    },
+    {
+      "step": 34,
+      "warmup": false,
+      "loss": 0.0,
+      "forward_seconds": 0.17553375000716187,
+      "backward_seconds": 0.22029179200762883,
+      "optimizer_seconds": 0.019163124990882352,
+      "total_seconds": 0.41498866700567305
+    }
+  ],
+  "limitations": [
+    "只用四分类合成文本测速，不能用于判断业务准确率或收敛。",
+    "计时包含前向、反向、AdamW 更新及设备同步，不含分词、数据传输、验证和保存。",
+    "内存为初始化及每步结束的采样最大值，不代表步内瞬时峰值；GPU 与 RSS 不应相加。",
+    "预热后仅做少量迭代，不能代表长时间训练的温度、功耗和速度稳定性。",
+    "每次运行从原始缓存权重重新加载，测速后的权重不保存。"
+  ]
+}

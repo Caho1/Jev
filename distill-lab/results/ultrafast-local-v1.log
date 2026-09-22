@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/evaluate_ultrafast_local.py", line 227, in <module>
+    main()
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/scripts/evaluate_ultrafast_local.py", line 213, in main
+    write_json(output/'warmup.json', choose(rows[0]['page'], rows[0]['goal'], []))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/reference/jev-ultrafast/jev_ultrafast/model.py", line 134, in choose
+    result = post_json(url, key, body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bystanders/Desktop/pythonproject/Jev/distill-lab/reference/jev-ultrafast/jev_ultrafast/model.py", line 34, in post_json
+    raise RuntimeError("Model connection failed; no action executed.") from None
+RuntimeError: Model connection failed; no action executed.

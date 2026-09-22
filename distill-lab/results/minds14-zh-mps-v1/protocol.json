@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-09-22T00:03:05+0800",
+  "dataset": {
+    "dataset": "PolyAI/minds14",
+    "revision": "40ce77cb32a384e4d50a568e1ec39ac804019d33",
+    "subset": "zh-CN",
+    "source_split": "train",
+    "local_role": "evaluation_only",
+    "records": 502,
+    "classes": 14,
+    "license": "CC BY 4.0",
+    "source_url": "https://huggingface.co/datasets/PolyAI/minds14/resolve/40ce77cb32a384e4d50a568e1ec39ac804019d33/zh-CN/train-00000-of-00001.parquet",
+    "dataset_url": "https://huggingface.co/datasets/PolyAI/minds14",
+    "paper_url": "https://arxiv.org/abs/2104.08524",
+    "collection": "母语众包参与者按银行场景录音；本轮使用发布的 ASR 转写，不是实际生产客户日志。英文列为数据源提供的机器翻译。",
+    "scope": "官方只提供 train split。本项目将全部 502 条留作外部评测，未用于训练、选模或校准；不是官方另设的测试集。",
+    "files": {
+      "raw/zh-CN.parquet": {
+        "sha256": "cea0246e1a54afe5a3ab9d9542baa53c7cb45fc8f4e28e7872ebafefb25ba99d",
+        "bytes": 32357378
+      },
+      "evaluation.jsonl": {
+        "sha256": "466cfeeaba000511e4bb3c59055d9a6dfcda760d1a1f4ff99ce887c5229c858f",
+        "bytes": 184303
+      },
+      "criteria.json": {
+        "sha256": "619efbf74d293030def29d46dff2c198ffacfcfecd625b834c6bbb7f369f0167",
+        "bytes": 1163
+      },
+      "labels_zh.json": {
+        "sha256": "7582918dd7f089fca4217c1daecc64b23ca92070a5c3ed8fe8e1cf5103960f3c",
+        "bytes": 485
+      }
+    },
+    "class_counts": {
+      "balance": 39,
+      "joint_account": 36,
+      "address": 39,
+      "atm_limit": 36,
+      "abroad": 38,
+      "pay_bill": 34,
+      "app_error": 28,
+      "freeze": 30,
+      "cash_deposit": 37,
+      "direct_debit": 35,
+      "latest_transactions": 39,
+      "high_value_payment": 33,
+      "business_loan": 38,
+      "card_issues": 40
+    },
+    "unique_normalized_zh": 480,
+    "banking77_train_dev_cal_exact_overlaps": [],
+    "deduplication_note": "保留发布的全部 502 条；仅检查归一化精确重合，不声称排除语义近重复或上游预训练暴露。"
+  },
+  "instruction": "Choose the banking customer service intent that best matches the customer message.",
+  "criteria": {
+    "abroad": "Using a bank card abroad or preparing to use it in another country.",
+    "address": "Updating the postal or residential address registered with the bank.",
+    "app_error": "A technical error or malfunction in the banking mobile application.",
+    "atm_limit": "The limit on cash withdrawals from an ATM, or changing that limit.",
+    "balance": "Checking the current balance or available money in a bank account.",
+    "business_loan": "Applying for or asking about a loan for a business.",
+    "card_issues": "A bank card is not working, is declined, or has another usage problem.",
+    "cash_deposit": "Depositing physical cash into a bank account.",
+    "direct_debit": "Setting up, managing, or cancelling a direct debit payment.",
+    "freeze": "Freezing or blocking a bank card or account, for example after loss or theft.",
+    "high_value_payment": "Making a large payment or transfer and its amount limits.",
+    "joint_account": "Opening or managing a bank account shared with another person.",
+    "latest_transactions": "Viewing recent transactions or account transaction history.",
+    "pay_bill": "Paying a bill through a bank account or banking service."
+  },
+  "device": "mps",
+  "precision": "fp32",
+  "batch_size": 4,
+  "context_limit": 8192,
+  "temperature": 1.0,
+  "calibration": "不对新数据调参或拟合温度；预测概率未校准。",
+  "inputs": [
+    "text_zh",
+    "text_en"
+  ],
+  "variants": [
+    "baseline",
+    "tuned"
+  ],
+  "purpose": "external evaluation only",
+  "gold_in_model_inputs": false,
+  "base_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+  "checkpoint_sha256": "93d07c19cd56e8eb1308a87e14ac606ff8b36cea663df3e034b74630a55fb707",
+  "code_sha256": {
+    "local_laya.py": "fb2ea76cce9a241219ae9bd0147aa7e86b35bf6ffe08baaa2ce795a00844d2ac",
+    "evaluate_minds14_local.py": "0efe9542353cddb22cc442888edf1b0b6b5010c80bf147ceaaadb6818038f659",
+    "prepare_minds14_zh.py": "7090506dc291c3d62a938dc5b9aed7a86e2097a34482d34d8d2629b5b8605990"
+  },
+  "comparability": "两模型、两种语言共享14候选及英文定义；这不是BANKING77的77类测试。英文译文来自数据源，并非在线翻译调用。"
+}

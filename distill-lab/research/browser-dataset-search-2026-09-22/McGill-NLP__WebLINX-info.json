@@ -1,0 +1,206 @@
+{
+  "_id": "65c48b0dd853e2702e5976cf",
+  "id": "McGill-NLP/WebLINX",
+  "author": "McGill-NLP",
+  "sha": "a30ff2cbecb75f2d04fac75a2b92721c6c9e3f13",
+  "lastModified": "2024-12-07T04:23:40.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:image-to-text",
+    "task_categories:text-generation",
+    "task_categories:sentence-similarity",
+    "language:en",
+    "license:cc-by-nc-sa-4.0",
+    "size_categories:10K<n<100K",
+    "modality:text",
+    "arxiv:2402.05930",
+    "region:us",
+    "image-to-text",
+    "vision",
+    "convAI"
+  ],
+  "description": "\n  WebLINX: Real-World Website Navigation with Multi-Turn Dialogue\n  Xing Han Lù*, Zdeněk Kasner*, Siva Reddy\n\n\n\n\n\n\n\t\n\t\t\n💾Code\n📄Paper\n🌐Website\n📓Colab\n\n\n\t\t\n🤖Models\n💻Explorer\n🐦Tweets\n🏆Leaderboard\n\n\n\t\n\n\n    \n    Your browser does not support the video tag.\n\n\n\n\n[!IMPORTANT]\nWebLINX is now available as a benchmark through BrowserGym, allowing you to access demonstration steps in the same way you would access a web agent environment like WebArena or MiniWoB. This also allows you to run… See the full description on the dataset page: https://huggingface.co/datasets/McGill-NLP/WebLINX.",
+  "downloads": 1870,
+  "likes": 65,
+  "cardData": {
+    "language": [
+      "en"
+    ],
+    "size_categories": [
+      "10K<n<100K"
+    ],
+    "configs": [
+      {
+        "config_name": "chat",
+        "default": true,
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/chat/train.json.gz"
+          },
+          {
+            "split": "validation",
+            "path": "data/chat/valid.json.gz"
+          },
+          {
+            "split": "test",
+            "path": "data/chat/test_iid.json.gz"
+          },
+          {
+            "split": "test_iid",
+            "path": "data/chat/test_iid.json.gz"
+          },
+          {
+            "split": "test_geo",
+            "path": "data/chat/test_geo.json.gz"
+          },
+          {
+            "split": "test_vis",
+            "path": "data/chat/test_vis.json.gz"
+          },
+          {
+            "split": "test_cat",
+            "path": "data/chat/test_cat.json.gz"
+          },
+          {
+            "split": "test_web",
+            "path": "data/chat/test_web.json.gz"
+          }
+        ]
+      },
+      {
+        "config_name": "reranking",
+        "data_files": [
+          {
+            "split": "validation",
+            "path": "data/reranking/valid.json.gz"
+          },
+          {
+            "split": "test",
+            "path": "data/reranking/test_iid.json.gz"
+          },
+          {
+            "split": "test_iid",
+            "path": "data/reranking/test_iid.json.gz"
+          },
+          {
+            "split": "test_geo",
+            "path": "data/reranking/test_geo.json.gz"
+          },
+          {
+            "split": "test_vis",
+            "path": "data/reranking/test_vis.json.gz"
+          },
+          {
+            "split": "test_web",
+            "path": "data/reranking/test_web.json.gz"
+          },
+          {
+            "split": "test_cat",
+            "path": "data/reranking/test_cat.json.gz"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "image-to-text",
+      "vision",
+      "convAI"
+    ],
+    "task_categories": [
+      "image-to-text",
+      "text-generation",
+      "text2text-generation",
+      "sentence-similarity"
+    ],
+    "pretty_name": "weblinx",
+    "license": "cc-by-nc-sa-4.0"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "WeblinxWebsiteDemo.mp4"
+    },
+    {
+      "rfilename": "data/chat/test.json.gz"
+    },
+    {
+      "rfilename": "data/chat/test_cat.json.gz"
+    },
+    {
+      "rfilename": "data/chat/test_geo.json.gz"
+    },
+    {
+      "rfilename": "data/chat/test_iid.json.gz"
+    },
+    {
+      "rfilename": "data/chat/test_vis.json.gz"
+    },
+    {
+      "rfilename": "data/chat/test_web.json.gz"
+    },
+    {
+      "rfilename": "data/chat/train.json.gz"
+    },
+    {
+      "rfilename": "data/chat/valid.json.gz"
+    },
+    {
+      "rfilename": "data/reranking/test_cat.json.gz"
+    },
+    {
+      "rfilename": "data/reranking/test_geo.json.gz"
+    },
+    {
+      "rfilename": "data/reranking/test_iid.json.gz"
+    },
+    {
+      "rfilename": "data/reranking/test_vis.json.gz"
+    },
+    {
+      "rfilename": "data/reranking/test_web.json.gz"
+    },
+    {
+      "rfilename": "data/reranking/valid.json.gz"
+    },
+    {
+      "rfilename": "data/test_cat.csv"
+    },
+    {
+      "rfilename": "data/test_geo.csv"
+    },
+    {
+      "rfilename": "data/test_iid.csv"
+    },
+    {
+      "rfilename": "data/test_vis.csv"
+    },
+    {
+      "rfilename": "data/test_web.csv"
+    },
+    {
+      "rfilename": "data/train.csv"
+    },
+    {
+      "rfilename": "data/valid.csv"
+    },
+    {
+      "rfilename": "splits.json"
+    },
+    {
+      "rfilename": "template.txt"
+    },
+    {
+      "rfilename": "templates/llama.txt"
+    }
+  ],
+  "createdAt": "2024-02-08T08:04:29.000Z",
+  "usedStorage": 15401953076
+}

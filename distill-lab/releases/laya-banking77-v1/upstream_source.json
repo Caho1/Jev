@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/NandhaKishorM/laya",
+  "commit": "42626c348753fbb17572a813127df2278a1ec527",
+  "files": [
+    {
+      "local_path": "laya_common.py",
+      "upstream_path": "laya/common.py",
+      "sha256": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2",
+      "modified": false
+    },
+    {
+      "local_path": "laya-LICENSE",
+      "upstream_path": "LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "modified": false
+    }
+  ]
+}

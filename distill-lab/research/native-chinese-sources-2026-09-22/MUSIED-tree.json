@@ -1,0 +1,599 @@
+{
+  "repo": "myeclipse/MUSIED",
+  "sha": "bd45491b63b0105bc277d634888720c1a370b25e",
+  "tree": {
+    "sha": "bd45491b63b0105bc277d634888720c1a370b25e",
+    "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/bd45491b63b0105bc277d634888720c1a370b25e",
+    "tree": [
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+        "size": 34523,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61f6a8eecfe754f130b28ad0c1d437a5c44c921b",
+        "size": 823,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/61f6a8eecfe754f130b28ad0c1d437a5c44c921b"
+      },
+      {
+        "path": "code",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2972a5d570b79cf6ec05aa760267970469706071",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/2972a5d570b79cf6ec05aa760267970469706071"
+      },
+      {
+        "path": "code/BERT",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e1f718c5aabf027390b4383335cc807d745a1d2a",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/e1f718c5aabf027390b4383335cc807d745a1d2a"
+      },
+      {
+        "path": "code/BERT/CRF.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bb500bb16b17caa8f77d159dbba2d42b80a0e1f",
+        "size": 12392,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/3bb500bb16b17caa8f77d159dbba2d42b80a0e1f"
+      },
+      {
+        "path": "code/BERT/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75be3ae8f9de2a206269d81dde13e13a88f11713",
+        "size": 901,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/75be3ae8f9de2a206269d81dde13e13a88f11713"
+      },
+      {
+        "path": "code/BERT/bert_pretrain",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "05b5a86eefdb83ebd48ed31d4a4f8c8eca1e415b",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/05b5a86eefdb83ebd48ed31d4a4f8c8eca1e415b"
+      },
+      {
+        "path": "code/BERT/bert_pretrain/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b41dac5991dbf3f40f88ce53b44ff52e49e6357",
+        "size": 74,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/7b41dac5991dbf3f40f88ce53b44ff52e49e6357"
+      },
+      {
+        "path": "code/BERT/const.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aeef0e0ddd0ecbac193958b94081b9b2760de09a",
+        "size": 687,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/aeef0e0ddd0ecbac193958b94081b9b2760de09a"
+      },
+      {
+        "path": "code/BERT/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "853376fd31a436bbdea0718bcc4a902054a4a1b0",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/853376fd31a436bbdea0718bcc4a902054a4a1b0"
+      },
+      {
+        "path": "code/BERT/data/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6bd6af5af678e5d6f77897c082395c9f90f1557c",
+        "size": 106,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/6bd6af5af678e5d6f77897c082395c9f90f1557c"
+      },
+      {
+        "path": "code/BERT/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b69072a9255c3df31024c880ddcf9cd5350f154",
+        "size": 2011,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/3b69072a9255c3df31024c880ddcf9cd5350f154"
+      },
+      {
+        "path": "code/BERT/result",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fd4f1f3d51c14a181e1dfdf0979717e5ae05e957",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/fd4f1f3d51c14a181e1dfdf0979717e5ae05e957"
+      },
+      {
+        "path": "code/BERT/result/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08b1f739fdd59d5dadbaf1e6280a96ae8d65dbd8",
+        "size": 75,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/08b1f739fdd59d5dadbaf1e6280a96ae8d65dbd8"
+      },
+      {
+        "path": "code/BERT/run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e375534d94272ecd9a9011f90cfb654de77f109",
+        "size": 2558,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/8e375534d94272ecd9a9011f90cfb654de77f109"
+      },
+      {
+        "path": "code/BERT/train_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01e3e96ce4dbed79f3eddad7aa674bb14957a70f",
+        "size": 5229,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/01e3e96ce4dbed79f3eddad7aa674bb14957a70f"
+      },
+      {
+        "path": "code/BERT/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35027341cf8bf8ceb30264aa79f63f2215c4b879",
+        "size": 6785,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/35027341cf8bf8ceb30264aa79f63f2215c4b879"
+      },
+      {
+        "path": "code/BiLSTM",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bb65de3aa56c93e377cda6913a2b1e4f36e00c41",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/bb65de3aa56c93e377cda6913a2b1e4f36e00c41"
+      },
+      {
+        "path": "code/BiLSTM/CRF.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bb500bb16b17caa8f77d159dbba2d42b80a0e1f",
+        "size": 12392,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/3bb500bb16b17caa8f77d159dbba2d42b80a0e1f"
+      },
+      {
+        "path": "code/BiLSTM/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53219289e0b9d24a6b92d46090b86932e4eafbaf",
+        "size": 987,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/53219289e0b9d24a6b92d46090b86932e4eafbaf"
+      },
+      {
+        "path": "code/BiLSTM/const.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c705f2562da66073a1642b2cbb658084a11d2754",
+        "size": 688,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/c705f2562da66073a1642b2cbb658084a11d2754"
+      },
+      {
+        "path": "code/BiLSTM/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5f54e172514c9570cd5ec6a2eb49de9452660fe6",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/5f54e172514c9570cd5ec6a2eb49de9452660fe6"
+      },
+      {
+        "path": "code/BiLSTM/data/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "861acdafb3a34942e8e9852cb57707ea1c8e2471",
+        "size": 17,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/861acdafb3a34942e8e9852cb57707ea1c8e2471"
+      },
+      {
+        "path": "code/BiLSTM/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5fe5be91bf9529e73d6b2ca8fa9cccdcbd0f012d",
+        "size": 1833,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/5fe5be91bf9529e73d6b2ca8fa9cccdcbd0f012d"
+      },
+      {
+        "path": "code/BiLSTM/pre_embedding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37fe9d0039cc3bdb49e08b49a97355a43e815125",
+        "size": 1205,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/37fe9d0039cc3bdb49e08b49a97355a43e815125"
+      },
+      {
+        "path": "code/BiLSTM/pretrained",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3eca636c6f6209d3bb55168f918723d8d31b9de5",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/3eca636c6f6209d3bb55168f918723d8d31b9de5"
+      },
+      {
+        "path": "code/BiLSTM/pretrained/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a85bc032b16d41fb6d055145aff110827e46324",
+        "size": 229,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/6a85bc032b16d41fb6d055145aff110827e46324"
+      },
+      {
+        "path": "code/BiLSTM/run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89c589d0b524eefac0512c542e7008c52cf51684",
+        "size": 2496,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/89c589d0b524eefac0512c542e7008c52cf51684"
+      },
+      {
+        "path": "code/BiLSTM/train_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84bf1fd0c50ef369c3760201da76d746bee01ec8",
+        "size": 5218,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/84bf1fd0c50ef369c3760201da76d746bee01ec8"
+      },
+      {
+        "path": "code/BiLSTM/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d06d6c78b16e1a71ac5e06539e4ccefeb40950a9",
+        "size": 6950,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/d06d6c78b16e1a71ac5e06539e4ccefeb40950a9"
+      },
+      {
+        "path": "code/C-BiLSTM",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fd03b350aa4ab9278945eba80b22f71da51ac67d",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/fd03b350aa4ab9278945eba80b22f71da51ac67d"
+      },
+      {
+        "path": "code/C-BiLSTM/CRF.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bb500bb16b17caa8f77d159dbba2d42b80a0e1f",
+        "size": 12392,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/3bb500bb16b17caa8f77d159dbba2d42b80a0e1f"
+      },
+      {
+        "path": "code/C-BiLSTM/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4189a581f9b771afb388df806e41a354d1949c0c",
+        "size": 974,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/4189a581f9b771afb388df806e41a354d1949c0c"
+      },
+      {
+        "path": "code/C-BiLSTM/const.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c705f2562da66073a1642b2cbb658084a11d2754",
+        "size": 688,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/c705f2562da66073a1642b2cbb658084a11d2754"
+      },
+      {
+        "path": "code/C-BiLSTM/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5f54e172514c9570cd5ec6a2eb49de9452660fe6",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/5f54e172514c9570cd5ec6a2eb49de9452660fe6"
+      },
+      {
+        "path": "code/C-BiLSTM/data/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "861acdafb3a34942e8e9852cb57707ea1c8e2471",
+        "size": 17,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/861acdafb3a34942e8e9852cb57707ea1c8e2471"
+      },
+      {
+        "path": "code/C-BiLSTM/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fb33ea4098bb1113ae4aa2416a25cde187a7241",
+        "size": 2105,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/8fb33ea4098bb1113ae4aa2416a25cde187a7241"
+      },
+      {
+        "path": "code/C-BiLSTM/pre_embedding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37fe9d0039cc3bdb49e08b49a97355a43e815125",
+        "size": 1205,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/37fe9d0039cc3bdb49e08b49a97355a43e815125"
+      },
+      {
+        "path": "code/C-BiLSTM/pretrained",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3eca636c6f6209d3bb55168f918723d8d31b9de5",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/3eca636c6f6209d3bb55168f918723d8d31b9de5"
+      },
+      {
+        "path": "code/C-BiLSTM/pretrained/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a85bc032b16d41fb6d055145aff110827e46324",
+        "size": 229,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/6a85bc032b16d41fb6d055145aff110827e46324"
+      },
+      {
+        "path": "code/C-BiLSTM/run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89c589d0b524eefac0512c542e7008c52cf51684",
+        "size": 2496,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/89c589d0b524eefac0512c542e7008c52cf51684"
+      },
+      {
+        "path": "code/C-BiLSTM/train_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84bf1fd0c50ef369c3760201da76d746bee01ec8",
+        "size": 5218,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/84bf1fd0c50ef369c3760201da76d746bee01ec8"
+      },
+      {
+        "path": "code/C-BiLSTM/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d06d6c78b16e1a71ac5e06539e4ccefeb40950a9",
+        "size": 6950,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/d06d6c78b16e1a71ac5e06539e4ccefeb40950a9"
+      },
+      {
+        "path": "code/DMBERT",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26cb656ec24932fb7c46fa0edba5a72bfbf845bf",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/26cb656ec24932fb7c46fa0edba5a72bfbf845bf"
+      },
+      {
+        "path": "code/DMBERT/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48de604dba8e602a9caeb36d79c1b03b95d815cf",
+        "size": 9,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/48de604dba8e602a9caeb36d79c1b03b95d815cf"
+      },
+      {
+        "path": "code/DMBERT/const.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aeef0e0ddd0ecbac193958b94081b9b2760de09a",
+        "size": 687,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/aeef0e0ddd0ecbac193958b94081b9b2760de09a"
+      },
+      {
+        "path": "code/DMBERT/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1f141fc45d6eb677c0673ce913d88599600f73b0",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/1f141fc45d6eb677c0673ce913d88599600f73b0"
+      },
+      {
+        "path": "code/DMBERT/data/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "599c41b4d2f89db3a2bc6517f25a78e33b677e45",
+        "size": 7,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/599c41b4d2f89db3a2bc6517f25a78e33b677e45"
+      },
+      {
+        "path": "code/DMBERT/dmbert.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40bb71f428ffaeac28dbbc0113b5848284068406",
+        "size": 2255,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/40bb71f428ffaeac28dbbc0113b5848284068406"
+      },
+      {
+        "path": "code/DMBERT/run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cdceb07a212d6b94be0ba3d57f8ca20f95b6b5b2",
+        "size": 2644,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/cdceb07a212d6b94be0ba3d57f8ca20f95b6b5b2"
+      },
+      {
+        "path": "code/DMBERT/train_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3231bb0b6833257f7f3e102c111dd58dea79e9e4",
+        "size": 5623,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/3231bb0b6833257f7f3e102c111dd58dea79e9e4"
+      },
+      {
+        "path": "code/DMBERT/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "080d90fa39028bd9e9c2957bc612c69166b133d3",
+        "size": 7384,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/080d90fa39028bd9e9c2957bc612c69166b133d3"
+      },
+      {
+        "path": "code/DMCNN",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5bc9775f791fa4a4eb48a081e5aad62beffb8544",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/5bc9775f791fa4a4eb48a081e5aad62beffb8544"
+      },
+      {
+        "path": "code/DMCNN/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a85e86627c7ae1e9b8e03fa6384f126cd88fc6d7",
+        "size": 8,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/a85e86627c7ae1e9b8e03fa6384f126cd88fc6d7"
+      },
+      {
+        "path": "code/DMCNN/const.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43d424329da192459849ea972e6e04291ee3b65f",
+        "size": 689,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/43d424329da192459849ea972e6e04291ee3b65f"
+      },
+      {
+        "path": "code/DMCNN/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1f141fc45d6eb677c0673ce913d88599600f73b0",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/1f141fc45d6eb677c0673ce913d88599600f73b0"
+      },
+      {
+        "path": "code/DMCNN/data/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "599c41b4d2f89db3a2bc6517f25a78e33b677e45",
+        "size": 7,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/599c41b4d2f89db3a2bc6517f25a78e33b677e45"
+      },
+      {
+        "path": "code/DMCNN/dmcnn.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84f3e0aa8e94a47a093fb67f492e5919b1b299ee",
+        "size": 2561,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/84f3e0aa8e94a47a093fb67f492e5919b1b299ee"
+      },
+      {
+        "path": "code/DMCNN/pretrained",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dbac501c619664f448122bb7671c6940f6ae1985",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/dbac501c619664f448122bb7671c6940f6ae1985"
+      },
+      {
+        "path": "code/DMCNN/pretrained/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82ce7600a9172c36b0182147e2030ca0f4871453",
+        "size": 17,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/82ce7600a9172c36b0182147e2030ca0f4871453"
+      },
+      {
+        "path": "code/DMCNN/run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60183399bf64f138c00cdcb496f78910e2c9b0bf",
+        "size": 2537,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/60183399bf64f138c00cdcb496f78910e2c9b0bf"
+      },
+      {
+        "path": "code/DMCNN/train_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "824736cf136b7353e225e1e040548f0562941a4d",
+        "size": 5545,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/824736cf136b7353e225e1e040548f0562941a4d"
+      },
+      {
+        "path": "code/DMCNN/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8af3367845fab8f3af7e6bb0cbd4b76314443f9",
+        "size": 7759,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/d8af3367845fab8f3af7e6bb0cbd4b76314443f9"
+      },
+      {
+        "path": "code/HBTNGMA",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "741b6fc3a6bade21de18a06533c80e426a24a3ba",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/741b6fc3a6bade21de18a06533c80e426a24a3ba"
+      },
+      {
+        "path": "code/HBTNGMA/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01643bb78608aba79057315a9b71efc9f446cefb",
+        "size": 512,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/01643bb78608aba79057315a9b71efc9f446cefb"
+      },
+      {
+        "path": "code/MLBiNet",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f5859d30cdb9122054f443a7855f8ae27d69eb3c",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/f5859d30cdb9122054f443a7855f8ae27d69eb3c"
+      },
+      {
+        "path": "code/MLBiNet/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6ed80fece9278dd4ccf819e16dd2eef916f712f",
+        "size": 434,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/c6ed80fece9278dd4ccf819e16dd2eef916f712f"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "05e0b6f6e1c735d637e86185f6d4fd2ffb438ad5",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/05e0b6f6e1c735d637e86185f6d4fd2ffb438ad5"
+      },
+      {
+        "path": "data/7dae4a43-MUSIED.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbb7972455a6b19e777407a390ad6b08049c339b",
+        "size": 6564944,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/dbb7972455a6b19e777407a390ad6b08049c339b"
+      },
+      {
+        "path": "data/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c48e93d77778d10edabc5db2aa76e8a2defbd450",
+        "size": 3108,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/c48e93d77778d10edabc5db2aa76e8a2defbd450"
+      },
+      {
+        "path": "data/pictures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b8a59321ef76f11419e2bfd689f2b8a853cff824",
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/trees/b8a59321ef76f11419e2bfd689f2b8a853cff824"
+      },
+      {
+        "path": "data/pictures/1667788144164.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e21965ae4ee34ee094f6fe97ad7202c544c63db",
+        "size": 46476,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/0e21965ae4ee34ee094f6fe97ad7202c544c63db"
+      },
+      {
+        "path": "data/pictures/91BD8F65-7D87-42F5-A5B5-301918EB3D38.jpeg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51f5399a34b6d0f62c1f293f9fed182b351c94b5",
+        "size": 94171,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/51f5399a34b6d0f62c1f293f9fed182b351c94b5"
+      },
+      {
+        "path": "data/pictures/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e39c47973460189a8a664990b2f3c6118675107",
+        "size": 34,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/7e39c47973460189a8a664990b2f3c6118675107"
+      },
+      {
+        "path": "data/sample.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8c9e24abc041bada8f16cd8c08975c39efebb3e",
+        "size": 9050,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/b8c9e24abc041bada8f16cd8c08975c39efebb3e"
+      },
+      {
+        "path": "preprocessing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af7a6c9eea1099d670fe9e20b28a4270a6d3b2e7",
+        "size": 1595,
+        "url": "https://api.github.com/repos/myeclipse/MUSIED/git/blobs/af7a6c9eea1099d670fe9e20b28a4270a6d3b2e7"
+      }
+    ],
+    "truncated": false
+  }
+}

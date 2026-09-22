@@ -1,0 +1,1 @@
+{"url": "http://127.0.0.1:8767/v1", "variant": "laya_base", "checkpoint_sha256": "31d27f97f707232893273c3f24a42e7fb49657d5197c2b634282efaeb99ea96f", "base_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c", "device": "mps", "dtype": "float32", "temperature": 1.0, "calibrated": false, "execution": "one forward per question; no shared-state KV cache"}

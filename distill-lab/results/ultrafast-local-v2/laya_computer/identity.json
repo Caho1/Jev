@@ -1,0 +1,11 @@
+{
+  "variant": "laya_computer",
+  "checkpoint_sha256": "28ae4cb32eda10bc70ceea8cacede0c89192bf5943a91d3885475f206490ff35",
+  "base_sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+  "device": "mps",
+  "dtype": "float32",
+  "temperature": 1.0,
+  "calibrated": false,
+  "execution": "one forward per question; no shared-state KV cache",
+  "load_seconds": 16.092980040994007
+}

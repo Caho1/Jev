@@ -1,0 +1,14 @@
+{
+  "pid": 2317,
+  "command": [
+    "/root/autodl-tmp/laya-context-bench-20260921/.venv/bin/python",
+    "-u",
+    "/root/autodl-tmp/laya-computer-use-20260922/scripts/evaluate_computer_grounding.py",
+    "--run",
+    "/root/autodl-tmp/laya-computer-use-20260922/results/computer-use-grounding-cuda-v1",
+    "--output",
+    "/root/autodl-tmp/laya-computer-use-20260922/results/computer-use-grounding-cuda-v1-development"
+  ],
+  "started_at": "2026-09-21T17:49:37.174906+00:00",
+  "script_sha256": "87a00d70065b16e809305b14ed70dde881ad3dbde636d563a67a7cbf51a12958"
+}

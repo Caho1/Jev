@@ -1,0 +1,8 @@
+{
+  "phase": "complete",
+  "time": "2026-09-21T23:14:17+0800",
+  "selected_epoch": 3,
+  "baseline_accuracy": 0.4590909090909091,
+  "tuned_accuracy": 0.8555194805194806,
+  "wall_seconds": 513.6983224675059
+}

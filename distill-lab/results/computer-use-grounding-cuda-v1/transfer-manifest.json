@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-21T17:47:36.609104+00:00",
+  "source_root": "/root/autodl-tmp/laya-computer-use-20260922/results/computer-use-grounding-cuda-v1",
+  "includes": [
+    "initial and final trainable weights",
+    "run configuration, source, logs, metrics and predictions"
+  ],
+  "omits": [
+    "intermediate step checkpoints retained on server",
+    "base weights already present locally"
+  ],
+  "files": {
+    "development_selection.json": {
+      "sha256": "301aa0100e20a0930e0dcb485a71ebe202ae286c93a34e44707915d1504f0039",
+      "bytes": 611
+    },
+    "epoch-1/config.json": {
+      "sha256": "0e2071d30f88bc12d17e11e09a37319b38f19a75cf1e2828a4ae74bae6650370",
+      "bytes": 3236
+    },
+    "epoch-1/trainable.safetensors": {
+      "sha256": "28ae4cb32eda10bc70ceea8cacede0c89192bf5943a91d3885475f206490ff35",
+      "bytes": 122565852
+    },
+    "evaluate_baseline_metrics.json": {
+      "sha256": "543e8e36c0408208ba1ee7df55bd6adf1c567cd3e73e6cbab484e995af6d944f",
+      "bytes": 2860
+    },
+    "evaluate_baseline_predictions.jsonl": {
+      "sha256": "485bcc5375397d2f4defbdb28be67e0e9cd52016d5205e1fec0c002e924d16fc",
+      "bytes": 22551
+    },
+    "evaluate_tuned_metrics.json": {
+      "sha256": "52c0e5f6fb0c5e12d72008ca9c05c3b3b666ebd619063361e3fcc1634f9a9739",
+      "bytes": 2881
+    },
+    "evaluate_tuned_predictions.jsonl": {
+      "sha256": "a154657f9376f5d4ce85f3ae98862d2eee3708f5aa40723c0ffa9ba9e96e1485",
+      "bytes": 22493
+    },
+    "events.jsonl": {
+      "sha256": "15440fae65b5f878aa0968fa724090491e24f1a2228f114392895571c22edc30",
+      "bytes": 35225
+    },
+    "initial/config.json": {
+      "sha256": "94041cec6beb4e26c7f9c164612bdb50afc222f4a58b4bfffc7356aeb4f2c472",
+      "bytes": 3204
+    },
+    "initial/trainable.safetensors": {
+      "sha256": "31d27f97f707232893273c3f24a42e7fb49657d5197c2b634282efaeb99ea96f",
+      "bytes": 122565852
+    },
+    "preflight.json": {
+      "sha256": "1f22727cde722d2d298da28b9da6e3d4447998dd1f20fc08fa55b1ad4d47d164",
+      "bytes": 1280
+    },
+    "provenance/deployment-manifest.json": {
+      "sha256": "1683a879d88d28f6768d95bdf91de41f7a7d3ce3165c1a2a367dcb26b5b427ec",
+      "bytes": 2894
+    },
+    "provenance/environment.json": {
+      "sha256": "8e46019ed40fa98c316f4e71986f756f1ff844a6eb7758f104ddaffca85196b7",
+      "bytes": 366
+    },
+    "provenance/process.json": {
+      "sha256": "0b1b5a1b100c3f7c9543e6cf611c977ac75332c1fd78db712ca48a9e9ec6e2bb",
+      "bytes": 866
+    },
+    "provenance/training.log": {
+      "sha256": "15440fae65b5f878aa0968fa724090491e24f1a2228f114392895571c22edc30",
+      "bytes": 35225
+    },
+    "results.json": {
+      "sha256": "87109410954fed76d649fe010ab64826805ac6f83fc29dfb5593993a1ec91c54",
+      "bytes": 6703
+    },
+    "run_config.json": {
+      "sha256": "6e709884c8362d91219f57d38c5b29c643b1579a7ca2e4ecfc0357a44359b66b",
+      "bytes": 3028
+    },
+    "source/benchmark_training.py": {
+      "sha256": "e2382721bd8508e9928975d4b54bd342ef97dce7b5f9f6f58a94939d46144cac",
+      "bytes": 17545
+    },
+    "source/laya_common.py": {
+      "sha256": "f948ee606abe2ed2463f830c051f1a60dccc1b9f5ca1fdc15635cfcbe0cff7b2",
+      "bytes": 10044
+    },
+    "source/train_banking77.py": {
+      "sha256": "03257c7f300a5b8b41a10b30a3f83a1428b684144a3377f75b21342c213bf318",
+      "bytes": 21684
+    },
+    "source/train_computer_grounding.py": {
+      "sha256": "08764cf29d2e1142687770c828d6d92ae50792d58e242f5ebc42224faf867021",
+      "bytes": 26710
+    },
+    "source/typed_laya.py": {
+      "sha256": "f06dbdda6c4b0713fd9fb5fffde6250e093e0fc36a921703c47b26b9de7580f1",
+      "bytes": 5516
+    },
+    "status.json": {
+      "sha256": "c247d501ad7a12cb6952b62ea775fc26a15473854f9fe8090a8e5cf403fdd97f",
+      "bytes": 404
+    }
+  }
+}
